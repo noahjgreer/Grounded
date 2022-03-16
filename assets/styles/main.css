@@ -1,1 +1,64 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: Zin;
+  src: url(/assets/fonts/Zin.otf);
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(/assets/fonts/Rubik-VariableFont.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(/assets/fonts/Rubik-Italic-VariableFont.ttf);
+  font-style: italic;
+}
+
+h1,
+h2 {
+  font-family: Zin;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+html,
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px;
+  width: 100%;
+}
+
+header {
+  background-color: #ee0000;
+  padding-inline: 6.25%;
+  padding-block: 6.125%;
+  color: white;
+  background-size: cover;
+}
+
+p {
+  font-family: Rubik;
+}
+
+.red {
+  color: #ee0000;
+}
+
+#home-header {
+  background-image: url(/assets/images/bible-at-ocean.jpg);
+}
+/*# sourceMappingURL=main.css.map */
