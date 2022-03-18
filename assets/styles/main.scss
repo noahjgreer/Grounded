@@ -22,6 +22,10 @@
 
 @mixin text {
     font-family: Rubik;
+    text-decoration: none;
+    color: initial;
+    font-size: 1.35rem;
+    line-height: 2rem;
 }
 
 $red: rgb(238, 0, 0);
@@ -48,16 +52,46 @@ body {
     width: 100%;
 }
 
+article,
+section {
+    padding-inline: 12.5%;
+}
+
 header {
     background-color: $red;
     padding-inline: 6.25%;
     padding-block: 6.125%;
+    padding-top: 7.5rem;
     color: white;
     background-size: cover;
 }
 
 p {
     @include text;
+    text-indent: 12.5%;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-inline: 6.25%;
+    background-color: white;
+    width: 87.5%;
+    height: 2.5rem;
+    #logo {
+        max-width: 15rem;
+        flex: 1;
+    }
+    #pages {
+        a {
+            padding-inline: 0.25rem;
+            flex: 1;
+            @include text;
+        }
+    }
 }
 
 .red {
