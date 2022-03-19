@@ -16,7 +16,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: Zin;
   text-align: center;
 }
@@ -27,6 +28,10 @@ h1 {
 
 h2 {
   font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
 }
 
 html,
@@ -40,6 +45,7 @@ body {
           flex-direction: column;
   margin: 0px;
   width: 100%;
+  overflow-x: hidden;
 }
 
 article,
@@ -104,6 +110,59 @@ nav #pages a {
 
 .red {
   color: #ee0000;
+}
+
+.card {
+  box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  border-radius: 3rem;
+  padding: 6.25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 2.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card #text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card #img {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card img {
+  border-radius: 3rem;
+  box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  min-width: 15rem;
+  width: 100%;
+  max-width: 20rem;
 }
 
 #home-header {

@@ -28,11 +28,23 @@
     line-height: 2rem;
 }
 
+@mixin shadow {
+    box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+}
+
+@mixin radius {
+    border-radius: $radius;
+}
+
 $red: rgb(238, 0, 0);
 $deep: #800000;
 $slate: #2b2b2b;
+$radius: 3rem;
 h1,
-h2 {
+h2,
+h3 {
     @include headings;
 }
 
@@ -44,12 +56,17 @@ h2 {
     font-size: 4rem;
 }
 
+h3 {
+    font-size: 2.5rem;
+}
+
 html,
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 article,
@@ -96,6 +113,34 @@ nav {
 
 .red {
     color: $red;
+}
+
+.card {
+    @include shadow;
+    @include radius();
+    padding: 6.25%;
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        flex: 1;
+        padding: 2.5%;
+        display: flex;
+        justify-content: center;
+    }
+    #text {
+        flex-direction: column;
+    }
+    #img {
+        flex-direction: row;
+        align-items: center;
+    }
+    img {
+        @include radius();
+        @include shadow;
+        min-width: 15rem;
+        width: 100%;
+        max-width: 20rem;
+    }
 }
 
 #home-header {
