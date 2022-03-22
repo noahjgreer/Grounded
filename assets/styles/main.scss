@@ -26,6 +26,10 @@
     color: initial;
     font-size: 1.35rem;
     line-height: 2rem;
+    @media screen and (max-width: 30rem) {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
 }
 
 @mixin shadow {
@@ -82,9 +86,11 @@ header {
     background-color: $red;
     padding-inline: 6.25%;
     padding-block: 6.125%;
-    padding-top: 7.5rem;
+    padding-top: 10%;
     color: white;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 p {
@@ -101,9 +107,9 @@ nav {
     padding-inline: 6.25%;
     background-color: white;
     width: 87.5%;
-    height: 2.5rem;
+    height: 2.5%;
     #logo {
-        max-width: 15rem;
+        max-width: 12.5rem;
         flex: 1;
     }
     #pages {
@@ -165,7 +171,7 @@ nav {
         @include radius();
         aspect-ratio: 1/1;
         min-width: 10rem;
-        max-width: 20rem;
+        max-width: 15rem;
         width: 33%;
         height: 33%;
         background-size: cover;
@@ -180,9 +186,10 @@ nav {
     background-color: $deep;
     color: white;
     padding: 1rem;
-    padding-inline: 5%;
+    padding-inline: 5rem;
     user-select: none;
     transition: all 0.1s;
+    margin-block: 2rem;
 }
 
 .button:hover {
@@ -203,4 +210,22 @@ nav {
 
 #home-header {
     background-image: url(/assets/images/bible-at-ocean.jpg);
+}
+
+@media screen and (max-width: 30rem) {
+    h1 {
+        font-size: 3.15rem;
+        margin-block: 10%;
+    }
+    h2 {
+        font-size: 2.75rem;
+        margin-block: 7.5%;
+    }
+    h3 {
+        font-size: 1.5rem;
+        margin-block: 5%;
+    }
+    .button {
+        padding-inline: 3rem;
+    }
 }

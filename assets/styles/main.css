@@ -70,9 +70,15 @@ header {
   background-color: #ee0000;
   padding-inline: 6.25%;
   padding-block: 6.125%;
-  padding-top: 7.5rem;
+  padding-top: 10%;
   color: white;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 p {
@@ -82,6 +88,13 @@ p {
   font-size: 1.35rem;
   line-height: 2rem;
   text-indent: 12.5%;
+}
+
+@media screen and (max-width: 30rem) {
+  p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
 }
 
 nav {
@@ -99,11 +112,11 @@ nav {
   padding-inline: 6.25%;
   background-color: white;
   width: 87.5%;
-  height: 2.5rem;
+  height: 2.5%;
 }
 
 nav #logo {
-  max-width: 15rem;
+  max-width: 12.5rem;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -119,6 +132,13 @@ nav #pages a {
   color: initial;
   font-size: 1.35rem;
   line-height: 2rem;
+}
+
+@media screen and (max-width: 30rem) {
+  nav #pages a {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
 }
 
 .red {
@@ -204,7 +224,7 @@ nav #pages a {
   border-radius: 3rem;
   aspect-ratio: 1/1;
   min-width: 10rem;
-  max-width: 20rem;
+  max-width: 15rem;
   width: 33%;
   height: 33%;
   background-size: cover;
@@ -231,13 +251,21 @@ nav #pages a {
   background-color: #800000;
   color: white;
   padding: 1rem;
-  padding-inline: 5%;
+  padding-inline: 5rem;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
+  margin-block: 2rem;
+}
+
+@media screen and (max-width: 30rem) {
+  .button {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
 }
 
 .button:hover {
@@ -260,5 +288,23 @@ nav #pages a {
 
 #home-header {
   background-image: url(/assets/images/bible-at-ocean.jpg);
+}
+
+@media screen and (max-width: 30rem) {
+  h1 {
+    font-size: 3.15rem;
+    margin-block: 10%;
+  }
+  h2 {
+    font-size: 2.75rem;
+    margin-block: 7.5%;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-block: 5%;
+  }
+  .button {
+    padding-inline: 3rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
