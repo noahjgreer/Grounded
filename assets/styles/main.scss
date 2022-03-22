@@ -16,12 +16,12 @@
 }
 
 @mixin headings {
-    font-family: Zin;
+    font-family: -apple-system, BlinkMacSystemFont, Zin, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
 }
 
 @mixin text {
-    font-family: Rubik;
+    font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     color: initial;
     font-size: 1.35rem;

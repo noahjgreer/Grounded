@@ -18,7 +18,7 @@
 h1,
 h2,
 h3 {
-  font-family: Zin;
+  font-family: -apple-system, BlinkMacSystemFont, Zin, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
 }
 
@@ -76,7 +76,7 @@ header {
 }
 
 p {
-  font-family: Rubik;
+  font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-decoration: none;
   color: initial;
   font-size: 1.35rem;
@@ -114,7 +114,7 @@ nav #pages a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  font-family: Rubik;
+  font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-decoration: none;
   color: initial;
   font-size: 1.35rem;
@@ -219,7 +219,7 @@ nav #pages a {
 }
 
 .button {
-  font-family: Rubik;
+  font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-decoration: none;
   color: initial;
   font-size: 1.35rem;
