@@ -100,49 +100,6 @@ header {
           justify-content: center;
 }
 
-footer {
-  background-color: #2b2b2b;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-inline: 6.25%;
-  padding-block: 3.125%;
-  color: white;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-footer #logo {
-  width: 20%;
-}
-
-footer #copyright {
-  color: white;
-  text-indent: 0%;
-}
-
-footer > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-}
-
-footer > div a {
-  color: white;
-}
-
 p {
   font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-decoration: none;
@@ -160,6 +117,9 @@ p {
 }
 
 nav {
+  box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,8 +144,121 @@ nav #logo {
           flex: 1;
 }
 
+footer {
+  background-color: #2b2b2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h3,
+footer p,
+footer a {
+  color: white;
+}
+
+footer > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 5%;
+}
+
+footer #logo {
+  width: 20%;
+}
+
+footer #elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer #elements > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.5%;
+}
+
+footer #copyright {
+  text-indent: 0%;
+}
+
+footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .socials a {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.img-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img-link > img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 .red {
   color: #ee0000;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+}
+
+.socials a {
+  aspect-ratio: 1/1;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.socials #twitter {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1384/1384017.png);
+}
+
+.socials #mail {
+  background-image: url(https://cdn-icons.flaticon.com/png/512/3178/premium/3178158.png?token=exp=1648659441~hmac=84e0c0b875e03027aad72c2d02913a19);
+}
+
+.socials #yt {
+  background-image: url(https://cdn-icons.flaticon.com/png/512/3669/premium/3669688.png?token=exp=1648659821~hmac=0b1c1ddb17109820579758f14e989911);
 }
 
 .card {

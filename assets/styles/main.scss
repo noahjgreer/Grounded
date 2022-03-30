@@ -99,39 +99,13 @@ header {
     justify-content: center;
 }
 
-footer {
-    background-color: $slate;
-    display: flex;
-    padding-inline: 6.25%;
-    padding-block: 3.125%;
-    color: white;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    #logo {
-        width: 20%;
-    }
-    #copyright {
-        color: white;
-        text-indent: 0%;
-    }
-    >div {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        a {
-            color: white;
-        }
-    }
-}
-
 p {
     @include text;
     text-indent: 12.5%;
 }
 
 nav {
+    @include shadow();
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -147,8 +121,75 @@ nav {
     }
 }
 
+footer {
+    background-color: $slate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3,
+    p,
+    a {
+        color: white;
+    }
+    >div {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5%;
+    }
+    #logo {
+        width: 20%;
+    }
+    #elements {
+        display: flex;
+        align-items: flex-start;
+        >div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2.5%;
+        }
+    }
+    #copyright {
+        text-indent: 0%;
+    }
+    .socials {
+        display: flex;
+        a {
+            filter: invert(1);
+        }
+    }
+}
+
+.img-link {
+    display: flex;
+    justify-content: center;
+    >img {
+        flex: 1;
+    }
+}
+
 .red {
     color: $red;
+}
+
+.socials {
+    display: flex;
+    width: 75%;
+    a {
+        aspect-ratio: 1/1;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #twitter {
+        background-image: url(https://cdn-icons-png.flaticon.com/512/1384/1384017.png);
+    }
+    #mail {
+        background-image: url(https://cdn-icons.flaticon.com/png/512/3178/premium/3178158.png?token=exp=1648659441~hmac=84e0c0b875e03027aad72c2d02913a19)
+    }
+    #yt {
+        background-image: url(https://cdn-icons.flaticon.com/png/512/3669/premium/3669688.png?token=exp=1648659821~hmac=0b1c1ddb17109820579758f14e989911)
+    }
 }
 
 .card {
