@@ -64,6 +64,12 @@ h3 {
     font-size: 2.5rem;
 }
 
+a {
+    padding-inline: 0.25rem;
+    flex: 1;
+    @include text;
+}
+
 html,
 body {
     display: flex;
@@ -93,6 +99,33 @@ header {
     justify-content: center;
 }
 
+footer {
+    background-color: $slate;
+    display: flex;
+    padding-inline: 6.25%;
+    padding-block: 3.125%;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    #logo {
+        width: 20%;
+    }
+    #copyright {
+        color: white;
+        text-indent: 0%;
+    }
+    >div {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        a {
+            color: white;
+        }
+    }
+}
+
 p {
     @include text;
     text-indent: 12.5%;
@@ -111,13 +144,6 @@ nav {
     #logo {
         max-width: 12.5rem;
         flex: 1;
-    }
-    #pages {
-        a {
-            padding-inline: 0.25rem;
-            flex: 1;
-            @include text;
-        }
     }
 }
 

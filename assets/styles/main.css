@@ -34,6 +34,25 @@ h3 {
   font-size: 2.5rem;
 }
 
+a {
+  padding-inline: 0.25rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  color: initial;
+  font-size: 1.35rem;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 30rem) {
+  a {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+}
+
 html,
 body {
   display: -webkit-box;
@@ -81,6 +100,49 @@ header {
           justify-content: center;
 }
 
+footer {
+  background-color: #2b2b2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-inline: 6.25%;
+  padding-block: 3.125%;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #logo {
+  width: 20%;
+}
+
+footer #copyright {
+  color: white;
+  text-indent: 0%;
+}
+
+footer > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+footer > div a {
+  color: white;
+}
+
 p {
   font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-decoration: none;
@@ -120,25 +182,6 @@ nav #logo {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-}
-
-nav #pages a {
-  padding-inline: 0.25rem;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  text-decoration: none;
-  color: initial;
-  font-size: 1.35rem;
-  line-height: 2rem;
-}
-
-@media screen and (max-width: 30rem) {
-  nav #pages a {
-    font-size: 1rem;
-    line-height: 1.6rem;
-  }
 }
 
 .red {
