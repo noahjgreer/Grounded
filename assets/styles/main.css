@@ -120,6 +120,7 @@ nav {
   box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  z-index: 99;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,6 +157,8 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-inline: 5%;
+  margin-top: 5rem;
 }
 
 footer h3,
@@ -171,25 +174,29 @@ footer > div {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 5%;
+  width: 100%;
+}
+
+footer > div > div {
+  padding-inline: 2.5%;
 }
 
 footer #logo {
+  min-width: 15rem;
   width: 20%;
+  max-width: 20rem;
 }
 
-footer #elements {
+footer #newsletter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-}
-
-footer #elements > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -198,11 +205,51 @@ footer #elements > div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2.5%;
+  min-width: 15rem;
+}
+
+footer #navigation {
+  min-width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 footer #copyright {
   text-indent: 0%;
+}
+
+footer #form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #form input {
+  padding-block: 12%;
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+  min-width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+footer #form button {
+  margin: 0px;
+  padding-inline: 1.5rem;
+  border-top-left-radius: 0rem;
+  border-bottom-left-radius: 0rem;
 }
 
 footer .socials {
@@ -214,6 +261,13 @@ footer .socials {
 footer .socials a {
   -webkit-filter: invert(1);
           filter: invert(1);
+}
+
+input {
+  border: none;
+  border-radius: 3rem;
+  padding: 0.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .img-link {
@@ -354,7 +408,9 @@ footer .socials a {
   margin: 0px;
 }
 
+button,
 .button {
+  border: none;
   font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-decoration: none;
   color: initial;
@@ -378,17 +434,20 @@ footer .socials a {
 }
 
 @media screen and (max-width: 30rem) {
+  button,
   .button {
     font-size: 1rem;
     line-height: 1.6rem;
   }
 }
 
+button,
 .button:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 
+button,
 .button:active {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
