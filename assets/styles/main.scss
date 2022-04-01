@@ -18,6 +18,9 @@
 @mixin headings {
     font-family: -apple-system, BlinkMacSystemFont, Zin, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
+    @media screen and (max-width: 30rem) {
+        text-align: left;
+    }
 }
 
 @mixin text {
@@ -45,7 +48,7 @@
 $red: #ee0000;
 $deep: #800000;
 $slate: #2b2b2b;
-$radius: 3rem;
+$radius: 1.5rem;
 h1,
 h2,
 h3 {
@@ -323,8 +326,9 @@ button,
 
 @media screen and (max-width: 30rem) {
     h1 {
-        font-size: 3.15rem;
-        margin-block: 10%;
+        font-size: 3rem;
+        margin: 6.25%;
+        //margin-block: 10%;
     }
     h2 {
         font-size: 2.75rem;
