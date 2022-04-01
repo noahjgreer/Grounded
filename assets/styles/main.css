@@ -27,7 +27,7 @@ h3 {
   h2,
   h3 {
     text-align: left;
-    line-height: 2.75rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -490,11 +490,11 @@ button,
     margin: 6.25%;
   }
   h2 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     margin: 0px;
   }
   h3 {
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     margin-block: 5%;
     line-height: 2rem;
   }
