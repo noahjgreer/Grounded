@@ -56,32 +56,6 @@
     </nav>-->
     <!-- Document -->
     <h1>Home</h1>
-    <section>
-        <section class="gallery">
-            <div class="blank">
-                <div>
-                    <h2>How to find hope in a hopeless world.</h2>
-                    <h3>Today</h3>
-                </div>
-                <a class="play"></a>
-            </div>
-            <div class="blank" style="filter: hue-rotate(200deg)">
-                <div>
-                    <h2>Do pets go to heaven?</h2>
-                    <h3>Yesterday</h3>
-                </div>
-                <a class="play"></a>
-            </div>
-            <div class="blank" style="filter: hue-rotate(270deg)">
-                <div>
-                    <h2>Are people condemned forever?</h2>
-                    <h3>March 19, 2022</h3>
-                </div>
-                <a class="play"></a>
-            </div>
-        </section>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </section>
     <div class="glide">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides gallery">
@@ -94,13 +68,29 @@
                         <a class="play"></a>
                     </div>
                 </li>
-                <li class="glide__slide">1</li>
-                <li class="glide__slide">2</li>
+                <li class="glide__slide">
+                    <div class="blank" style="filter: hue-rotate(200deg)">
+                        <div>
+                            <h2>Do pets go to heaven?</h2>
+                            <h3>Yesterday</h3>
+                        </div>
+                        <a class="play"></a>
+                    </div>
+                </li>
+                <li class="glide__slide">
+                    <div class="blank" style="filter: hue-rotate(270deg)">
+                        <div>
+                            <h2>Are people condemned forever?</h2>
+                            <h3>March 19, 2022</h3>
+                        </div>
+                        <a class="play"></a>
+                    </div>
+                </li>
             </ul>
         </div>
-        <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+        <div class="glide__arrows play-holder" data-glide-el="controls">
+            <img class="play" style="filter: invert(0);" src="/assets/icons/arrow-left.svg" class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            <img class="play" style="filter: invert(0);" src="/assets/icons/arrow-right.svg" class="glide__arrow glide__arrow--right" data-glide-dir=">">
         </div>
     </div>
     <section>

@@ -449,7 +449,7 @@ input {
 }
 
 .glide__slides.gallery > li > div {
-  margin: 2.5%;
+  margin: 5%;
   padding: 5%;
   box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
@@ -568,15 +568,28 @@ button,
   section,
   article {
     padding: 0px;
-    margin-inline: 6.25%;
+    margin-inline: 12.5%;
   }
   .gallery > li > div {
     padding: 8%;
-    max-width: 92%;
+    max-width: 87.5%;
     margin: 0px;
     margin-bottom: 6.25%;
+    -webkit-margin-start: 25%;
+            margin-inline-start: 25%;
   }
-  .gallery > li > div .play {
+  .play-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-inline: 12%;
+    margin-top: -24%;
+    margin-bottom: 24%;
+  }
+  .play-holder .play {
     aspect-ratio: 1/1;
     background-size: contain;
     background-position: center;

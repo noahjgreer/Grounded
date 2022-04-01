@@ -311,7 +311,7 @@ input {
             margin: 0px;
             color: white;
         }
-        margin: 2.5%;
+        margin: 5%;
         padding: 5%;
         @include shadow();
         @include radius();
@@ -396,24 +396,32 @@ button,
     section,
     article {
         padding: 0px;
-        margin-inline: 6.25%;
+        margin-inline: 12.5%;
     }
     .gallery {
         >li>div {
             padding: 8%;
-            max-width: 92%;
+            max-width: 87.5%;
             margin: 0px;
             margin-bottom: 6.25%;
-            .play {
-                aspect-ratio: 1/1;
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-                width: 17.5%;
-                min-height: 17.5%;
-                max-height: 17.5%;
-                background-image: url(/assets/icons/arrow.svg);
-            }
+            margin-inline-start: 25%;
+        }
+    }
+    .play-holder {
+        display: flex;
+        justify-content: space-between;
+        margin-inline: 12%;
+        margin-top: -24%;
+        margin-bottom: 24%;
+        .play {
+            aspect-ratio: 1/1;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 17.5%;
+            min-height: 17.5%;
+            max-height: 17.5%;
+            background-image: url(/assets/icons/arrow.svg);
         }
     }
 }
