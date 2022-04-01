@@ -585,19 +585,22 @@ button,
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-inline: 12%;
+    margin-inline: 30%;
+    margin-left: 16%;
     margin-top: -24%;
     margin-bottom: 24%;
+  }
+  .play-holder .play-button {
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
   }
   .play-holder .play {
     aspect-ratio: 1/1;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 17.5%;
-    min-height: 17.5%;
-    max-height: 17.5%;
-    background-image: url(/assets/icons/arrow.svg);
+    min-height: 200%;
   }
 }
 /*# sourceMappingURL=main.css.map */
