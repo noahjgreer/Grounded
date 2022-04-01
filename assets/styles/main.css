@@ -274,7 +274,7 @@ footer .socials a {
 
 input {
   border: none;
-  border-radius: 1.5rem;
+  border-radius: 1.25rem;
   padding: 0.75rem;
   font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -328,7 +328,7 @@ input {
   box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
-  border-radius: 1.5rem;
+  border-radius: 1.25rem;
   padding: 6.25%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -368,7 +368,7 @@ input {
 }
 
 .card img {
-  border-radius: 1.5rem;
+  border-radius: 1.25rem;
   box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
@@ -400,7 +400,7 @@ input {
   box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
-  border-radius: 1.5rem;
+  border-radius: 1.25rem;
   aspect-ratio: 1/1;
   min-width: 10rem;
   max-width: 15rem;
@@ -431,7 +431,7 @@ button,
   color: initial;
   font-size: 1.35rem;
   line-height: 2rem;
-  border-radius: 1.5rem;
+  border-radius: 1.25rem;
   box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
