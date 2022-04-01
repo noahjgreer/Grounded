@@ -46,6 +46,8 @@
     <meta name="twitter:title" content="Grounded">
     <meta name="twitter:description" content="Find solid biblical answers to crucial questions that we face today in our world. Unravel, discover, and meditate on the explanations the Bible shows us with Pastor Matt Round.">
     <meta name="twitter:image" content="/assets/opengraph/index.png">
+    <!-- Extras -->
+    <link rel="stylesheet" href="/assets/node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 </head>
 
 <body>
@@ -63,9 +65,44 @@
                 </div>
                 <a class="play"></a>
             </div>
+            <div class="blank" style="filter: hue-rotate(200deg)">
+                <div>
+                    <h2>Do pets go to heaven?</h2>
+                    <h3>Yesterday</h3>
+                </div>
+                <a class="play"></a>
+            </div>
+            <div class="blank" style="filter: hue-rotate(270deg)">
+                <div>
+                    <h2>Are people condemned forever?</h2>
+                    <h3>March 19, 2022</h3>
+                </div>
+                <a class="play"></a>
+            </div>
         </section>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </section>
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides gallery">
+                <li class="glide__slide">
+                    <div class="blank">
+                        <div>
+                            <h2>How to find hope in a hopeless world.</h2>
+                            <h3>Today</h3>
+                        </div>
+                        <a class="play"></a>
+                    </div>
+                </li>
+                <li class="glide__slide">1</li>
+                <li class="glide__slide">2</li>
+            </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+        </div>
+    </div>
     <section>
         <h2>Read</h2>
     </section>
@@ -88,6 +125,9 @@
 <!-- Scripting -->
 <script src="/assets/js/site-template.js"></script>
 <script src="/assets/js/formoid.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+    new Glide('.glide').mount()
+</script>
 
 </html>

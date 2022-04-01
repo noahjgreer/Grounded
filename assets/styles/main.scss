@@ -298,6 +298,37 @@ input {
     }
 }
 
+.glide__slides.gallery {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    >li>div {
+        h2,
+        h3 {
+            margin: 0px;
+            color: white;
+        }
+        margin: 2.5%;
+        padding: 5%;
+        @include shadow();
+        @include radius();
+        aspect-ratio: 1/1;
+        //min-width: 10rem;
+        //max-width: 15rem;
+        //width: 33%;
+        height: 33%;
+        background-size: cover;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end
+    }
+}
+
 .blank {
     @include default-background();
 }
@@ -368,10 +399,11 @@ button,
         margin-inline: 6.25%;
     }
     .gallery {
-        >div {
+        >li>div {
             padding: 8%;
-            max-width: none;
+            max-width: 92%;
             margin: 0px;
+            margin-bottom: 6.25%;
             .play {
                 aspect-ratio: 1/1;
                 background-size: contain;
