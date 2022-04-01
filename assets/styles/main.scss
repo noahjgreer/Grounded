@@ -291,6 +291,10 @@ input {
         height: 33%;
         background-size: cover;
         flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end
     }
 }
 
@@ -368,6 +372,16 @@ button,
             padding: 8%;
             max-width: none;
             margin: 0px;
+            .play {
+                aspect-ratio: 1/1;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 17.5%;
+                min-height: 17.5%;
+                max-height: 17.5%;
+                background-image: url(/assets/icons/play.svg);
+            }
         }
     }
 }
