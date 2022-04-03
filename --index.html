@@ -2,9 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Extras -->
-    <link rel="stylesheet" href="/assets/node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-    <link rel="stylesheet" href="/assets/node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
     <!-- Developer Definitions -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,46 +53,36 @@
     <nav id="navbar">
     </nav>
     <!-- Document -->
-    <section class="top unpadded cast-holder">
-        <div class="glide">
-            <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides">
-                    <li class="glide__slide">
-                        <div class="cast">
-                            <div>
-                                <h2>This is a card?</h2>
-                                <h3>Tomorrow</h3>
-                            </div>
-                            <a class="button alt">Visit</a>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="cast">
-                            <div>
-                                <h2>This is a card?</h2>
-                                <h3>Tomorrow</h3>
-                            </div>
-                            <a class="button alt">Visit</a>
-                        </div>
-                    </li>
-                    <li class="glide__slide">
-                        <div class="cast">
-                            <div>
-                                <h2>This is a card?</h2>
-                                <h3>Tomorrow</h3>
-                            </div>
-                            <a class="button alt">Visit</a>
-                        </div>
-                    </li>
-                </ul>
+    <header id="home-header">
+        <h1>Home</h1>
+        <a class="button" href="/mobile-index.html">Mobile Index</a>
+    </header>
+    <section>
+        <h2>Listen</h2>
+        <section class="gallery">
+            <div class="bg-holder" id="godtext">
+                <h3>Why am I here?</h3>
+                <h4>March 21st, 2022</h4>
             </div>
-            <div class="glide__arrows" data-glide-el="controls">
-                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-                    <img src="/assets/icons/Arrow-3-left.svg">
-                </button>
-                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-                    <img src="/assets/icons/Arrow-3-right.svg">
-                </button>
+            <div class="bg-holder" id="sunsettree">
+                <h3>Is my life a flare?</h3>
+                <h4>March 19st, 2022</h4>
+            </div>
+        </section>
+        <a class="button">View All</a>
+    </section>
+    <section>
+        <h2>Read</h2>
+    </section>
+    <section>
+        <h2>About</h2>
+        <div class="card">
+            <div id="img">
+                <img src="/assets/images/pastor-matt.jpg" alt="Placeholder">
+            </div>
+            <div id="text">
+                <h3>Pastor Matt Round</h3>
+                <p>Pastor Matt Round is the Senior Pastor of Chapel City Church in Camarillo, California; and a Masters Seminary graduate.</p>
             </div>
         </div>
     </section>
@@ -106,11 +93,6 @@
 <!-- Scripting -->
 <script src="/assets/js/site-template.js"></script>
 <script src="/assets/js/formoid.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-<script src="/assets/node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
-<script>
-    new Glide('.glide').mount()
-</script>
 
 </html>

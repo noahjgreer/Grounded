@@ -22,7 +22,7 @@ h3 {
   text-align: center;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 35rem) {
   h1,
   h2,
   h3 {
@@ -36,11 +36,14 @@ h1 {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 1.8rem;
+  margin: 0px;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 1.3rem;
+  margin-block: 5%;
+  line-height: 2rem;
 }
 
 a {
@@ -55,7 +58,7 @@ a {
   line-height: 2rem;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 35rem) {
   a {
     font-size: 1rem;
     line-height: 1.6rem;
@@ -118,7 +121,7 @@ p {
   text-indent: 12.5%;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 35rem) {
   p {
     font-size: 1rem;
     line-height: 1.6rem;
@@ -298,6 +301,10 @@ input {
   color: #ee0000;
 }
 
+.top {
+  margin-top: 12.5%;
+}
+
 .socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -377,90 +384,116 @@ input {
   max-width: 20rem;
 }
 
+/*
 .gallery {
-  padding: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%;
-}
-
-.gallery > div {
-  margin: 2.5%;
-  padding: 5%;
-  box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
-  -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
-  -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
-  border-radius: 1.25rem;
-  aspect-ratio: 1/1;
-  min-width: 10rem;
-  max-width: 15rem;
-  width: 33%;
-  height: 33%;
-  background-size: cover;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.gallery > div h2,
-.gallery > div h3 {
-  margin: 0px;
-  color: white;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    >div {
+        h2,
+        h3 {
+            margin: 0px;
+            color: white;
+        }
+        margin: 2.5%;
+        padding: 5%;
+        @include shadow();
+        @include radius();
+        aspect-ratio: 1/1;
+        min-width: 10rem;
+        max-width: 15rem;
+        width: 33%;
+        height: 33%;
+        background-size: cover;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end
+    }
 }
 
 .glide__slides.gallery {
-  padding: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    >li>div {
+        h2,
+        h3 {
+            margin: 0px;
+            color: white;
+        }
+        margin: 5%;
+        padding: 5%;
+        @include shadow();
+        @include radius();
+        aspect-ratio: 1/1;
+        //min-width: 10rem;
+        //max-width: 15rem;
+        //width: 33%;
+        height: 33%;
+        background-size: cover;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end
+    }
+}
+*/
+.glide__arrow {
+  width: 8%;
+  min-width: 7rem;
+  margin-block: 0.5rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: absolute;
+  display: block;
+  top: 50%;
+  z-index: 2;
+  color: white;
+  text-transform: uppercase;
+  padding: 9px 12px;
+  background-color: transparent;
+  opacity: 1;
+  cursor: pointer;
+  -webkit-transition: opacity 150ms ease, border 300ms ease-in-out;
+  transition: opacity 150ms ease, border 300ms ease-in-out;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  line-height: 1;
+  border: none;
+}
+
+.glide__arrow img {
   width: 100%;
 }
 
-.glide__slides.gallery > li > div {
-  margin: 5%;
-  padding: 5%;
+.glide__arrow--left {
+  left: 5%;
+}
+
+.glide__arrow--right {
+  right: 5%;
+}
+
+.unpadded {
+  padding: 0px;
+}
+
+.cast {
   box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  background: maroon;
+  background: linear-gradient(45deg, maroon 0%, #c11818 100%);
   border-radius: 1.25rem;
-  aspect-ratio: 1/1;
-  height: 33%;
-  background-size: cover;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -468,23 +501,44 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  padding: 6.25%;
+  margin-inline: 12.5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20rem;
 }
 
-.glide__slides.gallery > li > div h2,
-.glide__slides.gallery > li > div h3 {
-  margin: 0px;
+.cast div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.cast h2,
+.cast h3 {
+  text-align: left;
   color: white;
+  margin: 0px;
+}
+
+.cast .button {
+  margin: 0px;
 }
 
 .blank {
   background: maroon;
   background: linear-gradient(45deg, maroon 0%, #c11818 100%);
+}
+
+.button.alt {
+  background-color: white;
+  color: #800000;
 }
 
 button,
@@ -510,9 +564,10 @@ button,
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
   margin-block: 2rem;
+  border-radius: 25rem;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 35rem) {
   button,
   .button {
     font-size: 1rem;
@@ -544,11 +599,7 @@ button,
   background-image: url(/assets/images/bible-at-ocean.jpg);
 }
 
-@media screen and (max-width: 30rem) {
-  html,
-  body {
-    margin-top: 1rem;
-  }
+@media screen and (max-width: 35rem) {
   h1 {
     font-size: 2.45rem;
     margin: 6.25%;
@@ -563,44 +614,53 @@ button,
     line-height: 2rem;
   }
   .button {
-    padding-inline: 3rem;
+    font-size: 1.35rem;
   }
   section,
   article {
     padding: 0px;
-    margin-inline: 12.5%;
+    margin-inline: 6.25%;
   }
-  .gallery > li > div {
-    padding: 8%;
-    max-width: 87.5%;
-    margin: 0px;
-    margin-bottom: 6.25%;
-    -webkit-margin-start: 25%;
+  /*
+    .gallery {
+        >li>div {
+            padding: 8%;
+            max-width: 87.5%;
+            margin: 0px;
+            margin-bottom: 6.25%;
             margin-inline-start: 25%;
+        }
+    }
+    .play-holder {
+        display: flex;
+        justify-content: space-between;
+        margin-inline: 30%;
+        margin-left: 16%;
+        margin-top: -24%;
+        margin-bottom: 24%;
+        .play-button {
+            background-color: transparent;
+            margin: 0px;
+            padding: 0px;
+        }
+        .play {
+            aspect-ratio: 1/1;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 200%;
+        }
+    }
+    */
+  .top {
+    margin-top: 22.5%;
   }
-  .play-holder {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-inline: 30%;
-    margin-left: 16%;
-    margin-top: -24%;
-    margin-bottom: 24%;
+  .cast {
+    margin-inline: 6.25%;
+    gap: 15rem;
   }
-  .play-holder .play-button {
-    background-color: transparent;
-    margin: 0px;
-    padding: 0px;
-  }
-  .play-holder .play {
-    aspect-ratio: 1/1;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 200%;
+  .cast-holder {
+    margin-inline: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */

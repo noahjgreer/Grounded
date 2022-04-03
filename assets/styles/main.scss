@@ -18,7 +18,7 @@
 @mixin headings {
     font-family: -apple-system, BlinkMacSystemFont, Zin, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    @media screen and (max-width: 30rem) {
+    @media screen and (max-width: 35rem) {
         text-align: left;
         line-height: 2.5rem;
     }
@@ -30,7 +30,7 @@
     color: initial;
     font-size: 1.35rem;
     line-height: 2rem;
-    @media screen and (max-width: 30rem) {
+    @media screen and (max-width: 35rem) {
         font-size: 1rem;
         line-height: 1.6rem;
     }
@@ -51,6 +51,7 @@
     border-radius: $radius;
 }
 
+$main: white;
 $red: #ee0000;
 $deep: #800000;
 $slate: #2b2b2b;
@@ -66,11 +67,15 @@ h1 {
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 1.8rem;
+    margin: 0px;
+    // margin-block: 7.5%;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 1.3rem;
+    margin-block: 5%;
+    line-height: 2rem;
 }
 
 a {
@@ -219,6 +224,10 @@ input {
     color: $red;
 }
 
+.top {
+    margin-top: 12.5%;
+}
+
 .socials {
     display: flex;
     width: 75%;
@@ -267,6 +276,8 @@ input {
     }
 }
 
+
+/*
 .gallery {
     padding: 0px;
     display: flex;
@@ -328,9 +339,77 @@ input {
         align-items: flex-end
     }
 }
+*/
+
+.glide__arrow {
+    width: 8%;
+    min-width: 7rem;
+    margin-block: 0.5rem;
+    box-shadow: none;
+    position: absolute;
+    display: block;
+    top: 50%;
+    z-index: 2;
+    color: white;
+    text-transform: uppercase;
+    padding: 9px 12px;
+    background-color: transparent;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 150ms ease, border 300ms ease-in-out;
+    transform: translateY(-50%);
+    line-height: 1;
+    border: none;
+    img {
+        width: 100%;
+    }
+}
+
+.glide__arrow--left {
+    left: 5%;
+}
+
+.glide__arrow--right {
+    right: 5%;
+}
+
+.unpadded {
+    padding: 0px;
+}
+
+.cast {
+    @include shadow();
+    @include default-background();
+    @include radius();
+    display: flex;
+    flex-direction: column;
+    padding: 6.25%;
+    margin-inline: 12.5%;
+    align-items: center;
+    gap: 20rem;
+    div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    h2,
+    h3 {
+        text-align: left;
+        color: white;
+        margin: 0px;
+    }
+    .button {
+        margin: 0px;
+    }
+}
 
 .blank {
     @include default-background();
+}
+
+.button.alt {
+    background-color: $main;
+    color: $deep;
 }
 
 button,
@@ -346,6 +425,7 @@ button,
     user-select: none;
     transition: all 0.1s;
     margin-block: 2rem;
+    border-radius: 25rem;
 }
 
 button,
@@ -370,11 +450,7 @@ button,
     background-image: url(/assets/images/bible-at-ocean.jpg);
 }
 
-@media screen and (max-width: 30rem) {
-    html,
-    body {
-        margin-top: 1rem;
-    }
+@media screen and (max-width: 35rem) {
     h1 {
         font-size: 2.45rem;
         margin: 6.25%;
@@ -391,13 +467,14 @@ button,
         line-height: 2rem;
     }
     .button {
-        padding-inline: 3rem;
+        font-size: 1.35rem;
     }
     section,
     article {
         padding: 0px;
-        margin-inline: 12.5%;
+        margin-inline: 6.25%;
     }
+    /*
     .gallery {
         >li>div {
             padding: 8%;
@@ -426,5 +503,16 @@ button,
             background-repeat: no-repeat;
             min-height: 200%;
         }
+    }
+    */
+    .top {
+        margin-top: 22.5%;
+    }
+    .cast {
+        margin-inline: 6.25%;
+        gap: 15rem;
+    }
+    .cast-holder {
+        margin-inline: 0px;
     }
 }
