@@ -9,6 +9,11 @@ document.getElementById("navbar").innerHTML = (`
             <a href="/listen/index.html">Listen</a>
             <a href="/read/index.html">Read</a>
         </div>
+        <div id="burger">
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
+        </div>
         `);
 document.getElementById("footer").innerHTML = (`
         <div>
