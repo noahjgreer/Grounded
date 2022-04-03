@@ -676,6 +676,8 @@ button,
         justify-content: space-around;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
   nav #pages a {
     max-height: 2rem;
@@ -686,9 +688,24 @@ button,
     display: -ms-flexbox;
     display: flex;
   }
+  nav #burger div {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
   nav #pages.active {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
+  }
+  nav #burger.active #line1 {
+    -webkit-transform: rotateZ(45deg) translate(10%, 300%);
+            transform: rotateZ(45deg) translate(10%, 300%);
+  }
+  nav #burger.active #line2 {
+    opacity: 0%;
+  }
+  nav #burger.active #line3 {
+    -webkit-transform: rotateZ(-45deg) translate(10%, -300%);
+            transform: rotateZ(-45deg) translate(10%, -300%);
   }
   /*
     .gallery {
