@@ -225,7 +225,7 @@ input {
 }
 
 .top {
-    margin-top: 12.5%;
+    margin-top: 8%;
 }
 
 .socials {
@@ -373,6 +373,11 @@ input {
     right: 5%;
 }
 
+.glide__bullets {
+    bottom: -5%;
+    filter: invert(1);
+}
+
 .unpadded {
     padding: 0px;
 }
@@ -386,7 +391,7 @@ input {
     padding: 6.25%;
     margin-inline: 12.5%;
     align-items: center;
-    gap: 20rem;
+    gap: 15rem;
     div {
         display: flex;
         flex-direction: column;
@@ -510,9 +515,11 @@ button,
     }
     .cast {
         margin-inline: 6.25%;
-        gap: 15rem;
     }
     .cast-holder {
         margin-inline: 0px;
+    }
+    .glide__arrow {
+        display: none;
     }
 }
