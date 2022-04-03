@@ -392,6 +392,8 @@ input {
     margin-inline: 12.5%;
     align-items: center;
     gap: 15rem;
+    background-size: cover;
+    background-position: center;
     div {
         display: flex;
         flex-direction: column;
@@ -414,7 +416,7 @@ input {
 
 .button.alt {
     background-color: $main;
-    color: $deep;
+    color: $slate;
 }
 
 button,
@@ -441,6 +443,10 @@ button,
 button,
 .button:active {
     transform: scale(0.95);
+}
+
+.bg-holder#bible-ocean {
+    background-image: url(/assets/images/bible-at-ocean.jpg);
 }
 
 .bg-holder#godtext {
