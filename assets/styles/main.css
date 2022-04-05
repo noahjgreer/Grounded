@@ -355,6 +355,10 @@ textarea {
           column-gap: 2rem;
 }
 
+.panel form textarea {
+  resize: vertical;
+}
+
 .panel input {
   min-width: 15rem;
   width: 41.795%;

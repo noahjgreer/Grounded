@@ -258,6 +258,9 @@ textarea {
     form {
         row-gap: 2rem;
         column-gap: 2rem;
+        textarea {
+            resize: vertical;
+        }
     }
     input {
         min-width: 15rem;
