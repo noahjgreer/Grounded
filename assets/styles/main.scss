@@ -36,10 +36,16 @@
     }
 }
 
-@mixin shadow {
+@mixin outer-shadow {
     box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
     -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
     -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+}
+
+@mixin inner-shadow {
+    box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46) inset;
+    -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46) inset;
+    -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46) inset;
 }
 
 @mixin default-background {
@@ -51,11 +57,15 @@
     border-radius: $radius;
 }
 
-$main: white;
-$red: #ee0000;
-$deep: #800000;
-$slate: #2b2b2b;
+// Variables
+///// Color
+$main: #fff;
+$accent: #800000;
+$gray: #787878;
+$dark: #2b2b2b;
+///// Components
 $radius: 1.25rem;
+// Styling
 h1,
 h2,
 h3 {
@@ -103,7 +113,7 @@ section {
 }
 
 header {
-    background-color: $red;
+    background-color: $accent;
     padding-inline: 6.25%;
     padding-block: 6.125%;
     padding-top: 10%;
@@ -119,7 +129,7 @@ p {
 }
 
 nav {
-    @include shadow();
+    @include outer-shadow();
     z-index: 99;
     position: fixed;
     display: flex;
@@ -151,7 +161,7 @@ nav {
 }
 
 footer {
-    background-color: $slate;
+    background-color: $dark;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,7 +237,7 @@ form {
 
 input {
     border-width: 0.1rem;
-    border-color: lightgrey;
+    border-color: $gray;
     border-style: solid;
     border-radius: 3rem;
     padding: 8%;
@@ -238,7 +248,7 @@ input {
 
 textarea {
     border-width: 0.1rem;
-    border-color: lightgrey;
+    border-color: $gray;
     border-style: solid;
     border-radius: 2rem;
     width: 93.75%;
@@ -248,13 +258,14 @@ textarea {
 }
 
 .panel {
-    @include shadow();
+    @include outer-shadow();
     @include radius();
     width: 87.5%;
     padding: 6.25%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: $main;
     form {
         row-gap: 2rem;
         column-gap: 2rem;
@@ -311,7 +322,7 @@ textarea {
 }
 
 .red {
-    color: $red;
+    color: $accent;
 }
 
 .top {
@@ -339,7 +350,7 @@ textarea {
 }
 
 .card {
-    @include shadow;
+    @include outer-shadow;
     @include radius();
     padding: 6.25%;
     display: flex;
@@ -359,7 +370,7 @@ textarea {
     }
     img {
         @include radius();
-        @include shadow;
+        @include outer-shadow;
         min-width: 15rem;
         width: 100%;
         max-width: 20rem;
@@ -383,7 +394,7 @@ textarea {
         }
         margin: 2.5%;
         padding: 5%;
-        @include shadow();
+        @include outer-shadow();
         @include radius();
         aspect-ratio: 1/1;
         min-width: 10rem;
@@ -414,7 +425,7 @@ textarea {
         }
         margin: 5%;
         padding: 5%;
-        @include shadow();
+        @include outer-shadow();
         @include radius();
         aspect-ratio: 1/1;
         //min-width: 10rem;
@@ -473,7 +484,7 @@ textarea {
 }
 
 .cast {
-    @include shadow();
+    @include outer-shadow();
     @include default-background();
     @include radius();
     display: flex;
@@ -506,7 +517,7 @@ textarea {
 
 .button.alt {
     background-color: $main;
-    color: $slate;
+    color: $dark;
 }
 
 button,
@@ -514,8 +525,8 @@ button,
     border: none;
     @include text;
     @include radius();
-    @include shadow();
-    background-color: $deep;
+    @include outer-shadow();
+    background-color: $accent;
     color: white;
     padding: 1rem;
     padding-inline: 5rem;
@@ -523,6 +534,8 @@ button,
     transition: all 0.1s;
     margin-block: 2rem;
     border-radius: 25rem;
+    display: flex;
+    text-align: center;
 }
 
 button,
@@ -545,6 +558,61 @@ button,
 
 .bg-holder#sunsettree {
     background-image: url(/assets/images/stock/SunsetTree.jpg);
+}
+
+.panel.horizontal {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about {
+    margin-block: 6.25%;
+    margin-inline: 3.125%;
+}
+
+.about {
+    div,
+    img {
+        @include radius();
+        width: 45%;
+        margin-inline: 3.125%;
+        flex: 1;
+    }
+    img {
+        max-width: 20rem;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .button {
+            margin: 0px;
+        }
+    }
+}
+
+.banner {
+    background-position: center;
+    background-size: cover;
+    padding: 6.25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.banner#topic {
+    @include inner-shadow();
+    background-image: url(/assets/images/bible-at-ocean.jpg);
+    padding-block: 10%;
+    img {
+        width: 30%;
+        max-width: 20rem;
+        filter: invert(1);
+    }
+    .panel {
+        width: 35%;
+        padding: 3.125%;
+    }
 }
 
 #home-header {

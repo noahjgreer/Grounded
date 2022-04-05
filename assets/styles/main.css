@@ -98,7 +98,7 @@ section {
 }
 
 header {
-  background-color: #ee0000;
+  background-color: #800000;
   padding-inline: 6.25%;
   padding-block: 6.125%;
   padding-top: 10%;
@@ -308,7 +308,7 @@ form {
 
 input {
   border-width: 0.1rem;
-  border-color: lightgrey;
+  border-color: #787878;
   border-style: solid;
   border-radius: 3rem;
   padding: 8%;
@@ -321,7 +321,7 @@ input {
 
 textarea {
   border-width: 0.1rem;
-  border-color: lightgrey;
+  border-color: #787878;
   border-style: solid;
   border-radius: 2rem;
   width: 93.75%;
@@ -347,6 +347,7 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #fff;
 }
 
 .panel form {
@@ -435,7 +436,7 @@ textarea {
 }
 
 .red {
-  color: #ee0000;
+  color: #800000;
 }
 
 .top {
@@ -537,7 +538,7 @@ textarea {
         }
         margin: 2.5%;
         padding: 5%;
-        @include shadow();
+        @include outer-shadow();
         @include radius();
         aspect-ratio: 1/1;
         min-width: 10rem;
@@ -568,7 +569,7 @@ textarea {
         }
         margin: 5%;
         padding: 5%;
-        @include shadow();
+        @include outer-shadow();
         @include radius();
         aspect-ratio: 1/1;
         //min-width: 10rem;
@@ -682,7 +683,7 @@ textarea {
 }
 
 .button.alt {
-  background-color: white;
+  background-color: #fff;
   color: #2b2b2b;
 }
 
@@ -710,6 +711,10 @@ button,
   transition: all 0.1s;
   margin-block: 2rem;
   border-radius: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
 }
 
 @media screen and (max-width: 35rem) {
@@ -744,6 +749,87 @@ button,
   background-image: url(/assets/images/stock/SunsetTree.jpg);
 }
 
+.panel.horizontal {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#about {
+  margin-block: 6.25%;
+  margin-inline: 3.125%;
+}
+
+.about div,
+.about img {
+  border-radius: 1.25rem;
+  width: 45%;
+  margin-inline: 3.125%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.about img {
+  max-width: 20rem;
+}
+
+.about div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about div .button {
+  margin: 0px;
+}
+
+.banner {
+  background-position: center;
+  background-size: cover;
+  padding: 6.25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.banner#topic {
+  box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46) inset;
+  -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46) inset;
+  -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46) inset;
+  background-image: url(/assets/images/bible-at-ocean.jpg);
+  padding-block: 10%;
+}
+
+.banner#topic img {
+  width: 30%;
+  max-width: 20rem;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.banner#topic .panel {
+  width: 35%;
+  padding: 3.125%;
+}
+
 #home-header {
   background-image: url(/assets/images/bible-at-ocean.jpg);
 }
@@ -774,7 +860,7 @@ button,
     position: absolute;
     right: 0;
     top: 100%;
-    background-color: white;
+    background-color: #fff;
     height: 875%;
     width: 50%;
     display: -webkit-box;
