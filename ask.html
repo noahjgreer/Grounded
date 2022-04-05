@@ -51,71 +51,39 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <div id="logo">
-            <a href="/index.html">
-                <img src="/assets/images/LongLogo.svg" alt="Grounded Logo">
-            </a>
-        </div>
-        <div id="pages">
-            <a href="/index.html">Home</a>
-            <a href="/ask.html">Ask</a>
-            <a href="/episodes/index.html">Episodes</a>
-            <a href="/about.html">About</a>
-        </div>
-        <div id="burger">
-            <div id="line1"></div>
-            <div id="line2"></div>
-            <div id="line3"></div>
-        </div>
     </nav>
     <!-- Document -->
-    <!-- Footer -->
-    <footer id="footer">
-        <div>
-            <img id="logo" src="/assets/images/BigLogo-white.svg">
-            <div id="newsletter">
-                <h3>Newsletter</h3>
-                <div id="form" data-form-type="formoid">
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
-                        <input type="hidden" name="email" data-form-email="true" value="Z25IACZzNFd+BJoslFQM1pDsPW5mr/obbA3I17VFJMuHcRKbhzHHqu9mkGaU+cgBPgft4qZzqF4qpT9NF+HfxDi4vW/q+sVmaOAOVVhp5je0F4WBnnu7BjY61ijGNf7U">
-                        <div class="row">
-                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
-                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                                Oops...! some problem!
-                            </div>
-                        </div>
-                        <div id="form">
-                            <div data-for="email">
-                                <input type="email" name="email" placeholder="Email" data-form-field="Email">
-                            </div>
-                            <button type="submit">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-                <p id="status"></p>
-                <div class="socials">
-                    <a id="mail" class="img-link" href="mailto:groundedwithmattround@gmail.com"></a>
-                    <a id="twitter" class="img-link" href="https://twitter.com/chapelcity93010"></a>
-                    <a id="yt" class="img-link" href="https://www.youtube.com/channel/UCRVmMSvZfpuXiReda8MmCrg"></a>
-                </div>
-            </div>
-            <div id="navigation">
-                <h3>Navigation</h3>
-                <div>
-                    <a href="/index.html">Home</a>
-                    <a href="/ask.html">Ask</a>
-                    <a href="/episodes/index.html">Episodes</a>
-                    <a href="/about.html">About</a>
-                </div>
+    <section class="top">
+        <h1>Ask a Question</h1>
+        <div class="panel">
+            <div>
+                <form method="post">
+                    <input placeholder="Name" type="text">
+                    <input placeholder="Contact">
+                    <textarea placeholder="Question" rows="8" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
         </div>
-        <p id="copyright">Copyright © ${new Date().getFullYear()} - Grounded</p>
-    </footer>
+        <h1>Question Wall</h1>
+        <div class="input-wall">
+            <form method="post">
+                <input placeholder="Search">
+            </form>
+            <div>
+                <a class="sort" id="question-wall">Sort</a>
+                <img src="assets/icons/sort.svg">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer"></footer>
 </body>
 
-<!-- Scripting 
-<script src="/assets/js/site-template.js"></script>-->
+<!-- Scripting -->
+<script src="/assets/js/site-template.js"></script>
 <script src="/assets/js/formoid.min.js"></script>
 <script src="/assets/js/navbar.js"></script>
+
 
 </html>

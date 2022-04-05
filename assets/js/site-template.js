@@ -6,8 +6,9 @@ document.getElementById("navbar").innerHTML = (`
         </div>
         <div id="pages">
             <a href="/index.html">Home</a>
-            <a href="/listen/index.html">Listen</a>
-            <a href="/read/index.html">Read</a>
+            <a href="/ask.html">Ask</a>
+            <a href="/episodes/index.html">Episodes</a>
+            <a href="/about.html">About</a>
         </div>
         <div id="burger">
             <div id="line1"></div>
@@ -48,10 +49,11 @@ document.getElementById("footer").innerHTML = (`
                 <h3>Navigation</h3>
                 <div>
                     <a href="/index.html">Home</a>
-                    <a href="/listen/index.html">Listen</a>
-                    <a href="/read/index.html">Read</a>
+                    <a href="/ask.html">Ask</a>
+                    <a href="/episodes/index.html">Episodes</a>
+                    <a href="/about.html">About</a>
                 </div>
             </div>
         </div>
-        <p id="copyright">Copyright © ${new Date().getFullYear()} - Grounded</p>
+        <p id="copyright">Copyright © ${new Date().getFullYear()} - Grounded</p>        
 `)

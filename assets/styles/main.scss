@@ -16,7 +16,7 @@
 }
 
 @mixin headings {
-    font-family: -apple-system, BlinkMacSystemFont, Zin, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Zin, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     @media screen and (max-width: 35rem) {
         text-align: left;
@@ -25,7 +25,7 @@
 }
 
 @mixin text {
-    font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rubik, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     color: initial;
     font-size: 1.35rem;
@@ -63,7 +63,7 @@ h3 {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 h2 {
@@ -219,11 +219,84 @@ footer {
     }
 }
 
+form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 input {
-    border: none;
+    border-width: 0.1rem;
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 3rem;
+    padding: 8%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rubik, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    flex: 1;
+}
+
+textarea {
+    border-width: 0.1rem;
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 2rem;
+    width: 93.75%;
+    padding: 3.125%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rubik, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+}
+
+.panel {
+    @include shadow();
     @include radius();
-    padding: 0.75rem;
-    font-family: -apple-system, BlinkMacSystemFont, Rubik, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 87.5%;
+    padding: 6.25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    form {
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+    input {
+        min-width: 15rem;
+        width: 41.795%;
+        padding: 3.125%;
+    }
+    button {
+        margin: 0px;
+    }
+}
+
+.input-wall {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    a {
+        flex: unset;
+        font-size: 1.5rem;
+    }
+    div {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-block: 6.25%;
+        img {
+            padding: 0.125rem;
+            width: 1rem;
+            height: 1rem;
+        }
+    }
+    form {
+        width: 80%;
+        input {
+            padding: 3.125%;
+        }
+    }
 }
 
 .img-link {
@@ -582,5 +655,8 @@ button,
     }
     .glide__arrow {
         display: none;
+    }
+    .input-wall {
+        flex-direction: column;
     }
 }
