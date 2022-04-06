@@ -754,9 +754,11 @@ button,
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #about {
@@ -772,6 +774,7 @@ button,
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  margin-block: 3.125%;
 }
 
 .about img {
@@ -816,18 +819,34 @@ button,
   -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46) inset;
   background-image: url(/assets/images/bible-at-ocean.jpg);
   padding-block: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.banner#topic img,
+.banner#topic div {
+  margin-block: 6.25%;
 }
 
 .banner#topic img {
+  min-width: 20rem;
   width: 30%;
-  max-width: 20rem;
+  max-width: 22.5rem;
   -webkit-filter: invert(1);
           filter: invert(1);
 }
 
 .banner#topic .panel {
   width: 35%;
+  min-width: 20rem;
   padding: 3.125%;
+}
+
+#form {
+  width: 100%;
 }
 
 #home-header {
@@ -854,7 +873,7 @@ button,
   section,
   article {
     padding: 0px;
-    margin-inline: 6.25%;
+    padding-inline: 6.25%;
   }
   nav #pages {
     position: absolute;
@@ -957,6 +976,9 @@ button,
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .panel.about .button {
+    margin-block: 6.25%;
   }
 }
 /*# sourceMappingURL=main.css.map */

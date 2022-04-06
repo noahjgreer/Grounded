@@ -562,7 +562,8 @@ button,
 
 .panel.horizontal {
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #about {
@@ -577,6 +578,7 @@ button,
         width: 45%;
         margin-inline: 3.125%;
         flex: 1;
+        margin-block: 3.125%;
     }
     img {
         max-width: 20rem;
@@ -604,15 +606,27 @@ button,
     @include inner-shadow();
     background-image: url(/assets/images/bible-at-ocean.jpg);
     padding-block: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    img,
+    div {
+        margin-block: 6.25%;
+    }
     img {
+        min-width: 20rem;
         width: 30%;
-        max-width: 20rem;
+        max-width: 22.5rem;
         filter: invert(1);
     }
     .panel {
         width: 35%;
+        min-width: 20rem;
         padding: 3.125%;
     }
+}
+
+#form {
+    width: 100%;
 }
 
 #home-header {
@@ -641,7 +655,7 @@ button,
     section,
     article {
         padding: 0px;
-        margin-inline: 6.25%;
+        padding-inline: 6.25%;
     }
     nav {
         #pages {
@@ -729,5 +743,10 @@ button,
     }
     .input-wall {
         flex-direction: column;
+    }
+    .panel.about {
+        .button {
+            margin-block: 6.25%;
+        }
     }
 }
