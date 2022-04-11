@@ -18,7 +18,7 @@
 h1,
 h2,
 h3 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Zin, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Zin, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
 }
 
@@ -51,7 +51,7 @@ a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rubik, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Rubik, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-decoration: none;
   color: initial;
   font-size: 1.35rem;
@@ -113,7 +113,7 @@ header {
 }
 
 p {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rubik, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Rubik, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-decoration: none;
   color: initial;
   font-size: 1.35rem;
@@ -191,7 +191,6 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   padding-inline: 5%;
-  margin-top: 5rem;
 }
 
 footer h3,
@@ -296,6 +295,132 @@ footer .socials a {
           filter: invert(1);
 }
 
+#newsletter {
+  margin-block: 6.25%;
+}
+
+#resources {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-inline: 3.125%;
+  padding-block: 3.125%;
+  box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46) inset;
+  -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46) inset;
+  -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46) inset;
+}
+
+#resources > div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-block: 3.125%;
+}
+
+#resources > div div {
+  width: 100%;
+  max-width: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-inline: 3.125%;
+  margin-block: 3.125%;
+}
+
+#resources > div div img {
+  box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  max-width: 30rem;
+  margin-block: 3.125%;
+}
+
+.newsletter input,
+.newsletter button {
+  padding-block: 3.125%;
+}
+
+.newsletter input {
+  position: relative;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Rubik, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  color: initial;
+  font-size: 1.35rem;
+  line-height: 2rem;
+  left: 5%;
+  border-width: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+}
+
+@media screen and (max-width: 35rem) {
+  .newsletter input {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+}
+
+.newsletter button {
+  box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  display: block;
+  position: relative;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 30%;
+  right: 5%;
+  padding-inline: 6.25%;
+  margin: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+#questions {
+  margin-block: 6.25%;
+  padding: 0px;
+}
+
 form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -312,7 +437,7 @@ input {
   border-style: solid;
   border-radius: 3rem;
   padding: 8%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rubik, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Rubik, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2rem;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -326,7 +451,7 @@ textarea {
   border-radius: 2rem;
   width: 93.75%;
   padding: 3.125%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rubik, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Rubik, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2rem;
 }
 
@@ -383,6 +508,7 @@ textarea {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-inline: 6.25%;
 }
 
 .input-wall a {
@@ -522,38 +648,76 @@ textarea {
   max-width: 20rem;
 }
 
-/*
 .gallery {
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    >div {
-        h2,
-        h3 {
-            margin: 0px;
-            color: white;
-        }
-        margin: 2.5%;
-        padding: 5%;
-        @include outer-shadow();
-        @include radius();
-        aspect-ratio: 1/1;
-        min-width: 10rem;
-        max-width: 15rem;
-        width: 33%;
-        height: 33%;
-        background-size: cover;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-end
-    }
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
 }
 
+.gallery > div {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 2.5%;
+  padding: 5%;
+  box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
+  border-radius: 1.25rem;
+  min-width: 13rem;
+  max-width: 15rem;
+  background-size: cover;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery > div h2,
+.gallery > div h3 {
+  margin: 0px;
+  text-align: left;
+}
+
+time {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Rubik, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  color: initial;
+  font-size: 1.35rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #787878;
+}
+
+@media screen and (max-width: 35rem) {
+  time {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+}
+
+/*
 .glide__slides.gallery {
     padding: 0px;
     display: flex;
@@ -690,7 +854,7 @@ textarea {
 button,
 .button {
   border: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rubik, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Rubik, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-decoration: none;
   color: initial;
   font-size: 1.35rem;
@@ -715,6 +879,9 @@ button,
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 35rem) {
@@ -811,6 +978,11 @@ button,
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.banner img,
+.banner div {
+  margin-inline: 3.125%;
 }
 
 .banner#topic {

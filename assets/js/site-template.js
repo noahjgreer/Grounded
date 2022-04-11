@@ -1,3 +1,5 @@
+console.log(`Web Design made from scratch by Noah J. Greer`)
+
 document.getElementById("navbar").innerHTML = (`
 <div id="logo">
             <a href="/index.html">
@@ -21,24 +23,10 @@ document.getElementById("footer").innerHTML = (`
             <img id="logo" src="/assets/images/BigLogo-white.svg">
             <div id="newsletter">
                 <h3>Newsletter</h3>
-                <div id="form" data-form-type="formoid">
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
-                        <input type="hidden" name="email" data-form-email="true" value="Z25IACZzNFd+BJoslFQM1pDsPW5mr/obbA3I17VFJMuHcRKbhzHHqu9mkGaU+cgBPgft4qZzqF4qpT9NF+HfxDi4vW/q+sVmaOAOVVhp5je0F4WBnnu7BjY61ijGNf7U">
-                        <div class="row">
-                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
-                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                                Oops...! some problem!
-                            </div>
-                        </div>
-                        <div id="form">
-                            <div data-for="email">
-                                <input type="email" name="email" placeholder="Email" data-form-field="Email">
-                            </div>
-                            <button type="submit">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-                <p id="status"></p>
+                <form class="newsletter">
+                    <input type="email" placeholder="Email">
+                    <button type="submit">Subscribe</button>
+                </form>
                 <div class="socials">
                     <a id="mail" class="img-link" href="mailto:groundedwithmattround@gmail.com"></a>
                     <a id="twitter" class="img-link" href="https://twitter.com/chapelcity93010"></a>
@@ -55,5 +43,5 @@ document.getElementById("footer").innerHTML = (`
                 </div>
             </div>
         </div>
-        <p id="copyright">Copyright © ${new Date().getFullYear()} - Grounded</p>        
+        <p id="copyright">Copyright © ${new Date().getFullYear()} - Grounded</p>
 `)
