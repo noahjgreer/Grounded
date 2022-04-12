@@ -357,7 +357,8 @@ textarea {
 }
 
 .input-wall {
-    width: 100%;
+    width: 87.5%;
+    max-width: 150rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -460,13 +461,16 @@ textarea {
     width: 100%;
     >div {
         h2,
-        h3 {
+        h3,
+        time {
+            width: 100%;
             margin: 0px;
             text-align: left;
         }
-        align-items: flex-start;
+        align-items: flex-end;
         margin: 2.5%;
-        padding: 5%;
+        // padding: 5%;
+        padding: 3.125rem;
         @include outer-shadow();
         @include radius();
         min-width: 13rem;
@@ -476,6 +480,18 @@ textarea {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+}
+
+button.icon {
+    background-color: transparent;
+    box-shadow: none;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: 20%;
+    img {
+        width: 100%;
     }
 }
 

@@ -496,7 +496,8 @@ textarea {
 }
 
 .input-wall {
-  width: 100%;
+  width: 87.5%;
+  max-width: 150rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -666,11 +667,11 @@ textarea {
 }
 
 .gallery > div {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin: 2.5%;
-  padding: 5%;
+  padding: 3.125rem;
   box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -webkit-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
@@ -694,9 +695,25 @@ textarea {
 }
 
 .gallery > div h2,
-.gallery > div h3 {
+.gallery > div h3,
+.gallery > div time {
+  width: 100%;
   margin: 0px;
   text-align: left;
+}
+
+button.icon {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  width: 20%;
+}
+
+button.icon img {
+  width: 100%;
 }
 
 time {
