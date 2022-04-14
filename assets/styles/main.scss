@@ -536,6 +536,10 @@ time {
 }
 */
 
+.glide__slides {
+    align-items: center;
+}
+
 .glide__arrow {
     width: 8%;
     min-width: 7rem;
@@ -860,6 +864,8 @@ button,
     }
     .cast {
         margin-inline: 6.25%;
+        min-height: 100%;
+        flex: 1;
     }
     .cast-holder {
         margin-inline: 0px;

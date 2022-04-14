@@ -766,6 +766,12 @@ time {
     }
 }
 */
+.glide__slides {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .glide__arrow {
   width: 8%;
   min-width: 7rem;
@@ -1194,6 +1200,10 @@ button,
   }
   .cast {
     margin-inline: 6.25%;
+    min-height: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
   .cast-holder {
     margin-inline: 0px;

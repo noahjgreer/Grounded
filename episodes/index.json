@@ -1,28 +1,21 @@
 {
     "episodes": [{
-        "date": "4-14-2022",
-        "title": "This is a new card! It should push off the cat.",
-        "background": "/assets/images/resources/doagm.jpg",
-        "viewLink": "https://www.verywellmind.com/thmb/18SuA4GayQQAWc3VyRizMfDV-ws=/3200x2087/filters:fill(ABEAC3,1)/GettyImages-598326177-56cb3aef5f9b5879cc542db2.jpg"
-    }, {
-        "date": "4-13-2022",
-        "title": "Where does the light come from?",
-        "background": "/assets/images/bible-at-ocean.jpg",
-        "viewLink": "/episodes/4-2022/where-does-the-light-come-from.html"
-    }, {
-        "date": "4-12-2022",
-        "title": "How big is Bob?",
-        "background": "/assets/images/stock/GodText.jpg",
-        "viewLink": "/episodes/4-2022/how-big-is-bob.html"
-    }, {
-        "date": "4-11-2022",
-        "title": "When can I eat some more pizza?",
-        "background": "https://posts-cdn.kueez.net/OAyTRw3lzuXbeail/image-PsVOkM5mC70yIrht.jpg",
-        "viewLink": "https://posts-cdn.kueez.net/OAyTRw3lzuXbeail/image-PsVOkM5mC70yIrht.jpg"
-    }, {
-        "date": "4-10-2022",
-        "title": "This Card shouldn't be visible.",
-        "background": "https://posts-cdn.kueez.net/OAyTRw3lzuXbeail/image-PsVOkM5mC70yIrht.jpg",
-        "viewLink": "https://posts-cdn.kueez.net/OAyTRw3lzuXbeail/image-PsVOkM5mC70yIrht.jpg"
-    }]
+            "date": "Coming Soon",
+            "title": "Should you continue to forgive and engage with someone if they don't change?",
+            "background": "/assets/images/stock/Man0.jpg",
+            "viewLink": "/episodes/4-2022/should-you-forgive-an-unchanging-heart.html"
+        },
+        {
+            "date": "Coming Soon",
+            "title": "How can God be a jealous God, if jealousy is sinful?",
+            "background": "/assets/images/stock/Bible0.jpg",
+            "viewLink": "/episodes/4-2022/how-can-god-be-jealous.html"
+        },
+        {
+            "date": "Coming Soon",
+            "title": "Meet Pastor Matt",
+            "background": "/assets/images/pastor-matt.jpg",
+            "viewLink": "/episodes/4-2022/meet-pastor-matt.html"
+        }
+    ]
 }
