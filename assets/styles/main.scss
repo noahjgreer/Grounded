@@ -536,10 +536,6 @@ time {
 }
 */
 
-.glide__slides {
-    align-items: center;
-}
-
 .glide__arrow {
     width: 8%;
     min-width: 7rem;
@@ -589,10 +585,13 @@ time {
     flex-direction: column;
     padding: 6.25%;
     margin-inline: 12.5%;
-    align-items: center;
-    gap: 15rem;
+    // align-items: center;
+    // gap: 15rem;
     background-size: cover;
     background-position: center;
+    justify-content: space-between;
+    gap: 15rem;
+    align-items: center;
     div {
         display: flex;
         flex-direction: column;
@@ -611,7 +610,6 @@ time {
 }
 
 .last {
-    gap: 16.75rem;
     h1,
     h2,
     h3 {
@@ -645,6 +643,8 @@ button,
     display: flex;
     text-align: center;
     justify-content: center;
+    max-height: 5rem;
+    align-items: center;
 }
 
 button,
@@ -864,8 +864,9 @@ button,
     }
     .cast {
         margin-inline: 6.25%;
-        min-height: 100%;
+        min-height: 25rem;
         flex: 1;
+        gap: 5rem;
     }
     .cast-holder {
         margin-inline: 0px;

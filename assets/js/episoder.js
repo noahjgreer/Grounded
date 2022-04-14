@@ -9,7 +9,6 @@ async function getEpisodes() {
     // Date Calculator
     var currentDate = new Date().getMonth() + 1 + "-" + new Date().getDate() + "-" + new Date().getFullYear();
     var yesterdaysDate = new Date().getMonth() + 1 + "-" + (new Date().getDate() - 1) + "-" + new Date().getFullYear();
-    console.log(yesterdaysDate);
 
     var timeDistanceCalc = function() {
         if (currentDate == episodeJSONData.episodes[episodeIncrementFunct].date) {
@@ -63,9 +62,6 @@ async function getEpisodes() {
                 </div>
             </li>`
         }
-
-
-        console.log(episodeHolder);
     }
 
     document.getElementById('episodes').innerHTML = episodeHolder;
