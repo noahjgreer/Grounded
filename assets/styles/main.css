@@ -847,6 +847,7 @@ time {
   width: 100%;
 }
 
+.cast h1,
 .cast h2,
 .cast h3 {
   text-align: left;
@@ -856,6 +857,16 @@ time {
 
 .cast .button {
   margin: 0px;
+}
+
+.last {
+  gap: 16.75rem;
+}
+
+.last h1,
+.last h2,
+.last h3 {
+  text-align: center;
 }
 
 .blank {

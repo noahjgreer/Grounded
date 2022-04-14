@@ -594,6 +594,7 @@ time {
         flex-direction: column;
         width: 100%;
     }
+    h1,
     h2,
     h3 {
         text-align: left;
@@ -602,6 +603,15 @@ time {
     }
     .button {
         margin: 0px;
+    }
+}
+
+.last {
+    gap: 16.75rem;
+    h1,
+    h2,
+    h3 {
+        text-align: center
     }
 }
 
