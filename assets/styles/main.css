@@ -97,6 +97,35 @@ section {
           align-items: center;
 }
 
+article .id,
+section .id {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+article .id .author#matt-round,
+section .id .author#matt-round {
+  min-height: 5rem;
+  max-height: 5rem;
+  min-width: 5rem;
+  max-width: 5rem;
+  border-radius: 100%;
+  background-image: url(/assets/images/pastor-matt.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 1.5625%;
+}
+
+article .id .info h3,
+section .id .info h3 {
+  margin: 0;
+}
+
 header {
   background-color: #800000;
   padding-inline: 6.25%;
@@ -110,6 +139,13 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 p {
@@ -123,6 +159,27 @@ p {
 
 @media screen and (max-width: 35rem) {
   p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+}
+
+q {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Rubik, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  color: initial;
+  font-size: 1.35rem;
+  line-height: 2rem;
+  color: #787878;
+  text-align: left;
+  width: 87.5%;
+  border-left: 2px solid #787878;
+  padding: 3.125%;
+  quotes: none;
+}
+
+@media screen and (max-width: 35rem) {
+  q {
     font-size: 1rem;
     line-height: 1.6rem;
   }
@@ -495,6 +552,24 @@ textarea {
   margin: 0px;
 }
 
+.draft {
+  display: none;
+}
+
+.real-article {
+  padding-block: 6.25%;
+}
+
+.real-article h2 {
+  margin-block: 3.125%;
+}
+
+.real-article h3 {
+  text-align: left;
+  width: 100%;
+  margin: 0px;
+}
+
 .input-wall {
   width: 87.5%;
   max-width: 150rem;
@@ -667,9 +742,9 @@ textarea {
 }
 
 .gallery > div {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 2.5%;
   padding: 3.125rem;
   box-shadow: 0px 2px 35px -15px rgba(0, 0, 0, 0.46);
@@ -692,6 +767,10 @@ textarea {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.gallery > div > div {
+  width: 100%;
 }
 
 .gallery > div h2,
@@ -925,14 +1004,26 @@ button,
 
 button,
 .button:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-filter: saturate(1.2);
+          filter: saturate(1.2);
+}
+
+button,
+.button.alt:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+button,
+.button.alt:active {
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
 }
 
 button,
 .button:active {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  -webkit-filter: saturate(0.8);
+          filter: saturate(0.8);
 }
 
 .bg-holder#bible-ocean {
