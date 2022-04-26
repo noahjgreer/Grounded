@@ -110,26 +110,58 @@ section {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    .id {
+    .head {
         width: 100%;
-        .author#matt-round {
-            min-height: 5rem;
-            max-height: 5rem;
-            min-width: 5rem;
-            max-width: 5rem;
-            border-radius: 100%;
-            background-image: url(/assets/images/pastor-matt.jpg);
-            background-position: center;
-            background-size: cover;
-            margin: 1.5625%;
-        }
-        .info {
-            h3 {
-                margin: 0;
-            }
-        }
+        height: 100%;
         display: flex;
-        align-items: center;
+        .id {
+            width: 100%;
+            .author#matt-round {
+                min-height: 5rem;
+                max-height: 5rem;
+                min-width: 5rem;
+                max-width: 5rem;
+                border-radius: 100%;
+                background-image: url(/assets/images/pastor-matt.jpg);
+                background-position: center;
+                background-size: cover;
+                margin: 1.5625%;
+            }
+            .info {
+                h3 {
+                    margin: 0;
+                }
+            }
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.player {
+    border-radius: 100rem;
+    background-color: $accent;
+    display: flex;
+    width: 87.5%;
+    height: 100%;
+    min-height: 5rem;
+    align-items: center;
+    padding: 1.5625%;
+    input {
+        padding: 0px;
+    }
+    .play {
+        box-shadow: none;
+        background: none;
+        background-image: url(/assets/icons/play.svg);
+        background-position: center;
+        background-size: fit;
+        background-repeat: no-repeat;
+        padding: 0px;
+        margin: 0px;
+        min-height: 5rem;
+        min-width: 5rem;
+        cursor: pointer;
     }
 }
 

@@ -55,16 +55,22 @@
     <!-- Document -->
     <header style="background-image: url(/assets/images/stock/Man0.jpg);">
         <h1>This is a template article?</h1>
+        <div class="player" id="player">
+            <audio src="https://greerserver.ddns.net/allofcreation.mp3" preload="auto"></audio>
+            <button id="playbutton" class="play" onclick="togglePlay()"></button>
+            <input type="range">
+        </div>
     </header>
     <article class="real-article">
-        <div class="id">
-            <div class="author" id="matt-round"></div>
-            <div class="info">
-                <h3>Pastor Matt Round</h3>
-                <time>4/13/2022</time>
+        <div class="head">
+            <div class="id">
+                <div class="author" id="matt-round"></div>
+                <div class="info">
+                    <h3>Pastor Matt Round</h3>
+                    <time>4/13/2022</time>
+                </div>
             </div>
         </div>
-        <audio src="https://greerserver.ddns.net/allofcreation.mp3" controls preload="auto"></audio>
         <h2>Introduction</h2>
         <p>Transcription. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae, impedit quaerat qui suscipit sed accusamus velit, nam eos fuga vero pariatur quidem modi rerum ipsum repudiandae illum libero aliquam at consequuntur. Distinctio
             labore consequuntur excepturi! Reprehenderit natus ducimus sapiente doloremque non amet impedit nulla atque rem quidem necessitatibus tempora vitae rerum repellat perferendis, officiis, quibusdam incidunt quo porro suscipit! Perferendis dolores
@@ -111,6 +117,7 @@
 <script src="/assets/js/site-template.js"></script>
 <script src="/assets/js/formoid.min.js"></script>
 <script src="/assets/js/navbar.js"></script>
+<script src="/assets/js/player.js"></script>
 
 
 </html>
