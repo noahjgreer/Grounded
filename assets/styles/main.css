@@ -143,15 +143,40 @@ section .head .id .info h3 {
   display: flex;
   width: 87.5%;
   height: 100%;
-  min-height: 5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 1.5625%;
+  background: maroon;
+  background: linear-gradient(45deg, maroon 0%, #c11818 100%);
 }
 
-.player input {
-  padding: 0px;
+.player .playback-container {
+  border-radius: 100rem;
+  background-color: #787878;
+  height: 3rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-inline: 1.5625%;
+  margin-inline: 1.5625%;
+  cursor: pointer;
+}
+
+.player .playback-container .playback {
+  border-radius: 100rem;
+  background-color: #800000;
+  width: 0%;
+  min-height: 3.125%;
+  height: 2rem;
 }
 
 .player .play {
@@ -164,8 +189,8 @@ section .head .id .info h3 {
   background-repeat: no-repeat;
   padding: 0px;
   margin: 0px;
-  min-height: 5rem;
-  min-width: 5rem;
+  min-height: 3rem;
+  min-width: 3rem;
   cursor: pointer;
 }
 
