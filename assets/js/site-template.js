@@ -10,7 +10,6 @@ document.getElementById("navbar").innerHTML = (`
             <a href="/index.html">Home</a>
             <a href="/episodes/index.html">Episodes</a>
             <a class="unclickable">Ask</a>
-            <a class="unclickable">About</a>
         </div>
         <div id="burger">
             <div id="line1"></div>
@@ -39,7 +38,6 @@ document.getElementById("footer").innerHTML = (`
                     <a href="/index.html">Home</a>
                     <a href="/episodes/index.html">Episodes</a>
                     <a class="unclickable">Ask</a>
-                    <a class="unclickable">About</a>
                 </div>
             </div>
         </div>
