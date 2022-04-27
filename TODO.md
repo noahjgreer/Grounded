@@ -1,6 +1,7 @@
 # Essentials
 - [ ] Get a Good Picture of Pastor Matt
 - [ ] Have Pastor Matt write a short about paragraph about himself.
+- [ ] 4 of his favorite theological resources.
 
 ## Important Blocks
 - [x] Redo Button Animation to make them less annoying
