@@ -6,12 +6,11 @@ var playbackBarContainer = document.querySelector('.playback-container');
 var playbackBar = document.querySelector('.playback');
 var pauseStatus = audio.paused;
 
-audio.addEventListener('timeupdate', updateProgress)
-audio.addEventListener('ended', endEvents)
-audio.addEventListener('pause', audioPaused)
-audio.addEventListener('play', audioPlay)
-playbackBarContainer.addEventListener('click', setProgress)
-
+audio.addEventListener('timeupdate', updateProgress);
+audio.addEventListener('ended', endEvents);
+audio.addEventListener('pause', audioPaused);
+audio.addEventListener('play', audioPlay);
+playbackBarContainer.addEventListener('mousedown', setProgress);
 
 function audioPlay(e) {
     playButton.style["background-image"] = "url(/assets/icons/pause.svg)"

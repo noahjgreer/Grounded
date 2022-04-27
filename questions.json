@@ -1,27 +1,8 @@
 {
     "questions": [{
-            "question": "Are we in the end times?",
-            "name": "Seth Greer",
-            "date": "4-14-2022",
-            "likeCount": 0
-        }, {
-            "question": "When will Hoon Han die?",
-            "date": "4-14-2022",
-            "likeCount": 579
-        },
-        {
-            "question": "What time is it?",
-            "name": "Abraham Lincoln",
-            "date": "4-11-2022",
-            "contact": "dreemaru@gmail.com",
-            "likeCount": 2
-        },
-        {
-            "question": "When can I go to the gym?",
-            "name": "Joesephine Biden",
-            "date": "3-29-2022",
-            "contact": "joebiden@gmail.com",
-            "likeCount": 894
-        }
-    ]
+        "question": "Are we in the end times?",
+        "name": "Seth Greer",
+        "date": "4-14-2022",
+        "likeCount": 0
+    }]
 }

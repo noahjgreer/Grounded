@@ -56,6 +56,7 @@ a {
   color: initial;
   font-size: 1.35rem;
   line-height: 2rem;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 35rem) {
@@ -1070,6 +1071,15 @@ button,
   }
 }
 
+a.unclickable {
+  color: lightgray;
+  cursor: not-allowed;
+}
+
+.button.unclickable {
+  cursor: not-allowed;
+}
+
 button,
 .button:hover {
   -webkit-filter: saturate(1.2);
@@ -1092,6 +1102,16 @@ button,
 .button:active {
   -webkit-filter: saturate(0.8);
           filter: saturate(0.8);
+}
+
+.button.unclickable:active {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.button.unclickable:hover {
+  -webkit-filter: none;
+          filter: none;
 }
 
 .bg-holder#bible-ocean {
@@ -1173,6 +1193,18 @@ button,
 .banner img,
 .banner div {
   margin-inline: 3.125%;
+}
+
+section#episodes {
+  padding-inline: 1.5625%;
+}
+
+section#episodes .cast {
+  gap: 0;
+}
+
+section#episodes .cast .button {
+  margin-block: 6.25%;
 }
 
 .banner#topic {

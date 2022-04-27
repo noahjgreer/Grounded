@@ -43,36 +43,19 @@ async function getEpisodes() {
         }
     }
 
-    for (var episodeIncrementFunct = 0; episodeIncrementFunct < cardDisplayCount + 1; episodeIncrementFunct++) {
-        if (episodeIncrementFunct == 0) {
-            var glideActiveItem = " glide__slide--active";
-        } else {
-            var glideActiveItem = "";
-        }
-        if (episodeIncrementFunct < cardDisplayCount) {
-            var episodeHolder = episodeHolder + `
-            <li class="glide__slide` + glideActiveItem + `" style="width: ` + 100 / (cardDisplayCount + 1) + `%">
-                <div class="cast bg-holder" style="background-image: url(${episodeJSONData.episodes[episodeIncrementFunct].background})">
+    console.log(episodeJSONData.episodes.length)
+
+    for (var episodeIncrementFunct = 0; episodeIncrementFunct < episodeJSONData.episodes.length; episodeIncrementFunct++) {
+        var episodeHolder = episodeHolder + `
+                <div class="cast" style="background-image: url(${episodeJSONData.episodes[episodeIncrementFunct].background})">
                     <div>
                         <h2>${episodeJSONData.episodes[episodeIncrementFunct].title}</h2>
                         <h3>` + timeDistanceCalc() + `</h3>
                     </div>` + visitTest() + `
-                </div>
-            </li>`
-        } else {
-            var episodeHolder = episodeHolder + `
-            <li class="glide__slide` + glideActiveItem + `" style="width: ` + 100 / (cardDisplayCount + 1) + `%">
-                <div class="cast bg-holder last">
-                    <div>
-                        <h2>View more on the Archive</h2>
-                    </div>
-                    <a class="button alt" href="/episodes/index.html">View</a>
-                </div>
-            </li>`
-        }
+                </div>`
     }
 
-    document.getElementById('episodes').innerHTML = episodeHolder;
+    document.getElementById('episodes main').innerHTML = episodeHolder;
 
 
     // document.getElementById('first').style.backgroundImage = `url(${episodeJSONData.episodes[0].background})`;

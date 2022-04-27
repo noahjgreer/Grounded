@@ -92,6 +92,7 @@ a {
     padding-inline: 0.25rem;
     flex: 1;
     @include text;
+    cursor: pointer;
 }
 
 html,
@@ -749,6 +750,15 @@ button,
     align-items: center;
 }
 
+a.unclickable {
+    color: lightgray;
+    cursor: not-allowed;
+}
+
+.button.unclickable {
+    cursor: not-allowed;
+}
+
 button,
 .button:hover {
     filter: saturate(1.2);
@@ -768,6 +778,14 @@ button,
 button,
 .button:active {
     filter: saturate(0.8);
+}
+
+.button.unclickable:active {
+    filter: none;
+}
+
+.button.unclickable:hover {
+    filter: none;
 }
 
 .bg-holder#bible-ocean {
@@ -825,6 +843,16 @@ button,
     img,
     div {
         margin-inline: 3.125%;
+    }
+}
+
+section#episodes {
+    padding-inline: 1.5625%;
+    .cast {
+        gap: 0;
+        .button {
+            margin-block: 6.25%;
+        }
     }
 }
 

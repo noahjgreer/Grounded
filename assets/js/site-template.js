@@ -8,9 +8,9 @@ document.getElementById("navbar").innerHTML = (`
         </div>
         <div id="pages">
             <a href="/index.html">Home</a>
-            <a href="/ask.html">Ask</a>
             <a href="/episodes/index.html">Episodes</a>
-            <a href="/about.html">About</a>
+            <a class="unclickable">Ask</a>
+            <a class="unclickable">About</a>
         </div>
         <div id="burger">
             <div id="line1"></div>
@@ -37,9 +37,9 @@ document.getElementById("footer").innerHTML = (`
                 <h3>Navigation</h3>
                 <div>
                     <a href="/index.html">Home</a>
-                    <a href="/ask.html">Ask</a>
                     <a href="/episodes/index.html">Episodes</a>
-                    <a href="/about.html">About</a>
+                    <a class="unclickable">Ask</a>
+                    <a class="unclickable">About</a>
                 </div>
             </div>
         </div>
