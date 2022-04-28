@@ -1143,6 +1143,10 @@ button,
   margin-inline: 3.125%;
 }
 
+.about h2 {
+  text-align: center;
+}
+
 .about div,
 .about img {
   border-radius: 1.25rem;

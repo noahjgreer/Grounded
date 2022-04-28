@@ -812,6 +812,9 @@ button,
 }
 
 .about {
+    h2 {
+        text-align: center
+    }
     div,
     img {
         @include radius();
