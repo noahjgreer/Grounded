@@ -16,7 +16,7 @@
         {
             "date": "Coming Soon",
             "title": "Meet Pastor Matt",
-            "background": "/assets/images/pastor-matt.jpg",
+            "background": "https://via.placeholder.com/300x400?text=Pastor+Matt",
             "viewLink": "/episodes/4-2022/meet-pastor-matt",
             "visitable": false
         }

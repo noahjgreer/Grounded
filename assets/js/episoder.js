@@ -51,7 +51,7 @@ async function getEpisodes() {
         }
         if (episodeIncrementFunct < cardDisplayCount) {
             var episodeHolder = episodeHolder + `
-            <li class="glide__slide` + glideActiveItem + `" style="width: ` + 100 / (cardDisplayCount + 1) + `%">
+            <li class="glide__slide` + glideActiveItem + `" style="width: ` + 99.75 / (cardDisplayCount + 1) + `%">
                 <div class="cast bg-holder" style="background-image: url(${episodeJSONData.episodes[episodeIncrementFunct].background})">
                     <div>
                         <h2>${episodeJSONData.episodes[episodeIncrementFunct].title}</h2>
@@ -61,7 +61,7 @@ async function getEpisodes() {
             </li>`
         } else {
             var episodeHolder = episodeHolder + `
-            <li class="glide__slide` + glideActiveItem + `" style="width: ` + 100 / (cardDisplayCount + 1) + `%">
+            <li class="glide__slide` + glideActiveItem + `" style="width: ` + 99.75 / (cardDisplayCount + 1) + `%">
                 <div class="cast bg-holder last">
                     <div>
                         <h2>View more on the Archive</h2>
