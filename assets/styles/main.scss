@@ -815,7 +815,7 @@ button,
     div,
     img {
         @include radius();
-        min-width: 15rem;
+        min-width: 10rem;
         width: 45%;
         margin-inline: 3.125%;
         flex: 1;

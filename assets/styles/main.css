@@ -1146,7 +1146,7 @@ button,
 .about div,
 .about img {
   border-radius: 1.25rem;
-  min-width: 15rem;
+  min-width: 10rem;
   width: 45%;
   margin-inline: 3.125%;
   -webkit-box-flex: 1;
