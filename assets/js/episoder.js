@@ -66,7 +66,7 @@ async function getEpisodes() {
                     <div>
                         <h2>View more on the Archive</h2>
                     </div>
-                    <a class="button alt" href="/episodes/index.html">View</a>
+                    <a class="button alt" href="/episodes/">View</a>
                 </div>
             </li>`
         }

@@ -2,13 +2,13 @@ console.log(`Web Design made from scratch by Noah J. Greer`)
 
 document.getElementById("navbar").innerHTML = (`
 <div id="logo">
-            <a href="/index.html">
+            <a href="/">
                 <img src="/assets/images/LongLogo.svg" alt="Grounded Logo">
             </a>
         </div>
         <div id="pages">
-            <a href="/index.html">Home</a>
-            <a href="/episodes/index.html">Episodes</a>
+            <a href="/">Home</a>
+            <a href="/episodes">Episodes</a>
             <a class="unclickable">Ask</a>
         </div>
         <div id="burger">
@@ -35,8 +35,8 @@ document.getElementById("footer").innerHTML = (`
             <div id="navigation">
                 <h3>Navigation</h3>
                 <div>
-                    <a href="/index.html">Home</a>
-                    <a href="/episodes/index.html">Episodes</a>
+                    <a href="/">Home</a>
+                    <a href="/episodes/">Episodes</a>
                     <a class="unclickable">Ask</a>
                 </div>
             </div>

@@ -6,7 +6,7 @@
 ## Important Blocks
 - [x] Redo Button Animation to make them less annoying
 - [x] Create an example for an episode/article page.
-- [ ] !! Give the about section on the index.html actual text, not lorem ipsum! 👀
+- [ ] !! Give the about section on the index, actual text, not lorem ipsum! 👀
 - [x] Make Episodes Page
 - [ ] Make About Page
 - [ ] Fix Footer (Make it appealing)
