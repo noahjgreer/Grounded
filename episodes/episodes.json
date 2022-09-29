@@ -1,0 +1,14 @@
+{
+    "episodes": [
+        {
+            "name": "Introduction",
+            "date": "9-29-2022",
+            "background": "/assets/images/episodes/Episode1.jpg",
+            "tag": "Interview",
+            "clickLink": "/episodes/interview/introduction.html",
+            "description": "Welcome to the Grounded Podcast. Today we meet Pastor Matt Round for the first time.",
+            "txtColor": "black",
+            "clickable": false
+        }
+    ]
+}
