@@ -173,6 +173,6 @@ footer #body div #pages li {
 
 .unclickable.button {
   background-color: #727272;
-  color: rgb(197, 197, 197);
+  box-shadow: none;
   pointer-events: none;
 }/*# sourceMappingURL=style.css.map */

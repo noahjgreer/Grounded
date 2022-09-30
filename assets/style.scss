@@ -213,7 +213,7 @@ footer {
 
 .unclickable.button {
     background-color: #727272;
-    color: rgb(197, 197, 197);
+    box-shadow: none;
     // user-select: none;
     pointer-events: none;
 }
