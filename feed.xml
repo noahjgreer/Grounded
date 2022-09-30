@@ -13,13 +13,28 @@
       <title>Grounded</title>
       <link>https://groundedwithmatt.com/</link>
       <url>https://groundedwithmatt.com/assets/images/RSSLogo.jpg</url>
-      <width>512</width>
-      <height>512</height>
+      <width>5333</width>
+      <height>5333</height>
     </image>
     <item>
-      <title>&lt;new&gt;</title>
-      <pubDate>Wed, 28 Sep 2022 17:37:08 -0700</pubDate>
-      <description><![CDATA[]]></description>
+      <title>Episode 1 - Introduction (Part 2)</title>
+      <pubDate>Thu, 29 Sep 2022 04:33:10 -0700</pubDate>
+      <link>https://groundedwithmatt.com/episodes/interview/introduction-p2</link>
+      <author>groundedwithmattround@gmail.com</author>
+      <comments>https://groundedwithmatt.com/episodes/interview/introduction-p2#comments</comments>
+      <category>Christianity</category>
+      <enclosure url="https://greerserver.ddns.net/grounded/listen/e1p2.wav" length="394189412" type="audio/x-wav" />
+      <description><![CDATA[Today we continue the interview with Pastor Matt Round that we started last episode.]]></description>
+    </item>
+    <item>
+      <title>Episode 1 - Introduction (Part 1)</title>
+      <pubDate>Thu, 29 Sep 2022 04:09:23 -0700</pubDate>
+      <link>https://groundedwithmatt.com/episodes/interview/introduction-p1</link>
+      <author>groundedwithmattround@gmail.com</author>
+      <comments>https://groundedwithmatt.com/episodes/interview/introduction-p1#comments</comments>
+      <category>Christianity</category>
+      <enclosure url="https://greerserver.ddns.net/grounded/listen/e1p1.wav" length="435212142" type="audio/x-wav" />
+      <description><![CDATA[Welcome to the Grounded Podcast. Today we meet Pastor Matt Round for the first time.]]></description>
     </item>
   </channel>
 </rss>
