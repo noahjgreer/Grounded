@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <generator>RSS Builder by B!Soft</generator>
     <title>Grounded</title>
     <link>https://groundedwithmatt.com/</link>
     <description>Join us as Pastor Matt Round gives important answers to difficult biblical questions.In the Grounded podcast, Pastor Matt Round will give important answers to challenging biblical questions and concepts while staying grounded in the truth of God's Word.</description>
@@ -9,6 +8,7 @@
     <managingEditor>noahjgreer@gmail.com</managingEditor>
     <webMaster>noahjgreer@gmail.com</webMaster>
     <copyright>Copyright 2022 - The Grounded Podcast</copyright>
+    <author>groundedwithmattround@gmail.com</author>
     <image>
       <title>Grounded</title>
       <link>https://groundedwithmatt.com/</link>
