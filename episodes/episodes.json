@@ -1,13 +1,13 @@
 {
     "episodes": [
         {
-            "name": "Introduction - Part 1",
-            "date": "9-29-2022",
-            "background": "/assets/images/episodes/Episode1.jpg",
-            "tag": "Interview",
-            "clickLink": "https://www.youtube.com/watch?v=QJMZa05FPRo",
-            "description": "Welcome to the Grounded Podcast. Today we meet Pastor Matt Round for the first time.",
-            "clickable": true
+            "name": "If jealousy is a sin, how can God be a jealous God?",
+            "date": "10-6-2022",
+            "background": "/assets/images/episodes/Image0.jpg",
+            "tag": "Who God Is",
+            "clickLink": "https://www.youtube.com/watch?v=L5V_rGbVR7o",
+            "description": "In this episode, we will tackle a question that arose from a reader as they were reading Exodus 20:5.",
+            "clickable": false
         },
         {
             "name": "Introduction - Part 2",
@@ -19,13 +19,13 @@
             "clickable": true
         },
         {
-            "name": "If jealousy is a sin, how can God be a jealous God?",
-            "date": "10-6-2022",
-            "background": "/assets/images/episodes/Image0.jpg",
-            "tag": "Who God Is",
-            "clickLink": "https://www.youtube.com/watch?v=L5V_rGbVR7o",
-            "description": "In this episode, we will tackle a question that arose from a reader as they were reading Exodus 20:5.",
-            "clickable": false
+            "name": "Introduction - Part 1",
+            "date": "9-29-2022",
+            "background": "/assets/images/episodes/Episode1.jpg",
+            "tag": "Interview",
+            "clickLink": "https://www.youtube.com/watch?v=QJMZa05FPRo",
+            "description": "Welcome to the Grounded Podcast. Today we meet Pastor Matt Round for the first time.",
+            "clickable": true
         }
     ]
 }

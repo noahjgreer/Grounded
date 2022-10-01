@@ -69,7 +69,7 @@ div.gallery {
   justify-content: center;
   flex-wrap: wrap;
   padding-inline: 7.5%;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 div.gallery .episode {
   border-radius: 1rem;
