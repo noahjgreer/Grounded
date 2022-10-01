@@ -170,10 +170,13 @@ footer {
             .socials {
                 display: flex;
                 flex-direction: row;
-                justify-content: space-evenly;
+                justify-content: center;
                 width: 100%;
+                flex-wrap: wrap;
                 a {
                     flex: 1;
+                    padding: $padding-light;
+                    min-width: 3rem;
                     max-height: 3rem;
                     max-width: 3rem;
                 }
@@ -197,6 +200,9 @@ footer {
                 }
             }
         }
+    }
+    #copyright {
+        margin-block: $padding-regular-block;
     }
 }
 

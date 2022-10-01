@@ -1,0 +1,80 @@
+{
+    "index": [
+        {
+            "displayName": "Home",
+            "destination": "/"
+        }
+    ],
+    "footer": {
+        "col2": [
+            {
+                "name": "Newsletter",
+                "type": "socials",
+                "elements": [
+                    {
+                        "altName": "The Grounded Podcast - Youtube",
+                        "destination": "https://www.youtube.com/channel/UCRVmMSvZfpuXiReda8MmCrg",
+                        "icon": "/assets/images/icons/youtube.svg"
+                    },
+                    {
+                        "altName": "The Grounded Podcast - Twitter",
+                        "destination": "https://twitter.com/GroundedMatt",
+                        "icon": "/assets/images/icons/twitter.svg"
+                    },
+                    {
+                        "altName": "Chapel City Church - Camarillo",
+                        "destination": "https://chapelcity.church/",
+                        "icon": "/assets/images/icons/chapelcityicon.svg"
+                    }
+                ]
+            },
+            {
+                "name": "Contact",
+                "type": "socials",
+                "elements": [
+                    {
+                        "altName": "Email Us",
+                        "destination": "mailto:groundedwithmattround@gmail.com",
+                        "icon": "/assets/images/icons/mail.png"
+                    }
+                ]
+            },
+            {
+                "name": "Listen",
+                "type": "socials",
+                "elements": [
+                    {
+                        "altName": "The Grounded Podcast - Youtube",
+                        "destination": "https://www.youtube.com/channel/UCRVmMSvZfpuXiReda8MmCrg",
+                        "icon": "/assets/images/icons/youtube.svg"
+                    },
+                    {
+                        "altName": "The Grounded Podcast - Spotify",
+                        "destination": "https://open.spotify.com/show/2AGB5qVXBus9Jwv0cMc3vZ",
+                        "icon": "/assets/images/icons/spotify.svg"
+                    },
+                    {
+                        "altName": "The Grounded Podcast - Apple Podcasts",
+                        "destination": "https://podcasts.apple.com/us/podcast/grounded/id1647718821",
+                        "icon": "/assets/images/icons/apple.svg"
+                    },
+                    {
+                        "altName": "The Grounded Podcast - Anchor.FM",
+                        "destination": "https://anchor.fm/noahjgreer",
+                        "icon": "/assets/images/icons/anchor.svg"
+                    },
+                    {
+                        "altName": "The Grounded Podcast - Podvine",
+                        "destination": "https://podvine.com/podcast/grounded-zPy-V1FCO__",
+                        "icon": "/assets/images/icons/podvine.svg"
+                    }
+                ]
+            }
+        ],
+        "col3": {
+            "name": "Navigation",
+            "type": "pages"
+        },
+        "copyright": "Copyright © 2022 - The Grounded Podcast"
+    }
+}

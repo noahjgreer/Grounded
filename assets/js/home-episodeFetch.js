@@ -31,7 +31,7 @@ async function modifyPage() {
                 <div class="body">            
                     <h2 style="color: ${curEpColor}">${curEpName}</h2>
                     <i style="color: ${curEpColor}">${curEpDate} • ${curEpTag}</i>
-                    <p style="color: ${curEpColor}">${curEpDesc}</p>
+                    <p>${curEpDesc}</p>
                     <a href="${curEpLink}" class="button ${curButtonStatus}" target="_blank">${curButtonText}</a>
                 </div>
             </div>

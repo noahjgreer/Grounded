@@ -133,11 +133,14 @@ footer #body div #logo {
 footer #body div .socials {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
+  flex-wrap: wrap;
 }
 footer #body div .socials a {
   flex: 1;
+  padding: 2.5%;
+  min-width: 3rem;
   max-height: 3rem;
   max-width: 3rem;
 }
@@ -158,6 +161,9 @@ footer #body div #pages {
 footer #body div #pages li {
   padding: 2.5%;
   list-style: none;
+}
+footer #copyright {
+  margin-block: 1rem;
 }
 
 .button {

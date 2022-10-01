@@ -7,7 +7,6 @@
             "tag": "Interview",
             "clickLink": "https://www.youtube.com/watch?v=QJMZa05FPRo",
             "description": "Welcome to the Grounded Podcast. Today we meet Pastor Matt Round for the first time.",
-            "txtColor": "black",
             "clickable": true
         },
         {
@@ -17,7 +16,6 @@
             "tag": "Interview",
             "clickLink": "https://www.youtube.com/watch?v=L5V_rGbVR7o",
             "description": "Today we continue the interview with Pastor Matt Round that we started last episode.",
-            "txtColor": "black",
             "clickable": true
         },
         {
@@ -27,7 +25,6 @@
             "tag": "Who God Is",
             "clickLink": "https://www.youtube.com/watch?v=L5V_rGbVR7o",
             "description": "In this episode, we will tackle a question that arose from a reader as they were reading Exodus 20:5.",
-            "txtColor": "black",
             "clickable": false
         }
     ]
