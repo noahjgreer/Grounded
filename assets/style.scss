@@ -11,8 +11,12 @@ $padding-light: 2.5%;
 $padding-light-inline: 2.5%;
 $padding-regular-block: 1rem; 
 $padding-medium-const: 1.5rem;
+$padding-ultramedium: 15%;
+$padding-ultramedium-const: 2.25rem;
 $padding-medium: 10%;
 $padding-regular: 5%;
+$padding-semiheavy: 20%;
+$padding-semiheavy-const: 4.5;
 $padding-heavy: 25%;
 $padding-heavy-const: 5rem;
 $padding-regular-const: 3rem;
@@ -21,6 +25,7 @@ $shadow-common: 0px 0px 32.5px 0px rgba(0, 0, 0, 0.15);
 $font-common: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $radius: 1rem;
 $radius-button: 100rem;
+$icon-size: 3rem;
 
 // Style
 html, body {
@@ -174,7 +179,20 @@ header {
 }
 
 article {
-    padding: $padding-heavy-const $padding-regular-inline;
+    padding: $padding-heavy-const $padding-semiheavy;
+    p {
+        text-indent: $padding-heavy-const;
+        line-height: $padding-ultramedium-const;
+        margin: 0px;
+    }
+    .speaker {
+        width: $icon-size;
+        border-radius: 100rem;
+        position: relative;
+        left: -4rem;
+        bottom: -3rem;
+        // left: $padding-ultramedium;
+    }
 }
 
 .audioplayer {

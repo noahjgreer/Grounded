@@ -131,7 +131,19 @@ header .listening-locations img {
 }
 
 article {
-  padding: 5rem 7.5%;
+  padding: 5rem 20%;
+}
+article p {
+  text-indent: 5rem;
+  line-height: 2.25rem;
+  margin: 0px;
+}
+article .speaker {
+  width: 3rem;
+  border-radius: 100rem;
+  position: relative;
+  left: -4rem;
+  bottom: -3rem;
 }
 
 .audioplayer {
