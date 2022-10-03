@@ -5,7 +5,7 @@
             "date": "10-6-2022",
             "background": "/assets/images/episodes/Image0.jpg",
             "tag": "Who God Is",
-            "clickLink": "https://www.youtube.com/watch?v=L5V_rGbVR7o",
+            "clickLink": " ",
             "description": "In this episode, we will tackle a question that arose from a reader as they were reading Exodus 20:5.",
             "clickable": false
         },
@@ -14,7 +14,7 @@
             "date": "9-29-2022",
             "background": "/assets/images/episodes/Episode1.jpg",
             "tag": "Interview",
-            "clickLink": "https://www.youtube.com/watch?v=L5V_rGbVR7o",
+            "clickLink": "/episodes/interview/introduction-p2.html",
             "description": "Today we continue the interview with Pastor Matt Round that we started last episode.",
             "clickable": true
         },
@@ -23,7 +23,7 @@
             "date": "9-29-2022",
             "background": "/assets/images/episodes/Episode1.jpg",
             "tag": "Interview",
-            "clickLink": "https://www.youtube.com/watch?v=QJMZa05FPRo",
+            "clickLink": "/episodes/interview/introduction-p1.html",
             "description": "Welcome to the Grounded Podcast. Today we meet Pastor Matt Round for the first time.",
             "clickable": true
         }

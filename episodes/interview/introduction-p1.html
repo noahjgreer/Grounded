@@ -49,76 +49,42 @@
     
 <body>
     <nav>
-        <a href="/">
-            <img src="/assets/images/LongLogo-v1.1.svg" id="logo" alt="The Grounded Logo">
-        </a>
-        <ul id="pages">
-            <li>
-                <a href="/">Home</a>
-            </li>
-            <!--<li>
-                <a href="/episodes/">Episodes</a>
-            </li>
-            <li>
-                <a href="/questions/">Questions</a>
-            </li>-->
-        </ul>
     </nav>
 
-    <header class="img">
-        <h1>Introduction</h1>
-        <h2>Episode 1</h2>
+    <header style="background-image: url(/assets/images/episodes/Episode1-BG.jpg)">
+        <h1 class="light">Introduction</h1>
+        <h2 class="light">Episode 1 - Part 1</h2>
+        <div class="audioplayer">
+            <audio class="audio" src="https://anchor.fm/s/bcfa45e4/podcast/play/58356095/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-30%2F07ed51a3-c9a8-794d-6f30-5af667dbdcd0.mp3"></audio>
+            <a class="play">
+                <img src="/assets/images/icons/Play2.svg" alt="Play/Pause">
+            </a>
+            <div class="scrub">
+                <div class="scrub-progress"></div>
+            </div>
+            <p class="timestamp">--:--/--:--</p>
+        </div>
+        <div class="listening-locations">
+            <a href="https://www.youtube.com/watch?v=QJMZa05FPRo" target="_blank">
+                <img src="/assets/images/icons/youtube.svg" alt="Listen to this Episode on Youtube" class="social">
+            </a>
+            <a href="https://open.spotify.com/episode/0cl9iVuvGFFIDnwyH69AIC?si=W5NlsPsQRLORkv36DDqlmw" target="_blank">
+                <img src="/assets/images/icons/spotify.svg" alt="Listen to this Episode on Spotify" class="social">
+            </a>
+            <a href="https://podcasts.apple.com/us/podcast/episode-1-introduction-part-1/id1647718821?i=1000581116071" target="_blank">
+                <img src="/assets/images/icons/apple.svg" alt="Listen to this Episode on Apple Podcasts" class="social">
+            </a>
+        </div>
     </header>
-
+    <article>
+        <h2>The transcript for this episode is being made,<br>Please check back in a little while.</h2>
+    </article>
     <section>
-        <audio controls>
-            <source src="https://greerserver.ddns.net/grounded/listen/e1p1.wav" type="audio/wav">
-        </audio>
+
     </section>
-    
     <footer>
-        <div id="body">
-            <div id="col1">
-                <img src="/assets/images/BigLogo-v1.2-white.svg" alt="The Grounded Logo" id="logo">
-            </div>
-            <div id="col2">
-                <h1>Newsletter</h1>
-                <div class="socials">
-                    <a href="https://www.youtube.com/channel/UCRVmMSvZfpuXiReda8MmCrg">
-                        <img src="/assets/images/icons/youtube.svg" alt="The Grounded Podcast - Youtube" class="social">
-                    </a>
-                    <a href="https://www.twitter.com/GroundedMatt">
-                        <img src="/assets/images/icons/twitter.svg" alt="The Grounded Podcast - Twitter" class="social">
-                    </a>
-                    <a href="https://chapelcity.church/">
-                        <img src="/assets/images/icons/chapelcityicon.svg" alt="Chapel City Church - Camarillo" class="social">
-                    </a>
-                </div>
-                <h1>Contact</h1>
-                <div class="socials">
-                    <a href="mailto:groundedwithmatt@gmail.com">
-                        <img src="/assets/images/icons/mail.png" alt="Email Us" class="social">
-                    </a>
-                </div>
-            </div>
-            <div id="col3">
-                <h1>Navigation</h1>
-                <ul id="pages">
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-                    <!--<li>
-                        <a href="/episodes/">Episodes</a>
-                    </li>
-                    <li>
-                        <a href="/questions/">Questions</a>
-                    </li>-->
-                </ul>
-            </div>
-        </div>
-        <div id="copyright">
-            <p>Copyright © 2022 - The Grounded Podcast</p>
-        </div>
     </footer>
 </body>
+<script src="/assets/js/nav-footer-fetch.js"></script>
+<script src="/assets/js/player.js"></script>
 </html>

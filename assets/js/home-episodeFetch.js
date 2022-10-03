@@ -32,7 +32,7 @@ async function modifyPage() {
                     <h2 style="color: ${curEpColor}">${curEpName}</h2>
                     <i style="color: ${curEpColor}">${curEpDate} • ${curEpTag}</i>
                     <p>${curEpDesc}</p>
-                    <a href="${curEpLink}" class="button ${curButtonStatus}" target="_blank">${curButtonText}</a>
+                    <a href="${curEpLink}" class="button ${curButtonStatus}">${curButtonText}</a>
                 </div>
             </div>
         `
