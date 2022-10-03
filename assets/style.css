@@ -149,6 +149,7 @@ article {
 }
 .audioplayer .play {
   width: 3rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   padding-block: 1rem;
