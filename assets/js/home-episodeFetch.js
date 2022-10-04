@@ -9,34 +9,15 @@ async function modifyPage() {
     for (let i = 0; i < episodesJSON.episodes.length; i++) {
         const element = episodesJSON.episodes[i];
 
-        // if (!episodesJSON.episodes[i].clickable) {
-        // } else {
-        // }
-
-        if (getReleaseDate(element.date) == "past" || getReleaseDate(element.date) == "present") {
-            var curButtonStatus = "";
-            var curButtonText = "Listen Now";
-
-            var episodeLineup = episodeLineup + `
-            <div class="episode">
-                <div class="bg" style="background-image: url(${element.background})"></div>
-                <div class="body">            
-                    <h2>${element.name}</h2>
-                    <i>${element.date} • ${element.tag}</i>
-                    <p>${element.description}</p>
-                    <a href="${element.clickLink}" class="button ${curButtonStatus}">${curButtonText}</a>
-                </div>
-            </div>
-        `
-        }
-
-        if (getReleaseDate(element.date) == "future") {
-            if (getReleaseDate(episodesJSON.episodes[i + 1].date) != "future") {
+         if (!episodesJSON.episodes[i].clickable) {
                 var curButtonStatus = "unclickable";
                 var curButtonText = "Coming Soon";
-                var filledFutureEpisode = true;
-    
-                var episodeLineup = episodeLineup + `
+         } else {
+            var curButtonStatus = "";
+            var curButtonText = "Listen Now";
+         }
+
+         var episodeLineup = episodeLineup + `
                 <div class="episode">
                     <div class="bg" style="background-image: url(${element.background})"></div>
                     <div class="body">            
@@ -46,8 +27,42 @@ async function modifyPage() {
                         <a href="${element.clickLink}" class="button ${curButtonStatus}">${curButtonText}</a>
                     </div>
                 </div>`
-            }
-        }
+
+        // if (getReleaseDate(element.date) == "past" || getReleaseDate(element.date) == "present") {
+        //     var curButtonStatus = "";
+        //     var curButtonText = "Listen Now";
+
+        //     var episodeLineup = episodeLineup + `
+        //     <div class="episode">
+        //         <div class="bg" style="background-image: url(${element.background})"></div>
+        //         <div class="body">            
+        //             <h2>${element.name}</h2>
+        //             <i>${element.date} • ${element.tag}</i>
+        //             <p>${element.description}</p>
+        //             <a href="${element.clickLink}" class="button ${curButtonStatus}">${curButtonText}</a>
+        //         </div>
+        //     </div>
+        // `
+        // }
+
+        // if (getReleaseDate(element.date) == "future") {
+        //     if (getReleaseDate(episodesJSON.episodes[i + 1].date) != "future") {
+        //         var curButtonStatus = "unclickable";
+        //         var curButtonText = "Coming Soon";
+        //         var filledFutureEpisode = true;
+    
+        //         var episodeLineup = episodeLineup + `
+        //         <div class="episode">
+        //             <div class="bg" style="background-image: url(${element.background})"></div>
+        //             <div class="body">            
+        //                 <h2>${element.name}</h2>
+        //                 <i>${element.date} • ${element.tag}</i>
+        //                 <p>${element.description}</p>
+        //                 <a href="${element.clickLink}" class="button ${curButtonStatus}">${curButtonText}</a>
+        //             </div>
+        //         </div>`
+        //     }
+        // }
     }
     document.getElementById("episode-gallery").innerHTML = episodeLineup;
 }
