@@ -1,0 +1,28 @@
+{
+  "sitemap.xml": {
+    "Protocol": "https",
+    "DomainName": "groundedwithmatt.com",
+    "Root": "./",
+    "IncludeExt": [
+      ".html",
+      ".php"
+    ],
+    "Exclude": [
+      "assets/images/favicons/html_code.html",
+      "assets/basis.html",
+      "episodes/index.html",
+      "questions/index.html"
+    ],
+    "TagsToInclude": [
+      "priority",
+      "lastmod"
+    ],
+    "DefaultChangeFrequency": "monthly",
+    "TabCharacters": "\t",
+    "bIncludeWWW": true,
+    "bRemoveFileExtentions": false,
+    "bUseTrailingSlash": false,
+    "bAutomaticallyUpdateSitemap": true,
+    "bMinimized": false
+  }
+}
