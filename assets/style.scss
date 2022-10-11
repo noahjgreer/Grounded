@@ -5,6 +5,7 @@ $color-secondary: #fff;
 $color-tertiary: #918F8F;
 $color-accent: #DE3F28;
 /// Spacing
+$padding-ultralight: 1.25%;
 $padding-ultralight-block: 0.5rem;
 $padding-regular-inline: 7.5%;
 $padding-light: 2.5%;
@@ -125,7 +126,7 @@ div.gallery {
     //         text-align: left;
     //     }
     // }
-    .episode {
+    .episode, .question {
         border-radius: $radius;
         aspect-ratio: 3/4;
         width: 20%;
@@ -156,6 +157,33 @@ div.gallery {
         }
         display: flex;
         flex-direction: column;
+        .like {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                height: 2rem;
+                width: 2rem;
+                cursor: pointer;
+            }
+            .like-counter {
+                margin: 0px;
+            }
+        }
+    }
+    .question {
+        aspect-ratio: unset;
+        padding: $padding-medium-const;
+        .body {
+            justify-content: flex-start;
+            padding: 0;
+        }
+        .interactions {
+            display: flex;
+            max-height: 3.5rem;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
 }
 

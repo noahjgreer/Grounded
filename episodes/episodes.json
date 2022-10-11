@@ -1,8 +1,17 @@
 {
     "episodes": [
         {
+            "name": "If Adam and Eve were initially made perfect and sinned, what will keep us from sinning in heaven?",
+            "date": "10-21-2022",
+            "background": "/assets/images/episodes/Image1.jpg",
+            "tag": "God's Plan",
+            "clickLink": "/episodes/living-faithfully/is-it-sinful-to-wake-up-and-start-the-day-without-spending-time-in-prayer-and-in-gods-word",
+            "description": "Today we will return to the Bible and discover what makes heaven different from the sinless beginning of Creation.",
+            "clickable": false
+        },
+        {
             "name": "Is it sinful to wake up and start the day without spending time in prayer and in God's Word?",
-            "date": "10-13-2022",
+            "date": "10-14-2022",
             "background": "/assets/images/episodes/Image2.jpg",
             "tag": "Living Faithfully",
             "clickLink": "/episodes/living-faithfully/is-it-sinful-to-wake-up-and-start-the-day-without-spending-time-in-prayer-and-in-gods-word",

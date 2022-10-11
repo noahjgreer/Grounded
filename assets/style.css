@@ -78,7 +78,7 @@ div.gallery {
   padding-inline: 7.5%;
   flex-direction: row;
 }
-div.gallery .episode {
+div.gallery .episode, div.gallery .question {
   border-radius: 1rem;
   aspect-ratio: 3/4;
   width: 20%;
@@ -90,7 +90,7 @@ div.gallery .episode {
   display: flex;
   flex-direction: column;
 }
-div.gallery .episode .bg {
+div.gallery .episode .bg, div.gallery .question .bg {
   width: 100%;
   aspect-ratio: 5/2;
   background-color: #727272;
@@ -99,7 +99,7 @@ div.gallery .episode .bg {
   background-position: center;
   background-size: cover;
 }
-div.gallery .episode .body {
+div.gallery .episode .body, div.gallery .question .body {
   padding: 1.5rem;
   flex: 1;
   display: flex;
@@ -107,8 +107,35 @@ div.gallery .episode .body {
   align-items: flex-start;
   justify-content: space-evenly;
 }
-div.gallery .episode .body h2 {
+div.gallery .episode .body h2, div.gallery .question .body h2 {
   text-align: left;
+}
+div.gallery .episode .like, div.gallery .question .like {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.gallery .episode .like img, div.gallery .question .like img {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+div.gallery .episode .like .like-counter, div.gallery .question .like .like-counter {
+  margin: 0px;
+}
+div.gallery .question {
+  aspect-ratio: unset;
+  padding: 1.5rem;
+}
+div.gallery .question .body {
+  justify-content: flex-start;
+  padding: 0;
+}
+div.gallery .question .interactions {
+  display: flex;
+  max-height: 3.5rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header {
