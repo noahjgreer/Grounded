@@ -61,7 +61,6 @@ async function modifyPage() {
             if (getReleaseDate(episodesJSON.episodes[i + 1].date) != "future") {
                 var curButtonStatus = "unclickable";
                 var curButtonText = "Coming Soon";
-                var filledFutureEpisode = true;
                 
                 debugLine.innerHTML = debugLine.innerHTML + " Future";
     
@@ -150,6 +149,9 @@ function getCurrentDate() {
         DD = "0" + new String(new Date().getDate() + 1);
     } else {
         DD = new Date().getDate() + 1;
+    }
+    if (new Number(DD) >= 32) {
+        DD = 31;
     }
 
     return YYYY + "-" + MM + "-" + DD;
