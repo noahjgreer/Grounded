@@ -11,7 +11,8 @@
       "assets/images/favicons/html_code.html",
       "assets/basis.html",
       "episodes/index.html",
-      "questions/index.html"
+      "questions/index.html",
+      "episodes/template.html"
     ],
     "TagsToInclude": [
       "priority",
