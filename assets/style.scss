@@ -225,6 +225,11 @@ article {
         bottom: -3rem;
         // left: $padding-ultramedium;
     }
+    .interactions {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 .audioplayer {
@@ -340,6 +345,7 @@ footer {
     border-radius: $radius-button;
     box-shadow: $shadow-common;
     margin-block: $padding-regular-block;
+    text-align: center;
 }
 
 .unclickable.button {
@@ -359,6 +365,16 @@ footer {
     header {
         .listening-locations {
             justify-content: center
+        }
+    }
+    article {
+        padding-inline: $padding-medium;
+        .speaker {
+            left: -0.5rem;
+            transform: scale(0.75);
+        }
+        p {
+            text-indent: $padding-semiheavy-const;
         }
     }
 }

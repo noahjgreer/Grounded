@@ -176,6 +176,11 @@ article .speaker {
   left: -4rem;
   bottom: -3rem;
 }
+article .interactions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
 
 .audioplayer {
   display: flex;
@@ -294,6 +299,7 @@ footer #copyright {
   border-radius: 100rem;
   box-shadow: 0px 0px 32.5px 0px rgba(0, 0, 0, 0.15);
   margin-block: 1rem;
+  text-align: center;
 }
 
 .unclickable.button {
@@ -308,5 +314,15 @@ footer #copyright {
   }
   header .listening-locations {
     justify-content: center;
+  }
+  article {
+    padding-inline: 10%;
+  }
+  article .speaker {
+    left: -0.5rem;
+    transform: scale(0.75);
+  }
+  article p {
+    text-indent: 4.5;
   }
 }/*# sourceMappingURL=style.css.map */
