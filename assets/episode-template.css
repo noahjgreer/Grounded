@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-size: 6.5vmin;
+  font-size: 8.25vmin;
   font-weight: 600;
 }
 
@@ -29,7 +29,7 @@ h2 {
   position: absolute;
   width: 100%;
   transform: scale(1.15) translateX(0px);
-  filter: brightness(0.85);
+  filter: brightness(0.75);
   z-index: -99;
 }
 

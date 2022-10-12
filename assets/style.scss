@@ -195,7 +195,7 @@ header {
     background-position: center;
     background-size: cover;
     h1, h2 {
-        margin: 0px;
+        margin: 0px $padding-semiheavy;
     }
     .listening-locations {
         display: flex;
