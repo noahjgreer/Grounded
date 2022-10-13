@@ -31,7 +31,13 @@ function setNav() {
         <img src="/assets/images/LongLogo-v1.1.svg" id="logo" alt="The Grounded Logo">
     </a>
     <ul id="pages">
-    ` + navHTML + `</ul>`
+    ` + navHTML + `</ul>` + `
+    <div id="burger">
+        <div id="burger1"></div>
+        <div id="burger2"></div>
+        <div id="burger3"></div>
+    </div>
+    `;
 }
 
 function setFooter() {
