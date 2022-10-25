@@ -1,6 +1,15 @@
 {
     "episodes": [
         {
+            "name": "What is the Gospel and Salvation?",
+            "date": "11-4-2022",
+            "background": "/assets/images/episodes/Cross0-Cropped.png",
+            "tag": "Salvation",
+            "clickLink": "/episodes/salvation/what-is-the-gospel-and-salvation",
+            "description": "The fundamentals of the Christian faith are found in the gospel. Today we will answer and cover the most important question about what the gospel and salvation mean.",
+            "clickable": false
+        },
+        {
             "name": "How do I know if I'm saved?",
             "date": "10-28-2022",
             "background": "/assets/images/episodes/Image4.jpg",
