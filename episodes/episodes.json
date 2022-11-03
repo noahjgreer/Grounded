@@ -1,12 +1,21 @@
 {
     "episodes": [
         {
-            "name": "What is the Gospel and Salvation?",
-            "date": "11-4-2022",
+            "name": "What are the Gospel and Salvation?",
+            "date": "11-11-2022",
             "background": "/assets/images/episodes/Cross0-Cropped.png",
             "tag": "Salvation",
             "clickLink": "/episodes/salvation/what-is-the-gospel-and-salvation",
             "description": "The fundamentals of the Christian faith are found in the gospel. Today we will answer and cover the most important question about what the gospel and salvation mean.",
+            "clickable": false
+        },
+        {
+            "name": "What does it mean to follow Christ?",
+            "date": "11-4-2022",
+            "background": "/assets/images/episodes/Image6.png",
+            "tag": "Salvation",
+            "clickLink": "/episodes/salvation/what-does-it-mean-to-follow-christ",
+            "description": "Today we will tackle what it means to die to ourselves, pick up our cross, seek after Christ, and the reward that comes from doing so.",
             "clickable": false
         },
         {

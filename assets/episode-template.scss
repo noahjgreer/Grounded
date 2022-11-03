@@ -20,7 +20,7 @@ h1 {
 
     // SQUARE SIZE
     
-    font-size: 12.5vmin;
+    font-size: 12.25vmin;
 
     // ---------------------------
 
@@ -64,7 +64,7 @@ h2 {
 .background-img {
     position: absolute;
     width: 100%;
-    transform: scale(1.15) translateY(5%) translateX(-3.5%);
+    transform: scale(1.15) translateY(-20%) translateX(-5%);
     filter: brightness(0.75);
     z-index: -99;
 }
