@@ -1,6 +1,15 @@
 {
     "episodes": [
         {
+            "name": "If God is Good, then why do people go to Hell?",
+            "date": "11-18-2022",
+            "background": "/assets/images/episodes/Fire0-Cropped.png",
+            "tag": "God's Plan",
+            "clickLink": "/episodes/gods-plan/if-god-is-good-then-why-do-people-go-to-hell",
+            "description": "Today Pastor Matt will explain the position of our souls relative to God's perfection, and what that means for us.",
+            "clickable": false
+        },
+        {
             "name": "What is the Gospel and Salvation?",
             "date": "11-11-2022",
             "background": "/assets/images/episodes/Cross0-Cropped.png",

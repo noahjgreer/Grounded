@@ -17,9 +17,9 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 12.25vmin;
-  font-size: 13vmin;
-  font-size: 15.5vmin;
+  font-size: 10.35vmin;
+  font-size: 12.5vmin;
+  font-size: 12.5vmin;
 }
 
 h2 {
@@ -32,7 +32,7 @@ h2 {
 .background-img {
   position: absolute;
   width: 100%;
-  transform: scale(1.15) translateY(-20%) translateX(-5%);
+  transform: scale(1.15) translateY(0%) translateX(0%);
   filter: brightness(0.75);
   z-index: -99;
 }
