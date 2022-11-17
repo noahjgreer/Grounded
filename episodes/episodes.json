@@ -1,11 +1,20 @@
 {
     "episodes": [
         {
+            "name": "How can a Christian overcome addiction?",
+            "date": "11-25-2022",
+            "background": "/assets/images/episodes/Addiction-Cropped.png",
+            "tag": "Sin",
+            "clickLink": "/episodes/sin/how-can-a-christian-overcome-addiction.html",
+            "description": "In this episode, Pastor Matt will work through the truth about addiction and how we can escape it by depending on Christ.",
+            "clickable": false
+        },
+        {
             "name": "If God is Good, then why do people go to Hell?",
             "date": "11-18-2022",
             "background": "/assets/images/episodes/Fire0-Cropped.png",
             "tag": "God's Plan",
-            "clickLink": "/episodes/gods-plan/if-god-is-good-then-why-do-people-go-to-hell",
+            "clickLink": "/episodes/gods-plan/if-god-is-good-then-why-do-people-go-to-hell.html",
             "description": "Today Pastor Matt will explain the position of our souls relative to God's perfection, and what that means for us.",
             "clickable": false
         },
@@ -14,7 +23,7 @@
             "date": "11-11-2022",
             "background": "/assets/images/episodes/Cross0-Cropped.png",
             "tag": "Salvation",
-            "clickLink": "/episodes/salvation/what-is-the-gospel-and-salvation",
+            "clickLink": "/episodes/salvation/what-is-the-gospel-and-salvation.html",
             "description": "The fundamentals of the Christian faith are found in the gospel. Today we will answer and cover the most important question about what the gospel and salvation mean.",
             "clickable": false
         },
@@ -23,7 +32,7 @@
             "date": "11-4-2022",
             "background": "/assets/images/episodes/Image6.png",
             "tag": "Salvation",
-            "clickLink": "/episodes/salvation/what-does-it-mean-to-follow-christ",
+            "clickLink": "/episodes/salvation/what-does-it-mean-to-follow-christ.html",
             "description": "Today we will tackle what it means to die to ourselves, pick up our cross, seek after Christ, and the reward that comes from doing so.",
             "clickable": false
         },
@@ -32,7 +41,7 @@
             "date": "10-28-2022",
             "background": "/assets/images/episodes/Image4.jpg",
             "tag": "Salvation",
-            "clickLink": "/episodes/salvation/how-do-i-know-if-im-saved",
+            "clickLink": "/episodes/salvation/how-do-i-know-if-im-saved.html",
             "description": "This question has worried every Christian at least once in their lives. We will turn to God's Word and see what He reveals to us about our faith and what He has done on the cross.",
             "clickable": false
         },
@@ -41,7 +50,7 @@
             "date": "10-21-2022",
             "background": "/assets/images/episodes/Image3.jpg",
             "tag": "Sin",
-            "clickLink": "/episodes/sin/are-all-sins-equal",
+            "clickLink": "/episodes/sin/are-all-sins-equal.html",
             "description": "In this episode we turn to God's Word and see what He says about the weight of sin, it's consequences, and it's impact on a Christian life. We also discuss the only source of salvation and freedom from sin, Jesus Christ.",
             "clickable": false
         },
@@ -50,7 +59,7 @@
             "date": "10-14-2022",
             "background": "/assets/images/episodes/Image2.jpg",
             "tag": "Living Faithfully",
-            "clickLink": "/episodes/living-faithfully/is-it-sinful-to-wake-up-and-start-the-day-without-spending-time-in-prayer-and-in-gods-word",
+            "clickLink": "/episodes/living-faithfully/is-it-sinful-to-wake-up-and-start-the-day-without-spending-time-in-prayer-and-in-gods-word.html",
             "description": "The answer to a simple question can affect how we live our lives. Today we find out if a Christian is commanded to spend time with God each morning.",
             "clickable": false
         },
@@ -59,7 +68,7 @@
             "date": "10-6-2022",
             "background": "/assets/images/episodes/Image5.png",
             "tag": "Who God Is",
-            "clickLink": "/episodes/who-god-is/if-jealousy-is-a-sin-how-can-god-be-a-jealous-god",
+            "clickLink": "/episodes/who-god-is/if-jealousy-is-a-sin-how-can-god-be-a-jealous-god.html",
             "description": "In this episode, we will tackle a question that arose from a reader as they were reading Exodus 20:5.",
             "clickable": true
         },
@@ -68,7 +77,7 @@
             "date": "9-29-2022",
             "background": "/assets/images/episodes/Episode1.jpg",
             "tag": "Interview",
-            "clickLink": "/episodes/interview/introduction-p2",
+            "clickLink": "/episodes/interview/introduction-p2.html",
             "description": "Today we continue the interview with Pastor Matt Round that we started last episode.",
             "clickable": true
         },
@@ -77,7 +86,7 @@
             "date": "9-29-2022",
             "background": "/assets/images/episodes/Episode1.jpg",
             "tag": "Interview",
-            "clickLink": "/episodes/interview/introduction-p1",
+            "clickLink": "/episodes/interview/introduction-p1.html",
             "description": "Welcome to the Grounded Podcast. Today we meet Pastor Matt Round for the first time.",
             "clickable": true
         }
