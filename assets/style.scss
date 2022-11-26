@@ -227,6 +227,7 @@ header {
         // width: 6rem;
         img {
             width: 3rem;
+            height: 3rem;
             aspect-ratio: 1/1;
             border-radius: 100rem;
             margin-left: -1rem;
@@ -269,9 +270,9 @@ header {
         justify-content: space-between;
         column-gap: $padding-regular-const;
     }
-    .listen {
-        // margin-inline: $padding-regular-inline;
-    }
+    // .listen {
+    //     // margin-inline: $padding-regular-inline;
+    // }
     .locations {
         display: flex;
         justify-content: flex-end;
@@ -514,5 +515,70 @@ footer {
             left: -0.5rem;
             transform: scale(0.75);
         }
+    }
+}
+
+@media print {
+    body, html {
+        // margin-block: $padding-heavy-const;
+        overflow: visible;
+        display: block;
+    }
+    nav {
+        justify-content: center;
+        box-shadow: none;
+        #pages {
+            display: none;
+        }
+    }
+    header {
+        padding-block: $padding-light-block;
+    }
+    article {
+        overflow: visible;
+        display: block;
+            // page-break-before: always;
+        h1 {
+            margin-top: 0px;
+        }
+        h1, h2, h3, p, i, b {
+            // page-break-before: auto;
+            // page-break-inside: avoid;
+            
+            // page-break-after: avoid;
+            // break-inside: avoid;
+        }
+    }
+    .button {
+        display: none;
+    }
+    footer {
+        // position: absolute;
+        // display: block;
+        // // height: 2rem;
+        // width: 100%;
+        // bottom: 0px;
+        // padding: 0px;
+        color: $color-tertiary;
+        background-color: transparent;
+        #body {
+            display: none;
+        }
+        div, p {
+            margin: 0px;
+        }
+    }
+    header, article {
+        padding-inline: $padding-light-inline;
+        .left {
+            width: 75%;
+            flex: unset;
+        }
+        .right {
+            display: none;
+        }
+    }
+    .audioplayer {
+        display: none;
     }
 }
