@@ -2,11 +2,29 @@
     "episodes": [
         {
             "name": "How do you prove that the Bible is true?",
-            "date": "12-2-2022",
+            "date": "12-16-2022",
             "background": "/assets/images/episodes/Outreach1.png",
             "tag": "Outreach",
             "clickLink": "/episodes/outreach/how-do-you-prove-that-the-bible-is-true.html",
             "description": "Today we will work through how we can prove the <i>truth</i> of the gospel to an agnostic unbeliever.",
+            "clickable": false
+        },
+        {
+            "name": "If God is real, why won't He reveal Himself?",
+            "date": "12-9-2022",
+            "background": "/assets/images/episodes/Apple0.jpg",
+            "tag": "Who God Is",
+            "clickLink": "/episodes/who-god-is/if-god-is-real-why-wont-he-reveal-himself.html",
+            "description": "A common question asked by both believers and non-believers alike. Today we will turn to scripture and bring a conclusion to this question.",
+            "clickable": false
+        },
+        {
+            "name": "What is the meaning of life?",
+            "date": "12-2-2022",
+            "background": "/assets/images/episodes/Living0-Cropped.jpg",
+            "tag": "Living Faithfully",
+            "clickLink": "/episodes/living-faithfully/what-is-the-meaning-of-life.html",
+            "description": "The meaning of life is a question that most people ponder about often. God's Word gives us a clear and concise answer.",
             "clickable": false
         },
         {
