@@ -299,8 +299,8 @@ article .interactions {
   text-align: left;
   margin: 0px;
 }
-.audioplayer .mid h2 {
-  line-height: 1.325rem;
+.audioplayer .mid p {
+  line-height: 2.25rem;
 }
 .audioplayer .scrub {
   margin-block: 0.8rem;
