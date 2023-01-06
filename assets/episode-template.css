@@ -19,21 +19,21 @@ h1, h2 {
 h1 {
   font-size: 11vmin;
   font-size: 13vmin;
-  font-size: 13vmin;
+  font-size: 14vmin;
 }
 
 h2 {
   font-size: 7.5vmin;
   font-size: 9vmin;
-  font-size: 9vmin;
+  font-size: 10.5vmin;
   font-weight: 600;
 }
 
 .background-img {
   position: absolute;
   width: 100%;
-  transform: scale(1.15) translateY(-10%) translateX(2.5%);
-  filter: brightness(1) saturate(1.25);
+  transform: scale(1.15) translateY(5%) translateX(-5%);
+  filter: brightness(0.8) saturate(1.25);
   z-index: -99;
 }
 

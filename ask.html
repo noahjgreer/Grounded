@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Developer Definitions -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/assets/style.css">
+    <!-- Search Engine Optimization -->
+    <title>Grounded - Important Questions, Important Answers</title>
+    <meta name="description" content="Find solid biblical answers to crucial questions that we face today in our world. Unravel, discover, and meditate on the explanations the Bible shows us with Pastor Matt Round.">
+    <link rel="home" href="https://groundedwithmatt.com/">
+    <link rel="canonical" href="https://groundedwithmatt.com/">
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png?v=2.1">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png?v=2.1">
+    <link rel="icon" type="image/png" sizes="194x194" href="/assets/images/favicons/favicon-194x194.png?v=2.1">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/android-chrome-192x192.png?v=2.1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png?v=2.1">
+    <link rel="manifest" href="/assets/images/favicons/site.webmanifest?v=2.1">
+    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg?v=2.1" color="#DE3F28">
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico?v=2.1">
+    <meta name="apple-mobile-web-app-title" content="Grounded">
+    <meta name="application-name" content="Grounded">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-144x144.png?v=2.1">
+    <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml?v=2.1">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Open Graph -->
+    <meta property="og:url" content="https://groundedwithmatt.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Grounded">
+    <meta property="og:image" content="/assets/opengraph/index.png">
+    <meta property="og:image:width" content="1000">
+    <meta property="og:image:height" content="700">
+    <meta property="og:description" content="Find solid biblical answers to crucial questions that we face today in our world. Unravel, discover, and meditate on the explanations the Bible shows us with Pastor Matt Round.">
+    <meta property="og:site_name" content="Grounded">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_US">
+    <!-- Twitter Open Graph-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@GroundedMatt">
+    <meta name="twitter:url" content="https://groundedwithmatt.com/">
+    <meta name="twitter:title" content="Grounded">
+    <meta name="twitter:description" content="Find solid biblical answers to crucial questions that we face today in our world. Unravel, discover, and meditate on the explanations the Bible shows us with Pastor Matt Round.">
+    <meta name="twitter:image" content="/assets/opengraph/index.png">
+</head>
+    
+<body>
+    <nav>
+    </nav>
+    <section id="questions">
+        <!-- <h1>Questions</h1> -->
+
+        <div class="question-ask" id="question-ask">
+            <h2>Ask a Question</h2>
+            <div class="form">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="text" name="email" id="email" placeholder="Email">
+                <textarea name="question" id="question" cols="30" rows="10" placeholder="Question" required></textarea>
+            </div>
+            <p class="hidden" id="status">Your question has been submitted!</p>
+            <input id="submit" type="submit" value="Submit Question" class="" onclick="sendFetch()">
+        </div>
+    </section>
+    <p id="debugLine" class="hidden"></p>
+    <footer>
+    </footer>
+</body>
+    <script src="/assets/js/nav-footer-fetch.js"></script>
+<script>
+    function sendFetch() {
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('question').value;
+        const status = document.getElementById('status').classList;
+        const submit = document.getElementById('submit').classList;
+
+        status.toggle('hidden');
+        submit.toggle("unclickable");
+
+        const data = { name, email, message };
+        const options = {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data)
+        }
+        fetch('http://47.144.57.203:3000/api', options);
+        document.getElementById('name').value = "";
+        document.getElementById('email').value = "";
+        document.getElementById('question').value = "";
+    }
+</script>
+</html>
