@@ -1,6 +1,15 @@
 {
     "episodes": [
         {
+            "name": "Should a Christian celebrate Christmas?",
+            "date": "1-13-2023",
+            "background": "/assets/images/episodes/Christmas0.png",
+            "tag": "Living Faithfully",
+            "clickLink": "/episodes/living-faithfully/should-a-christian-celebrate-christmas.html",
+            "description": "In today's episode, we will turn to God's Word and come to a conclusion on whether or not a Christian should participate in the Christmas of today's world.",
+            "clickable": false
+        },
+        {
             "name": "How do you prove that the Bible is true?",
             "date": "1-6-2023",
             "background": "/assets/images/episodes/Outreach1.png",
