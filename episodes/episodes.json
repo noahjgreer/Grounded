@@ -1,12 +1,21 @@
 {
     "episodes": [
         {
+            "name": "How should a Christian approach an unequally yolked wedding?",
+            "date": "1-20-2023",
+            "background": "/assets/images/episodes/Wedding1.jpg",
+            "tag": "Living Faithfully",
+            "clickLink": "/episodes/living-faithfully/how-should-a-christian-approach-an-unequally-yolked-wedding.html",
+            "description": "What is our obligation as believers in response to unequally yolked weddings? Should we decline attendance altogether? To answer these questions, Pastor Matt will turn to God's Word and unveil what God has shown us.",
+            "clickable": false
+        },
+        {
             "name": "Should a Christian celebrate Christmas?",
             "date": "1-13-2023",
             "background": "/assets/images/episodes/Christmas0.png",
             "tag": "Living Faithfully",
             "clickLink": "/episodes/living-faithfully/should-a-christian-celebrate-christmas.html",
-            "description": "In today's episode, we will turn to God's Word and come to a conclusion on whether or not a Christian should participate in the Christmas of today's world.",
+            "description": "In today's episode, we will look back on history to discover the origins of the Christmas celebration and turn to God's Word to conclude whether or not a Christian should participate in the Christmas of today's world.",
             "clickable": false
         },
         {
