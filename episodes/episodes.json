@@ -1,6 +1,24 @@
 {
     "episodes": [
         {
+            "name": "How can I deny myself, and carry my cross?",
+            "date": "2-10-2023",
+            "background": "",
+            "tag": "Living Faithfully",
+            "clickLink": "/episodes/living-faithfully/how-can-i-deny-myself-and-carry-my-cross.html",
+            "description": "",
+            "clickable": false
+        },
+        {
+            "name": "How should we pray?",
+            "date": "2-3-2023",
+            "background": "/assets/images/episodes/Prayer1-Cropped.jpg",
+            "tag": "Living Faithfully",
+            "clickLink": "/episodes/living-faithfully/how-should-we-pray.html",
+            "description": "In response to last week's episode, today we will again turn to scripture to unpack how we should pray from Jesus's teachings. We will go in-depth on what the Lord's Prayer means in Matthew 6 and how it can be applied in our prayer life.",
+            "clickable": false
+        },
+        {
             "name": "Why don't my prayers get answered?",
             "date": "1-27-2023",
             "background": "/assets/images/episodes/Prayer0.jpg",
