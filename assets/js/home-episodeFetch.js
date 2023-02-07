@@ -2,7 +2,7 @@ var episodesJSON;
 var currentDate = getCurrentDate();
 var debugLine = document.getElementById('debugLine');
 debugLine.innerHTML = "init";
-console.log(debugLine);
+// console.log(debugLine);
 
 async function modifyPage() {
     resp = await fetch("/episodes/episodes.json");
@@ -42,11 +42,20 @@ async function modifyPage() {
             var curButtonStatus = "";
             var curButtonText = "Listen Now";
 
+            // Missing Background
+            var curBackground;
+
+            if (element.background == "") {
+                curBackground = "/assets/images/episodes/MissingImage.png";
+            } else {
+                curBackground = element.background;
+            }
+
             debugLine.innerHTML = debugLine.innerHTML + " Existing";
 
             var episodeLineup = episodeLineup + `
             <div class="episode">
-                <div class="bg" style="background-image: url(${element.background})"></div>
+                <div class="bg" style="background-image: url(${curBackground})"></div>
                 <div class="body">            
                     <h2>${element.name}</h2>
                     <i>${element.date} • ${element.tag}</i>
@@ -63,10 +72,20 @@ async function modifyPage() {
                 var curButtonText = "Coming Soon";
                 
                 debugLine.innerHTML = debugLine.innerHTML + " Future";
-    
+                
+                // Missing Background
+                var curBackground;
+
+                if (element.background == "") {
+                    curBackground = "/assets/images/episodes/MissingImage.png";
+                } else {
+                    curBackground = element.background;
+                }
+
+
                 var episodeLineup = episodeLineup + `
                 <div class="episode">
-                    <div class="bg" style="background-image: url(${element.background})"></div>
+                    <div class="bg" style="background-image: url(${curBackground})"></div>
                     <div class="body">            
                         <h2>${element.name}</h2>
                         <i>${element.date} • ${element.tag}</i>
@@ -106,7 +125,7 @@ function getReleaseDate(date) {
     if (new String(DD).length == 1) {
         DD = "0" + DD;
     }
-    console.log(DD);
+    // console.log(DD);
     var YYYY = new String(date.charAt(date.length - 4)) + new String(date.charAt(date.length - 3)) + new String(date.charAt(date.length - 2)) + new String(date.charAt(date.length - 1));
     
     var recompiledDate = YYYY + "-" + MM + "-" + DD;
@@ -114,22 +133,22 @@ function getReleaseDate(date) {
     var currentDateAsDate = new Date(currentDate);
 
     debugLine.innerHTML = debugLine.innerHTML + " GRD <i>RecompDate:</i> " + recompiledDate + " <i>NewDate:</i> " + dateNew + " <i><b>CurrentDate:</i></b> " + currentDate + " <i>CurrentDateAD:</i> " + currentDateAsDate;
-    console.log(dateNew + " " + currentDateAsDate);
+    // console.log(dateNew + " " + currentDateAsDate);
     debugLine.innerHTML = debugLine.innerHTML + " " + (dateNew.getTime()) + " " + (new String(currentDateAsDate.getTime()));
 
     if (dateNew < currentDateAsDate) {
         debugLine.innerHTML = debugLine.innerHTML + " <b>*</b> ";
-        console.log("past");
+        // console.log("past");
         return "past";
     }
     if (+dateNew == +currentDateAsDate) {
         debugLine.innerHTML = debugLine.innerHTML + " <b>*</b> ";
-        console.log("present");
+        // console.log("present");
         return "present";
     }
     if (dateNew > currentDateAsDate) {
         debugLine.innerHTML = debugLine.innerHTML + " <b>*</b> ";
-        console.log("future");
+        // console.log("future");
         return "future";
     }
 }
