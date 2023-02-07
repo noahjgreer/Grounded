@@ -48,11 +48,13 @@ a {
     font-weight: 500;
 }
 
-p, li, h1, h2, h3, i, input, textarea {
+p, li, h1, h2, h3, i, input, textarea, q, blockquote {
     color: $color-main;
     font-family: $font-common;
     font-size: 1.1rem;
 }
+
+
 
 h1, h2 {
     font-family: $font-common;
@@ -319,6 +321,23 @@ article {
         display: flex;
         justify-content: flex-end;
     }
+}
+
+blockquote {
+    margin: 0px;
+    padding-inline: $padding-regular;
+    padding-block: $padding-light-block;
+    border-left: solid 2px grey;
+    line-height: 2.25rem;
+    cite {
+        padding: 0px;
+        margin: 0px;
+        font-style: normal;
+    }
+    cite::before {
+        content: "- ";
+    }
+    // font-style: italic;
 }
 
 .audioplayer {
