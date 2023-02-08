@@ -44,7 +44,6 @@ h2 {
 img {
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
@@ -82,7 +81,6 @@ div.gallery {
 }
 div.gallery .episode, div.gallery .question {
   border-radius: 1rem;
-  aspect-ratio: 3/4;
   width: 20%;
   min-width: 17.5rem;
   max-width: 20rem;
@@ -362,7 +360,6 @@ footer #body div #logo {
   max-width: 20rem;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   pointer-events: none;
 }
@@ -415,7 +412,6 @@ footer #copyright {
   text-align: center;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   cursor: pointer;
 }
