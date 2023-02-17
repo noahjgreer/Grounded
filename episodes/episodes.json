@@ -1,6 +1,15 @@
 {
     "episodes": [
         {
+            "name": "Should a Christian be afraid of death?",
+            "date": "2-17-2023",
+            "background": "/assets/images/episodes/Death0.jpg",
+            "tag": "Fear",
+            "clickLink": "/episodes/fear/should-a-christian-be-afraid-of-death.html",
+            "description": "In this episode, Pastor Matt will look to scripture and dissect why we shouldn't fear death and what we should do in preparation.",
+            "clickable": false
+        },
+        {
             "name": "How can I deny myself, and carry my cross?",
             "date": "2-10-2023",
             "background": "/assets/images/episodes/Cross1.jpg",
