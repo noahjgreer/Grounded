@@ -1,6 +1,15 @@
 {
     "episodes": [
         {
+            "name": "Can a Christian who committed suicide still go to heaven?",
+            "date": "2-24-2023",
+            "background": "/assets/images/episodes/Door0.jpg",
+            "tag": "Brokenness",
+            "clickLink": "/episodes/brokenness/can-a-christian-who-committed-suicide-still-go-to-heaven.html",
+            "description": "Today Pastor Matt will again look to God's Word and dissect the deep and heavy topic of suicide and how it affects a Christian's faith and salvation.",
+            "clickable": false
+        },
+        {
             "name": "Should a Christian be afraid of death?",
             "date": "2-17-2023",
             "background": "/assets/images/episodes/Death0.jpg",

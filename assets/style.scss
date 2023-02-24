@@ -84,10 +84,80 @@ nav {
     padding-inline: $padding-regular-inline;
     padding-block: $padding-regular-block;
     box-shadow: $shadow-common;
+    justify-content: space-between;
     display: flex;
+    z-index: 0;
     // margin-bottom: $padding-regular-const;
     #logo {
         height: 2rem;
+    }
+    #hb-pages {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: transparentize($color: $color-secondary, $amount: 0.5);
+        backdrop-filter: blur(5px);
+        z-index: -1;
+        opacity: 0%;
+    }
+    #hb-pages.active {
+        display: flex;
+        opacity: 100%;
+    }
+    @keyframes hbPages {
+        0% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+    #hb {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30px;
+        cursor: pointer;
+        .hb-line {
+            background-color: #231f20;
+            height: 3px;
+            border-radius: $radius-button;
+            transition: all 0s ease;
+            transition-delay: 0.125s;
+        }
+        transition: all 0s ease;
+    }
+    #hb.active {
+        #hb1 {
+            transform: rotate(45deg) translateY(0.525rem) translateX(0.525rem);
+        }
+        #hb2 {
+            opacity: 0;
+        }
+        #hb3 {
+            transform: rotate(-45deg) translateY(-0.525rem) translateX(0.525rem);
+        }
+    }
+    @keyframes hamburger {
+        0% {
+            opacity: 100%;
+        }
+        50% {
+            opacity: 0%;
+        }
+        // 25% {
+        //     opacity: 0%;
+        // }
+        // 75% {
+        //     opacity: 0%;
+        // }
+        100% {
+            opacity: 100%;
+            
+        }
     }
     #pages {
         padding: 0;

@@ -66,3 +66,4 @@ function setFooter() {
     `</div><div id="copyright"><p>` + pages.footer.copyright + 
     `</p></div></div>`
 }
+
