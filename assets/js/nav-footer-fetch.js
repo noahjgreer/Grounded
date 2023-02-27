@@ -1,13 +1,17 @@
 var navHTML = "";
 var footerHTML = "";
 var pages;
+var listeningLocations = "";
 var footerCol1 = `
 <div id="col1">
 <img src="/assets/images/BigLogo-v1.2-white.svg" alt="The Grounded Logo" id="logo">
 </div>
 `
+var audioPlayer = document.querySelector(".audioplayer");
 var footerCol2 = "";
 var footerCol3 = "";
+var audioPlayerHeight = "";
+
 
 fetch('/assets/pages.json')
     .then(response => response.json())
@@ -18,6 +22,7 @@ fetch('/assets/pages.json')
     })
 
 function setNav() {
+    // Adding all pages from json into variable
     for (let i = 0; i < pages.index.length; i++) {
         const element = pages.index[i];
         navHTML = navHTML + `
@@ -26,12 +31,85 @@ function setNav() {
         </li>
         `
     }
-    document.getElementsByTagName("nav")[0].innerHTML = `
+
+    // Adding all Listening locations from json into one variable
+    for (let i = 0; i < pages.footer.col2[2].elements.length; i++) {
+        const element = pages.footer.col2[2].elements[i];
+        listeningLocations = listeningLocations + `
+        <a href="${pages.footer.col2[2].elements[i].destination}" target="_blank">
+            <img src="${pages.footer.col2[2].elements[i].icon}" alt="${pages.footer.col2[2].elements[i].altName}" class="social">
+        </a>
+        `
+    }
+
+
+    if (audioPlayer == undefined) {
+        audioPlayerHeight = "0";
+    } else {
+        if (window.innerWidth > 825) {
+            audioPlayerHeight = audioPlayer.clientHeight;
+        } else {
+            audioPlayerHeight = "0";
+        }
+    }
+
+    document.querySelector("nav").innerHTML = `
     <a href="/">
         <img src="/assets/images/LongLogo-v1.1.svg" id="logo" alt="The Grounded Logo">
     </a>
+    <div id="hb">
+        <div id="hb1" class="hb-line">
+        </div>
+        <div id="hb2" class="hb-line">
+        </div>
+        <div id="hb3" class="hb-line">
+        </div>
+    </div>
+    <div id="hb-pages" style="height: calc(100% - ${audioPlayerHeight}px - 10rem)">
+
+    </div>
+    `
+    // ^^^ The 10 rem in the style up there is a reference to the SCSS variable, $padding-heavy-const * 2
+    document.querySelector("#hb-pages").innerHTML = `
+    
     <ul id="pages">
-    ` + navHTML + `</ul>`
+    ` + navHTML + `</ul>` +     `
+    <div id="listen-nav">
+    ` + listeningLocations + `</div>`
+
+    // Function of the Navigational Hamburger
+    var hamburger = document.getElementById('hb');
+    var hbPages = document.getElementById('hb-pages');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle("active");
+        hbPages.classList.toggle("active");
+        if (window.innerWidth <= 825) {
+            audioPlayer.classList.toggle("inactive");
+        }
+
+        if (hamburger.classList.contains("active")) {
+            hamburger.style.animation = "0.25s linear 0s 1 running hamburger";
+        } else {
+            hamburger.style.animation = "0.25s linear 0s 1 reverse hamburger";
+        }
+    })
+
+    hamburger.addEventListener('animationend', () => {
+        hamburger.style.animation = "";
+        console.log("end");
+    })
+
+    function hamburgerClose() {
+        if (hamburger.classList.contains("active")) {
+            hamburger.style.animation = "0.25s linear 0s 1 reverse hamburger";
+        }
+
+        hamburger.classList.remove("active");
+        hbPages.classList.remove("active");
+    }
+
+    window.onscroll = function() {hamburgerClose()};
 }
 
 function setFooter() {
