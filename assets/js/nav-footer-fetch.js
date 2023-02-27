@@ -84,14 +84,15 @@ function setNav() {
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle("active");
         hbPages.classList.toggle("active");
-        if (window.innerWidth <= 825) {
-            audioPlayer.classList.toggle("inactive");
-        }
 
         if (hamburger.classList.contains("active")) {
             hamburger.style.animation = "0.25s linear 0s 1 running hamburger";
         } else {
             hamburger.style.animation = "0.25s linear 0s 1 reverse hamburger";
+        }
+        
+        if (window.innerWidth <= 825) {
+            audioPlayer.classList.toggle("inactive");
         }
     })
 
@@ -101,11 +102,13 @@ function setNav() {
     })
 
     function hamburgerClose() {
-        hamburger.classList.remove("active");
-        hbPages.classList.remove("active");
         if (hamburger.classList.contains("active")) {
             hamburger.style.animation = "0.25s linear 0s 1 reverse hamburger";
         }
+
+        hamburger.classList.remove("active");
+        hbPages.classList.remove("active");
+        
         if (audioPlayer.classList.contains("inactive") && window.innerWidth <= 825) {
             audioPlayer.classList.toggle("inactive");
         }
