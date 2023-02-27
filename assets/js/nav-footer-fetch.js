@@ -104,6 +104,9 @@ function setNav() {
         if (hamburger.classList.contains("active")) {
             hamburger.style.animation = "0.25s linear 0s 1 reverse hamburger";
         }
+        if (audioPlayer.classList.contains("inactive") && window.innerWidth <= 825) {
+            audioPlayer.classList.toggle("inactive");
+        }
 
         hamburger.classList.remove("active");
         hbPages.classList.remove("active");
