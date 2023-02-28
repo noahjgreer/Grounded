@@ -695,6 +695,7 @@ input[type="text"], textarea {
 @media print {
     body, html {
         // margin-block: $padding-heavy-const;
+        zoom: 87.5%;
         overflow: visible;
         display: block;
     }

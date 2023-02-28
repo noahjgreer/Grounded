@@ -599,6 +599,7 @@ input[type=text], textarea {
 }
 @media print {
   body, html {
+    zoom: 87.5%;
     overflow: visible;
     display: block;
   }
