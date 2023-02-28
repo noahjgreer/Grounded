@@ -392,14 +392,15 @@ article {
     p {
         // text-indent: $padding-heavy-const;
         // padding-block: $padding-light-block;
-        padding: $padding-light-block $padding-light-inline;
+        // padding: $padding-light-block $padding-light-inline;
+        padding-block: $padding-light-block;
         line-height: $padding-ultramedium-const;
         margin: 0px;
     }
     h1 {
         margin-block: $padding-ultramedium-const;
     }
-    h1, h2 {
+    h1, h2, h3 {
         text-align: left;
         margin-bottom: 0px;
     }
@@ -420,6 +421,8 @@ article {
 
 blockquote {
     margin: 0px;
+    text-align: center;
+    margin-block: $padding-light-block;
     padding-inline: $padding-regular;
     padding-block: $padding-light-block;
     border-left: solid 2px grey;

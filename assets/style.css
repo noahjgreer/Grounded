@@ -313,14 +313,14 @@ article {
   padding-top: 1rem;
 }
 article p {
-  padding: 0.75rem 2.5%;
+  padding-block: 0.75rem;
   line-height: 2.25rem;
   margin: 0px;
 }
 article h1 {
   margin-block: 2.25rem;
 }
-article h1, article h2 {
+article h1, article h2, article h3 {
   text-align: left;
   margin-bottom: 0px;
 }
@@ -339,6 +339,8 @@ article .interactions {
 
 blockquote {
   margin: 0px;
+  text-align: center;
+  margin-block: 0.75rem;
   padding-inline: 5%;
   padding-block: 0.75rem;
   border-left: solid 2px grey;
