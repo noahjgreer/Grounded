@@ -375,6 +375,13 @@ blockquote cite::before {
   display: flex;
   justify-content: center;
   padding-block: 1rem;
+  transition: all ease 0.1s;
+}
+.audioplayer .play:hover {
+  transform: scale(1.075);
+}
+.audioplayer .play:active {
+  transform: scale(0.975);
 }
 .audioplayer .timestamp {
   width: 6rem;

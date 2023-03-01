@@ -460,6 +460,13 @@ blockquote {
         display: flex;
         justify-content: center;
         padding-block: $padding-regular-block;
+        transition: all ease 0.1s;
+    }
+    .play:hover {
+        transform: scale(1.075);
+    }
+    .play:active {
+        transform: scale(0.975);
     }
     .timestamp {
         width: 6rem;
