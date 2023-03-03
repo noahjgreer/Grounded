@@ -1,9 +1,18 @@
 {
     "episodes": [
         {
+            "name": "What is predestination?",
+            "date": "3-10-2023",
+            "background": "/assets/images/episodes/Writing0.jpg",
+            "tag": "God's Plan",
+            "clickLink": "/episodes/gods-plan/what-is-predestination.html",
+            "description": "In today's episode, we will look into what predestination is, what the Bible says regarding it, and why it's so controversial.",
+            "clickable": false
+        },
+        {
             "name": "Why is Rahab the harlot considered an example of faith?",
             "date": "3-3-2023",
-            "background": "/assets/images/episodes/Wine0.jpg",
+            "background": "/assets/images/episodes/Woman0.jpg",
             "tag": "Biblical Questions",
             "clickLink": "/episodes/biblical-questions/why-is-rahab-the-harlot-considered-an-example-of-faith.html",
             "description": "While a listener was reading through Hebrews 11, he encountered a verse that stated that Rahab, a harlot and a liar, was an example of acting by faith. We will turn to God's Word and answer this question in this episode.",
