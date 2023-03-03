@@ -1,6 +1,15 @@
 {
     "episodes": [
         {
+            "name": "Why is Rahab the harlot considered an example of faith?",
+            "date": "3-3-2023",
+            "background": "/assets/images/episodes/Wine0.jpg",
+            "tag": "Biblical Questions",
+            "clickLink": "/episodes/biblical-questions/why-is-rahab-the-harlot-considered-an-example-of-faith.html",
+            "description": "While a listener was reading through Hebrews 11, he encountered a verse that stated that Rahab, a harlot and a liar, was an example of acting by faith. We will turn to God's Word and answer this question in this episode.",
+            "clickable": false
+        },
+        {
             "name": "Can a Christian who committed suicide still go to heaven?",
             "date": "2-24-2023",
             "background": "/assets/images/episodes/Door0.jpg",
