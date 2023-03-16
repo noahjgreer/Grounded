@@ -20,19 +20,19 @@ h1 {
 
     // SQUARE SIZE
     
-    font-size: 9.5vmin;
+    font-size: 11vmin;
 
     // ---------------------------
 
     // STANDARD SIZE
     
-    font-size: 11.5vmin;
+    font-size: 13vmin;
 
     // ---------------------------
 
     // YOUTUBE SIZE
 
-    font-size: 12.5vmin;
+    font-size: 15vmin;
 }
 
 h2 {
@@ -86,10 +86,23 @@ h2 {
     width: 80vw;
 }
 
-.logo {
-    // position: fixed;
-    // bottom: 10%;
-    // left: 10%;
-    filter: invert(1);
-    width: 15vh;
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+        font-style: italic;
+        line-height: 0px;
+    }
+    h2 {
+        font-style: italic;
+        line-height: 0px;
+    }
+    .logo {
+        // position: fixed;
+        // bottom: 10%;
+        // left: 10%;
+        filter: invert(1);
+        width: 15vh;
+    }
 }

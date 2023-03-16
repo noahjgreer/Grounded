@@ -1,12 +1,12 @@
 {
     "episodes": [
         {
-            "name": "What is predestination?",
+            "name": "What is predestination? - Part 1",
             "date": "3-17-2023",
             "background": "/assets/images/episodes/Writing0.jpg",
             "tag": "God's Plan",
-            "clickLink": "/episodes/gods-plan/what-is-predestination.html",
-            "description": "In today's episode, we will look into what predestination is, what the Bible says regarding it, and why it's so controversial.",
+            "clickLink": "/episodes/gods-plan/what-is-predestination-p1.html",
+            "description": "In the upcoming episodes, we will look into what predestination is, what the Bible says regarding it, and why it's so controversial. In today's episode, we will start by laying that foundation.",
             "clickable": false
         },
         {
