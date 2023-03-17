@@ -1,6 +1,15 @@
 {
     "episodes": [
         {
+            "name": "What is predestination? - Part 2",
+            "date": "3-24-2023",
+            "background": "/assets/images/episodes/Writing0.jpg",
+            "tag": "God's Plan",
+            "clickLink": "/episodes/gods-plan/what-is-predestination-p2.html",
+            "description": "Today we will continue to talk about last week's topic and go deeper into the history and views of predestination.",
+            "clickable": false
+        },
+        {
             "name": "What is predestination? - Part 1",
             "date": "3-17-2023",
             "background": "/assets/images/episodes/Writing0.jpg",
