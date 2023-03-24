@@ -32,7 +32,7 @@ h2 {
 .background-img {
   position: absolute;
   width: 100%;
-  transform: scale(1.05) translateY(0%) translateX(0%);
+  transform: scale(1.05) translateY(-25%) translateX(0%);
   filter: brightness(0.75) saturate(1);
   z-index: -99;
 }
@@ -57,11 +57,10 @@ h2 {
   justify-content: space-between;
 }
 .bottom h1 {
-  font-style: italic;
   line-height: 0px;
 }
 .bottom h2 {
-  font-style: italic;
+  font-weight: 700;
   line-height: 0px;
 }
 .bottom .logo {
