@@ -1,6 +1,15 @@
 {
     "episodes": [
         {
+            "name": "When is not telling the whole truth a lie?",
+            "date": "4-28-2023",
+            "background": "/assets/images/episodes/Secret0.jpg",
+            "tag": "Living Faithfully",
+            "clickLink": "/episodes/living-faithfully/when-is-not-telling-the-whole-truth-a-lie.html",
+            "description": "In this episode, we will draw connections in God's Word to answer a commonly faced question that can weigh on the mind of the Christian and affect our reactions.",
+            "clickable": false
+        },
+        {
             "name": "What is predestination? - Part 3",
             "date": "4-7-2023",
             "background": "/assets/images/episodes/Writing2.jpg",

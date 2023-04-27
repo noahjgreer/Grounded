@@ -20,7 +20,7 @@ h1 {
 
     // SQUARE SIZE
     
-    font-size: 11vmin;
+    font-size: 10.5vmin;
 
     // ---------------------------
 
@@ -32,7 +32,7 @@ h1 {
 
     // YOUTUBE SIZE
 
-    font-size: 15vmin;
+    // font-size: 14vmin;
 }
 
 h2 {
@@ -52,7 +52,7 @@ h2 {
 
     // YOUTUBE SIZE
 
-    font-size: 9.5vmin;
+    // font-size: 9.5vmin;
     // font-size: 10.5vmin;
     
 
@@ -67,7 +67,7 @@ h2 {
 .background-img {
     position: absolute;
     width: 100%;
-    transform: scale(1.05) translateY(-25%) translateX(0%);
+    transform: scale(1.05) translateY(-20%) translateX(0%);
     filter: brightness(0.75) saturate(1);
     z-index: -99;
 }
