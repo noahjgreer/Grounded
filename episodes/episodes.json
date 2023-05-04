@@ -1,6 +1,15 @@
 {
     "episodes": [
         {
+            "name": "Interviewing the Host",
+            "date": "5-5-2023",
+            "background": "/assets/images/episodes/Microphone0.jpg",
+            "tag": "Interview",
+            "clickLink": "/episodes/interview/interviewing-the-host.html",
+            "description": "In this episode, Noah Greer, the podcast host, will be interviewed and give his testimony.",
+            "clickable": false
+        },
+        {
             "name": "When is not telling the whole truth a lie?",
             "date": "4-28-2023",
             "background": "/assets/images/episodes/Secret0.jpg",
