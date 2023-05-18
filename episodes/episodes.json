@@ -1,6 +1,15 @@
 {
     "episodes": [
         {
+            "name": "How do you approach someone about Christ?",
+            "date": "5-19-2023",
+            "background": "/assets/images/episodes/Outreach2.jpg",
+            "tag": "Outreach",
+            "clickLink": "/episodes/outreach/how-do-you-approach-someone-about-christ.html",
+            "description": "Today Pastor Matt will answer a common question Christians ourselves face often and unpack the actions to take.",
+            "clickable": false
+        },
+        {
             "name": "Interviewing the Host",
             "date": "5-5-2023",
             "background": "/assets/images/episodes/Microphone0.jpg",
