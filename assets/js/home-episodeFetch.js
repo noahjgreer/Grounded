@@ -60,7 +60,10 @@ async function modifyPage() {
                     <h2>${element.name}</h2>
                     <i>${element.date} • ${element.tag}</i>
                     <p>${element.description}</p>
-                    <a href="${element.clickLink}" class="button ${curButtonStatus}">${curButtonText}</a>
+                    <div class="interactions">
+                        <a href="${element.clickLink}" class="button ${curButtonStatus}">${curButtonText}</a>
+                        ${isTranscribed(element.transcribed)}
+                    </div>
                 </div>
             </div>
         `
@@ -90,7 +93,10 @@ async function modifyPage() {
                         <h2>${element.name}</h2>
                         <i>${element.date} • ${element.tag}</i>
                         <p>${element.description}</p>
-                        <a href="${element.clickLink}" class="button ${curButtonStatus}">${curButtonText}</a>
+                        <div class="interactions">
+                            <a href="${element.clickLink}" class="button ${curButtonStatus}">${curButtonText}</a>
+                            ${isTranscribed(element.transcribed)}
+                        </div>
                     </div>
                 </div>`
             }
@@ -98,6 +104,14 @@ async function modifyPage() {
         // End of New Method
     }
     document.getElementById("episode-gallery").innerHTML = episodeLineup;
+}
+
+function isTranscribed(transBool) {
+    if (transBool) {
+        return `<img src="/assets/images/icons/document.svg" class="indicator" alt="This episode contains a readable article/transcription.">`
+    } else {
+        return ""
+    }
 }
 
 function getReleaseDate(date) {

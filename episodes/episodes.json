@@ -7,7 +7,8 @@
             "tag": "Outreach",
             "clickLink": "/episodes/outreach/how-do-you-approach-someone-about-christ.html",
             "description": "Today Pastor Matt will answer a common question Christians ourselves face often and unpack the actions to take.",
-            "clickable": false
+            "clickable": false,
+            "transcribed": false
         },
         {
             "name": "Interviewing the Host",
@@ -16,7 +17,8 @@
             "tag": "Interview",
             "clickLink": "/episodes/interview/interviewing-the-host.html",
             "description": "In this episode, Noah Greer, the podcast host, will be interviewed and give his testimony.",
-            "clickable": false
+            "clickable": false,
+            "transcribed": false
         },
         {
             "name": "When is not telling the whole truth a lie?",
@@ -52,7 +54,8 @@
             "tag": "God's Plan",
             "clickLink": "/episodes/gods-plan/what-is-predestination-p1.html",
             "description": "In the upcoming episodes, we will look into what predestination is, what the Bible says regarding it, and why it's so controversial. In today's episode, we will start by laying that foundation.",
-            "clickable": false
+            "clickable": false,
+            "transcribed": true
         },
         {
             "name": "Why is Rahab the harlot considered an example of faith?",
@@ -70,7 +73,8 @@
             "tag": "Brokenness",
             "clickLink": "/episodes/brokenness/can-a-christian-who-committed-suicide-still-go-to-heaven.html",
             "description": "Today Pastor Matt will again look to God's Word and dissect the deep and heavy topic of suicide and how it affects a Christian's faith and salvation.",
-            "clickable": false
+            "clickable": false,
+            "transcribed": true
         },
         {
             "name": "Should a Christian be afraid of death?",
@@ -79,7 +83,8 @@
             "tag": "Fear",
             "clickLink": "/episodes/fear/should-a-christian-be-afraid-of-death.html",
             "description": "In this episode, Pastor Matt will look to scripture and dissect why we shouldn't fear death and what we should do in preparation.",
-            "clickable": false
+            "clickable": false,
+            "transcribed": true
         },
         {
             "name": "How can I deny myself, and carry my cross?",
@@ -88,7 +93,8 @@
             "tag": "Living Faithfully",
             "clickLink": "/episodes/living-faithfully/how-can-i-deny-myself-and-carry-my-cross.html",
             "description": "This week, Pastor Matt will go in depth about how we should live in response to Jesus's words in Matthew 16:24.",
-            "clickable": false
+            "clickable": false,
+            "transcribed": true
         },
         {
             "name": "How should we pray?",
@@ -223,7 +229,8 @@
             "tag": "Who God Is",
             "clickLink": "/episodes/who-god-is/if-jealousy-is-a-sin-how-can-god-be-a-jealous-god.html",
             "description": "In this episode, we will tackle a question that arose from a reader as they were reading Exodus 20:5.",
-            "clickable": true
+            "clickable": true,
+            "transcribed": true
         },
         {
             "name": "Introduction - Part 2",
@@ -232,7 +239,8 @@
             "tag": "Interview",
             "clickLink": "/episodes/interview/introduction-p2.html",
             "description": "Today we continue the interview with Pastor Matt Round that we started last episode.",
-            "clickable": true
+            "clickable": true,
+            "transcribed": true
         },
         {
             "name": "Introduction - Part 1",
@@ -241,7 +249,8 @@
             "tag": "Interview",
             "clickLink": "/episodes/interview/introduction-p1.html",
             "description": "Welcome to the Grounded Podcast. Today we meet Pastor Matt Round for the first time.",
-            "clickable": true
+            "clickable": true,
+            "transcribed": true
         }
     ]
 }

@@ -255,6 +255,11 @@ div.gallery {
                 text-align: left;
             }
         }
+        .interactions {
+            display: flex;
+            justify-content: space-between;
+            min-width: 100%;          
+        }
         display: flex;
         flex-direction: column;
         .like {
@@ -436,6 +441,12 @@ blockquote {
         content: "- ";
     }
     // font-style: italic;
+}
+
+.indicator {
+    width: 1rem;
+    margin-inline: $padding-light-inline;
+    filter: invert(57%) sepia(5%) saturate(90%) hue-rotate(315deg) brightness(99%) contrast(85%);
 }
 
 .audioplayer {

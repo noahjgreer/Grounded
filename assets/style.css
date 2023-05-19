@@ -197,6 +197,11 @@ div.gallery .episode .body, div.gallery .question .body {
 div.gallery .episode .body h2, div.gallery .question .body h2 {
   text-align: left;
 }
+div.gallery .episode .interactions, div.gallery .question .interactions {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+}
 div.gallery .episode .like, div.gallery .question .like {
   display: flex;
   flex-direction: column;
@@ -353,6 +358,12 @@ blockquote cite {
 }
 blockquote cite::before {
   content: "- ";
+}
+
+.indicator {
+  width: 1rem;
+  margin-inline: 2.5%;
+  filter: invert(57%) sepia(5%) saturate(90%) hue-rotate(315deg) brightness(99%) contrast(85%);
 }
 
 .audioplayer {
