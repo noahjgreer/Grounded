@@ -1,6 +1,16 @@
 {
     "episodes": [
         {
+            "name": "Ongoing sanctification or perpetual sin?",
+            "date": "6-02-2023",
+            "background": "/assets/images/episodes/Axe0.jpg",
+            "tag": "Sin",
+            "clickLink": "/episodes/sin/ongoing-sanctification-or-perpetual-sin.html",
+            "description": "Today we will look at a question that we received from a listener regarding continuous sin in the life of a Christian. We will look at how to differentiate between ongoing sanctification versus falling into perpetual sin and what we should do when faced with questions about the authenticity of our salvation.",
+            "clickable": false,
+            "transcribed": false
+        },
+        {
             "name": "How do you approach someone about Christ?",
             "date": "5-19-2023",
             "background": "/assets/images/episodes/Outreach2.jpg",
