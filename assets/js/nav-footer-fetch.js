@@ -23,8 +23,8 @@ fetch('/assets/pages.json')
 
 // Sets the Navigation Bar - Site-wide
 function setNav() {
-    navHTML = undefined;
-    listeningLocations = undefined;
+    navHTML = "";
+    listeningLocations = "";
     // Adding all pages from json into variable
     for (let i = 0; i < pages.index.length; i++) {
         const element = pages.index[i];
