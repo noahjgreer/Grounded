@@ -1,6 +1,16 @@
 {
     "episodes": [
         {
+            "name": "How should sin be addressed to the church?",
+            "date": "6-09-2023",
+            "background": "/assets/images/episodes/Door1.jpg",
+            "tag": "Church Body",
+            "clickLink": "/episodes/church-body/how-should-sin-be-addressed-to-the-church.html",
+            "description": "In Matthew 18, Jesus talks about discipline and confrontation in the church body. Today we will further look into how to tackle this situation in the body today most efficiently.",
+            "clickable": false,
+            "transcribed": false
+        },
+        {
             "name": "Ongoing sanctification or perpetual sin?",
             "date": "6-02-2023",
             "background": "/assets/images/episodes/Axe0.jpg",

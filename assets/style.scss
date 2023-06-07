@@ -775,3 +775,57 @@ input[type="text"], textarea {
         display: none;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    a, p, li, h1, h2, h3, i, input, textarea, q, blockquote {
+        color: $color-secondary;
+    }
+
+    body, nav, .audioplayer {
+        background-color: $color-main;
+    }
+
+    header {
+        .speakers {
+            img {
+                border: solid 0.25rem $color-main;
+            }
+        }
+        .locations {
+            img {
+                filter: invert(1.0)
+            }
+        }
+    }
+
+    footer {
+        background-color: #000000;
+    }
+
+    div.gallery {
+        .episode, .question {
+            background-color: $color-main;
+            border: 0.5px solid black;
+        }
+    }
+
+    .indicator {
+        filter: invert(100%);
+    }
+
+    nav #listen-nav a {
+        filter: invert(100%)
+    }
+
+    nav {
+        border: 0.5px solid black;
+        #hb {
+            .hb-line {
+                background-color: $color-secondary;
+            }
+        }
+        #hb-pages {
+            background-color: transparentize($color: #000000, $amount: 0.25);
+        }
+    }
+}

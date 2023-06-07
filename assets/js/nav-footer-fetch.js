@@ -21,7 +21,10 @@ fetch('/assets/pages.json')
         setFooter();
     })
 
+// Sets the Navigation Bar - Site-wide
 function setNav() {
+    navHTML = undefined;
+    listeningLocations = undefined;
     // Adding all pages from json into variable
     for (let i = 0; i < pages.index.length; i++) {
         const element = pages.index[i];
@@ -55,7 +58,7 @@ function setNav() {
 
     document.querySelector("nav").innerHTML = `
     <a href="/">
-        <img src="/assets/images/LongLogo-v1.1.svg" id="logo" alt="The Grounded Logo">
+        ${getNavLogo()}
     </a>
     <div id="hb">
         <div id="hb1" class="hb-line">
@@ -117,6 +120,7 @@ function setNav() {
     window.onscroll = function() {hamburgerClose()};
 }
 
+// Sets the Footer Section - Site-wide
 function setFooter() {
     for (let index = 0; index < pages.footer.col2.length; index++) {
         const element = pages.footer.col2[index];
@@ -150,3 +154,15 @@ function setFooter() {
     `</p></div></div>`
 }
 
+// Fetches the logo based on the current color scheme
+function getNavLogo() {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        return `<img src="/assets/images/LongLogo-v1.1-White.svg" id="logo" alt="The Grounded Logo">`
+    } else {
+        return `<img src="/assets/images/LongLogo-v1.1.svg" id="logo" alt="The Grounded Logo">`
+    }
+}
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+    setNav();
+})

@@ -664,4 +664,40 @@ input[type=text], textarea {
   .audioplayer {
     display: none;
   }
+}
+@media (prefers-color-scheme: dark) {
+  a, p, li, h1, h2, h3, i, input, textarea, q, blockquote {
+    color: #fff;
+  }
+  body, nav, .audioplayer {
+    background-color: #231f20;
+  }
+  header .speakers img {
+    border: solid 0.25rem #231f20;
+  }
+  header .locations img {
+    filter: invert(1);
+  }
+  footer {
+    background-color: #000000;
+  }
+  div.gallery .episode, div.gallery .question {
+    background-color: #231f20;
+    border: 0.5px solid black;
+  }
+  .indicator {
+    filter: invert(100%);
+  }
+  nav #listen-nav a {
+    filter: invert(100%);
+  }
+  nav {
+    border: 0.5px solid black;
+  }
+  nav #hb .hb-line {
+    background-color: #fff;
+  }
+  nav #hb-pages {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
 }/*# sourceMappingURL=style.css.map */
