@@ -1,6 +1,24 @@
 {
     "episodes": [
         {
+            "name": "What is church membership, and why is it so important?",
+            "description": "Today we will turn to God's Word to answer a question regarding the importance of church membership and what it means in a congregation.",
+            "date": "6-16-2023",
+            "tag": "Church Body",
+            "background": "/assets/images/episodes/Church0.jpg",
+            "opengraph": "/assets/opengraph/episodes/church-body/what-is-church-membership-and-why-is-it-so-important.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/church-body/what-is-church-membership-and-why-is-it-so-important.html",
+            "clickLink": "/episodes/church-body/what-is-church-membership-and-why-is-it-so-important.html",
+            "title": "Grounded - Episode 29 - What is church membership, and why is it so important?",
+            "fullDate": "June 15th, 2023",
+            "episodeId": "Episode 29",
+            "ytLink": "https://youtu.be/5xPjkrxhwJY",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-5-15/335305397-22050-1-105a84788f431.m4a",
+            "pubDate": "2023-06-16",
+            "modDate": "2023-06-16",
+            "transcribed": false
+        },
+        {
             "name": "How should sin be addressed to the church?",
             "date": "6-09-2023",
             "background": "/assets/images/episodes/Door1.jpg",
