@@ -1,13 +1,23 @@
 // Elements
 const musicContainer = document.querySelector('.audioplayer')
-const playButton = document.querySelector('.play')
+const staticPlayButton = document.querySelector('.play.static')
 const audio = document.querySelector('.audio')
 const progress = document.querySelector('.scrub-progress')
 const progressContainer = document.querySelector('.scrub')
 const timestamp = document.querySelector('.timestamp')
+const movingPlayButton = document.querySelector('.play.moving')
 
 // Event Listeners
-playButton.addEventListener('click', () => {
+staticPlayButton.addEventListener('click', () => {
+    const isPlaying = musicContainer.classList.contains('play');
+
+    if (!isPlaying) {
+        playSong();
+    } else {
+        pauseSong();
+    }
+})
+movingPlayButton.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('play');
 
     if (!isPlaying) {
@@ -24,13 +34,15 @@ progressContainer.addEventListener('click', setProgress);
 
 function playSong() {
     musicContainer.classList.add('play');
-    playButton.querySelector('img').src = "/assets/images/icons/Pause2.svg";
+    staticPlayButton.querySelector('img').src = "/assets/images/icons/Pause2.svg";
+    movingPlayButton.querySelector('img').src = "/assets/images/icons/Pause2.svg";
     audio.play();
 }
 
 function pauseSong() {
     musicContainer.classList.remove('play');
-    playButton.querySelector('img').src = "/assets/images/icons/Play2.svg";
+    staticPlayButton.querySelector('img').src = "/assets/images/icons/Play2.svg";
+    movingPlayButton.querySelector('img').src = "/assets/images/icons/Play2.svg";
     audio.pause();
 }
 
@@ -73,4 +85,21 @@ function getTime(input) {
     }
 
     return min + ':' + sec;
+}
+
+// Shows or hides the moving play button
+document.addEventListener('scroll', () => {
+    updateMovingPlay();
+})
+
+function updateMovingPlay() {
+    var playViewable = staticPlayButton.getBoundingClientRect();
+    // console.log(playViewable);
+
+    if (playViewable.top <= -50) {
+        movingPlayButton.style = "opacity: 100%";
+        // console.log('true')
+    } else {
+        movingPlayButton.style = "opacity: 0%";
+    }
 }

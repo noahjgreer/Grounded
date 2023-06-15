@@ -3,6 +3,10 @@
         {
             "displayName": "Home",
             "destination": "/"
+        },
+        {
+            "displayName": "Contact",
+            "destination": "mailto:groundedwithmattround@gmail.com"
         }
     ],
     "footer": {

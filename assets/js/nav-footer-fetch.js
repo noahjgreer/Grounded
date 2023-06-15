@@ -68,7 +68,7 @@ function setNav() {
         <div id="hb3" class="hb-line">
         </div>
     </div>
-    <div id="hb-pages" style="height: calc(100% - ${audioPlayerHeight}px - 10rem)">
+    <div id="hb-pages" style="height: calc(100% - ${audioPlayerHeight}px - 10)">
 
     </div>
     `
@@ -94,14 +94,13 @@ function setNav() {
             hamburger.style.animation = "0.25s linear 0s 1 reverse hamburger";
         }
         
-        if (window.innerWidth <= 825) {
-            audioPlayer.classList.toggle("inactive");
-        }
+        // if (window.innerWidth <= 825) {
+        //     audioPlayer.classList.toggle("inactive");
+        // }
     })
 
     hamburger.addEventListener('animationend', () => {
         hamburger.style.animation = "";
-        console.log("end");
     })
 
     function hamburgerClose() {

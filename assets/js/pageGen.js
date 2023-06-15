@@ -1,19 +1,22 @@
+// A script used for generating articles WITHOUT their transcriptions
+var episodesJSON;
+var pageData = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- 
         Replace these things with the information below!
-        Grounded - Episode 26 - How do you approach someone about Christ? >>> The title of the page (e.g. Grounded - Episode 1 - Introduction (Part 1))
-        Today Pastor Matt will answer a common question Christians ourselves face often and unpack the actions to take. >>> Description (e.g. Welcome to the grounded podcast today we will be interviewing pastor matt for the first time.)
-        /assets/opengraph/episodes/outreach/how-do-you-approach-someone-about-christ.png >>> The reference to the opengraph image locally. (e.g. /assets/images/episodes/opengraph.png)
-        https://groundedwithmatt.com/episodes/outreach/how-do-you-approach-someone-about-christ.html >>> Location of the exact page.. THIS PAGE. Not local. (e.g. https://groundedwithmatt.com/episodes/interview/introduction.html)
-        https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-4-18/330342067-22050-1-24c379e3b0ec5.m4a >>> Audio Link URL
-        May 18th, 2023 >>> The Date, in Words.. (e.g. September 11th, 2001)
-        Episode 26 >>> The Episode ID (e.g. Episode 1 - Part 2)
-        How do you approach someone about Christ? >>> Title of the Episode (How Big is Big Bob?)
-        https://www.youtube.com/watch?v=CQLTIMF7Diw >>> Youtube Link
-        2023-05-19 >>> Published Date, in a YYYY-MM-DD format.
-        2023-05-19 >>> Modified Date, in a YYYY-MM-DD format.
+        ***TITLE >>> The title of the page (e.g. Grounded - Episode 1 - Introduction (Part 1))
+        ***DESCRIPTION >>> Description (e.g. Welcome to the grounded podcast today we will be interviewing pastor matt for the first time.)
+        ***OG-IMAGE >>> The reference to the opengraph image locally. (e.g. /assets/images/episodes/opengraph.png)
+        ***PAGE-LOCATION >>> Location of the exact page.. THIS PAGE. Not local. (e.g. https://groundedwithmatt.com/episodes/interview/introduction.html)
+        ***Audio-Link >>> Audio Link URL
+        ***Date >>> The Date, in Words.. (e.g. September 11th, 2001)
+        ***Episode-ID >>> The Episode ID (e.g. Episode 1 - Part 2)
+        ***Episode-Name >>> Title of the Episode (How Big is Big Bob?)
+        ***YT-Link >>> Youtube Link
+        ***PUB-DATE >>> Published Date, in a YYYY-MM-DD format.
+        ***MOD-DATE >>> Modified Date, in a YYYY-MM-DD format.
     -->
 
     <!-- Developer Definitions -->
@@ -22,23 +25,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="/assets/style.css">
     <!-- Search Engine Optimization -->
-    <title>Grounded - Episode 26 - How do you approach someone about Christ?</title>
-    <meta name="description" content="Today Pastor Matt will answer a common question Christians ourselves face often and unpack the actions to take.">
+    <title>***TITLE</title>
+    <meta name="description" content="***DESCRIPTION">
     <link rel="home" href="https://groundedwithmatt.com/">
-    <link rel="canonical" href="https://groundedwithmatt.com/episodes/outreach/how-do-you-approach-someone-about-christ.html">
+    <link rel="canonical" href="***PAGE-LOCATION">
     <meta name="robots" content="index, follow" />
     <script type='application/ld+json'>
         {
             "@context": "http://schema.org/",
             "@type": "Article",
-            "headline": "Grounded - Episode 26 - How do you approach someone about Christ?",
+            "headline": "***TITLE",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://groundedwithmatt.com/episodes/outreach/how-do-you-approach-someone-about-christ.html"
+                "@id": "***PAGE-LOCATION"
             },
             "image": {
                 "@type": "ImageObject",
-                "url": "https://groundedwithmatt.com/assets/opengraph/episodes/outreach/how-do-you-approach-someone-about-christ.png",
+                "url": "https://groundedwithmatt.com***OG-IMAGE",
                 "height": 700,
                 "width": 1000
             },
@@ -52,13 +55,13 @@
                     "width": 32
                 }
             },
-            "datePublished": "2023-05-19",
-            "dateModified": "2023-05-19",
+            "datePublished": "***PUB-DATE",
+            "dateModified": "***MOD-DATE",
             "author": {
                 "@type": "Person",
                 "name": "Noah Greer & Pastor Matt Round"
             },
-            "description": "Today Pastor Matt will answer a common question Christians ourselves face often and unpack the actions to take."
+            "description": "***DESCRIPTION"
         }
     </script>
     <!-- Icons -->
@@ -77,13 +80,13 @@
     <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml?v=2.1">
     <meta name="theme-color" content="#ffffff">
     <!-- Open Graph -->
-    <meta property="og:url" content="https://groundedwithmatt.com/episodes/outreach/how-do-you-approach-someone-about-christ.html">
+    <meta property="og:url" content="***PAGE-LOCATION">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Grounded - Episode 26 - How do you approach someone about Christ?">
-    <meta property="og:image" content="/assets/opengraph/episodes/outreach/how-do-you-approach-someone-about-christ.png">
+    <meta property="og:title" content="***TITLE">
+    <meta property="og:image" content="***OG-IMAGE">
     <meta property="og:image:width" content="1000">
     <meta property="og:image:height" content="700">
-    <meta property="og:description" content="Today Pastor Matt will answer a common question Christians ourselves face often and unpack the actions to take.">
+    <meta property="og:description" content="***DESCRIPTION">
     <meta property="og:site_name" content="Grounded">
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="en_US">
@@ -91,10 +94,10 @@
     <!-- Twitter Open Graph-->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@GroundedMatt">
-    <meta name="twitter:url" content="https://groundedwithmatt.com/episodes/outreach/how-do-you-approach-someone-about-christ.html">
-    <meta name="twitter:title" content="Grounded - Episode 26 - How do you approach someone about Christ?">
-    <meta name="twitter:description" content="Today Pastor Matt will answer a common question Christians ourselves face often and unpack the actions to take.">
-    <meta name="twitter:image" content="/assets/opengraph/episodes/outreach/how-do-you-approach-someone-about-christ.png">
+    <meta name="twitter:url" content="***PAGE-LOCATION">
+    <meta name="twitter:title" content="***TITLE">
+    <meta name="twitter:description" content="***DESCRIPTION">
+    <meta name="twitter:image" content="***OG-IMAGE">
 </head>
     
 <body>
@@ -112,14 +115,14 @@
                         <p>Noah Greer & Pastor Matt Round</p>
                     </div>
                     <div class="info">
-                        <p id="date">May 18th, 2023</p>
-                        <p id="episode">Episode 26</p>
+                        <p id="date">***Date</p>
+                        <p id="episode">***Episode-ID</p>
                     </div>
                 </div>
             </div>
             <div class="right">
                 <div class="locations">
-                    <a href="https://www.youtube.com/watch?v=CQLTIMF7Diw" target="_blank">
+                    <a href="***YT-Link" target="_blank">
                         <img src="/assets/images/icons/youtube.svg" alt="Listen to this Episode on Youtube" class="social">
                     </a>
                     <a href="https://open.spotify.com/show/2AGB5qVXBus9Jwv0cMc3vZ?si=e86d946712b54d03" target="_blank">
@@ -132,7 +135,7 @@
             </div>
         </div>        
         <div class="audioplayer">
-            <audio class="audio" src="https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-4-18/330342067-22050-1-24c379e3b0ec5.m4a"></audio>
+            <audio class="audio" src="***Audio-Link"></audio>
             <a class="play moving">
                 <img src="/assets/images/icons/Play2.svg" alt="Play/Pause">
             </a>
@@ -148,7 +151,7 @@
         </div>
     </header>
     <article>
-        <h1>How do you approach someone about Christ?</h1>
+        <h1>***Episode-Name</h1>
         <h2>Transcription in Progress:</h2>
         <p>We're in the process of making a transcript for this page. In the meantime, you can listen to it audibly by clicking or tapping the play button above. We appreciate your patience!</p>
     </article>
@@ -159,3 +162,74 @@
 <script src="/assets/js/player.js"></script>
 <script src="/assets/js/pageGen.js"></script>
 </html>
+`
+
+fetch("/episodes/episodes.json")
+    .then(response => response.json())
+    .then(result => {
+        episodesJSON = result;
+        console.log('JSON has been fetched and is ready for commencement.');
+    }).catch(reason => {
+        console.error(reason);
+    })
+
+function pageGen(inputID) {
+    var documentInfo = String(pageData);
+    var inputID = (episodesJSON.episodes.length - 1) - inputID;
+    let indexPos = episodesJSON.episodes[inputID];
+
+    console.log(indexPos);
+
+    // Find the Index of the episode, fetching it's page information.
+    // for (let pos = 0; pos < episodesJSON.episodes.length; pos++) {
+    //     const element = episodesJSON.episodes[pos];
+
+    //     if (element == inputID) {
+    //         console.log(element + " " + JSON.stringify(episodesJSON.episodes[pos]));
+    //         indexPos = episodesJSON.episodes[pos];
+    //     }
+    // }
+
+    // Modify the document
+    documentInfo = documentInfo.replaceAll('***TITLE', String(indexPos.title));
+    documentInfo = documentInfo.replaceAll('***DESCRIPTION', String(indexPos.description));
+    documentInfo = documentInfo.replaceAll('***OG-IMAGE', String(indexPos.opengraph));
+    documentInfo = documentInfo.replaceAll('***PAGE-LOCATION', String(indexPos.pageLocation));
+    documentInfo = documentInfo.replaceAll('***Audio-Link', String(indexPos.audioLink));
+    documentInfo = documentInfo.replaceAll('***Date', String(indexPos.fullDate));
+    documentInfo = documentInfo.replaceAll('***Episode-ID', String(indexPos.episodeId));
+    documentInfo = documentInfo.replaceAll('***Episode-Name', String(indexPos.name));
+    documentInfo = documentInfo.replaceAll('***YT-Link', String(indexPos.ytLink));
+    documentInfo = documentInfo.replaceAll('***PUB-DATE', String(indexPos.pubDate));
+    documentInfo = documentInfo.replaceAll('***MOD-DATE', String(indexPos.modDate));    
+
+    // Update the document
+    document.documentElement.innerHTML = documentInfo;
+    console.info(documentInfo);
+
+    return `
+    Please place this into the ${indexPos.tag} folder, under the episode:
+    ${indexPos.name}
+    `;
+}
+
+
+function findData(inputID, episodesJSON) {
+    for (var pos in episodesJSON) {
+        if (typeof(episodesJSON[pos]) === 'object') {
+            findData(inputID, episodesJSON[pos]);
+        } else {
+            if (episodesJSON[pos] == inputID) {
+                console.log(episodesJSON);
+            }
+        }
+    }
+}
+
+function objToString (obj) {
+    let str = '';
+    for (const [p, val] of Object.entries(obj)) {
+        str += `${p}::${val}\n`;
+    }
+    return str;
+}

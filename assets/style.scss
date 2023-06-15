@@ -171,8 +171,9 @@ nav {
         margin: 0;
         display: flex;
         width: 100%;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: flex-end;
+        flex-direction: column;
         li {
             // padding-inline: $padding-light-inline;
             list-style: none;
@@ -292,7 +293,7 @@ div.gallery {
     }
 }
 header {
-    row-gap: 3rem;
+    // row-gap: 3rem;
     column-gap: 1rem;
     display: flex;
     padding: $padding-heavy-const $padding-semiheavy;
@@ -302,6 +303,7 @@ header {
     justify-content: space-between;
     padding-bottom: 0px;
     flex-wrap: wrap;
+    flex-direction: column;
     // h1, h2 {
     //     margin: 0px $padding-semiheavy;
     // }
@@ -317,12 +319,14 @@ header {
     //     }
     // }
     >div {
-        flex:1;
+        // flex:1;
+
     }
     .left {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        flex: 1;
     }
     .speakers {
         display: flex;
@@ -344,7 +348,7 @@ header {
         display: flex;
         flex-direction: column;
         padding-inline: $padding-ultralight;
-        min-width: 10rem;
+        // min-width: 10rem;
         flex: 1;
         .info {
             display: flex;
@@ -368,17 +372,13 @@ header {
     }
     .right {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        column-gap: $padding-regular-const;
-    }
-    // .listen {
-    //     // margin-inline: $padding-regular-inline;
-    // }
+        justify-content: center;
+    }    
     .locations {
         display: flex;
         justify-content: flex-end;
-        // flex: 1;
         a {
             min-width: 1.75rem;
             aspect-ratio: 1/1;
@@ -389,6 +389,17 @@ header {
             filter: invert(0.2);
         }
     }
+    .credits {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-block: $padding-medium-const;
+        row-gap: 1rem;
+    }
+    // .listen {
+    //     // margin-inline: $padding-regular-inline;
+    // }
 }
 
 article {
@@ -404,6 +415,7 @@ article {
     }
     h1 {
         margin-block: $padding-ultramedium-const;
+        // margin-top: 0px;
     }
     h1, h2, h3 {
         text-align: left;
@@ -450,28 +462,37 @@ blockquote {
 }
 
 .audioplayer {
-    position: fixed;
-    z-index: 99;
-    bottom: 0;
-    width: calc(100% - ($padding-regular * 2));
+    // position: fixed;
+    // z-index: 99;
+    // bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
-    box-shadow: $shadow-common;
-    padding-inline: $padding-regular;
+    // box-shadow: $shadow-common;
+    // padding-inline: $padding-regular;
     border-top: solid 1px $color-tertiary;
-    // padding-block: $padding-medium-const;
+    margin-block: 0px;
     // background-color: $color-secondary;
     // backdrop-filter: blur(20px) contrast(0.5) brightness(1.5);
-    background-color: $color-secondary;
+    // background-color: $color-secondary;
     align-items: center;
     transition: 0.3s ease;
     .play {
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         display: flex;
         justify-content: center;
         padding-block: $padding-regular-block;
         transition: all ease 0.1s;
+    }
+    .moving {
+        // z-index: 99;
+        padding: $padding-regular-block;
+        width: 3rem;
+        height: 3rem;
+        position: fixed;
+        bottom: 0;
+        right: 0;
     }
     .play:hover {
         transform: scale(1.075);
@@ -530,9 +551,9 @@ blockquote {
         opacity: 1;
     }
 }
-.audioplayer.inactive {
-    transform: translateY(100%);
-}
+// .audioplayer.inactive {
+//     transform: translateY(100%);
+// }
 
 footer {
     background-color: $color-main;
@@ -663,10 +684,6 @@ input[type="text"], textarea {
 @media screen and (max-width: 825px) {
     .audioplayer {
         flex-wrap: wrap;
-        .play {
-            width: 2rem;
-            height: 2rem;
-        }
         .locations {
             display: none;
         }
@@ -678,15 +695,14 @@ input[type="text"], textarea {
             // margin-bottom: 0px;
         }
         .timestamp {
-            position: fixed;
-            // margin-top: 0px;
-            right: 7.5%;
-            bottom: 2.75rem;
+            // position: fixed;
+            margin-block: 0px;
         }
     }
     nav {
         #pages {
             justify-content: center;
+            align-items: center;
         }
         #listen-nav {
             justify-content: center;
@@ -699,6 +715,10 @@ input[type="text"], textarea {
         padding-inline: $padding-medium;
         .listening-locations {
             justify-content: center
+        }
+        .credits {
+            align-items: center;
+            flex-direction: column;
         }
     }
     article {
