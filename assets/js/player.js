@@ -103,3 +103,8 @@ function updateMovingPlay() {
         movingPlayButton.style = "opacity: 0%";
     }
 }
+
+// Fixes the AudioPlayerMoving button showing before
+document.addEventListener('DOMContentLoaded', function () {
+    movingPlayButton.style = "opacity: 0%";
+})

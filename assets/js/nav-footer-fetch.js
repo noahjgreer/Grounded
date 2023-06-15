@@ -111,9 +111,9 @@ function setNav() {
         hamburger.classList.remove("active");
         hbPages.classList.remove("active");
         
-        if (audioPlayer.classList.contains("inactive") && window.innerWidth <= 825) {
-            audioPlayer.classList.toggle("inactive");
-        }
+        // if (audioPlayer.classList.contains("inactive") && window.innerWidth <= 825) {
+        //     audioPlayer.classList.toggle("inactive");
+        // }
     }
 
     window.onscroll = function() {hamburgerClose()};
