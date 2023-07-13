@@ -1,6 +1,24 @@
 {
     "episodes": [
         {
+            "name": "Does God still take vengeance on His enemies?",
+            "description": "In this episode, we will look to God's Word to see how His unchanging character and justice affect today's world.",
+            "date": "7-14-2023",
+            "tag": "Who God Is",
+            "background": "/assets/images/episodes/Gavel0.jpg",
+            "opengraph": "/assets/opengraph/episodes/who-god-is/does-god-still-take-vengeance-on-his-enemies.png",
+            "pageLocation": "https://thegroundedpodcast.com/who-god-is/does-god-still-take-vengeance-on-his-enemies.html",
+            "clickLink": "/episodes/who-god-is/does-god-still-take-vengeance-on-his-enemies.html",
+            "title": "Grounded - Episode 30 - Does God still take vengeance on His enemies?",
+            "fullDate": "July 14th, 2023",
+            "episodeId": "Episode 30",
+            "ytLink": "https://youtu.be/js_HUvWQzc4",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-6-12/339067758-22050-1-91af7e69a746b.m4a",
+            "pubDate": "2023-07-14",
+            "modDate": "2023-07-14",
+            "transcribed": false
+        },
+        {
             "name": "What is church membership, and why is it so important?",
             "description": "Today we will turn to God's Word to answer a question regarding the importance of church membership and what it means in a congregation.",
             "date": "6-16-2023",
@@ -10,7 +28,7 @@
             "pageLocation": "https://thegroundedpodcast.com/episodes/church-body/what-is-church-membership-and-why-is-it-so-important.html",
             "clickLink": "/episodes/church-body/what-is-church-membership-and-why-is-it-so-important.html",
             "title": "Grounded - Episode 29 - What is church membership, and why is it so important?",
-            "fullDate": "June 15th, 2023",
+            "fullDate": "June 16th, 2023",
             "episodeId": "Episode 29",
             "ytLink": "https://youtu.be/5xPjkrxhwJY",
             "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-5-15/335305397-22050-1-105a84788f431.m4a",
