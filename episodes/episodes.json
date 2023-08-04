@@ -1,13 +1,31 @@
 {
     "episodes": [
         {
+            "name": "What does it mean for a believer to fear the Lord?",
+            "description": "Today we look at a common question that arises in the faith. We are told that the fear of the Lord is the beginning of wisdom, but what does that really look like?",
+            "date": "8-4-2023",
+            "tag": "Living Faithfully",
+            "background": "/assets/images/episodes/Fire1.jpg",
+            "opengraph": "/assets/opengraph/episodes/living-faithfully/what-does-it-mean-for-a-believer-to-fear-the-lord.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/living-faithfully/what-does-it-mean-for-a-believer-to-fear-the-lord.html",
+            "clickLink": "/episodes/living-faithfully/what-does-it-mean-for-a-believer-to-fear-the-lord.html",
+            "title": "Grounded - Episode 31 - What does it mean for a believer to fear the Lord?",
+            "fullDate": "August 4th, 2023",
+            "episodeId": "Episode 31",
+            "ytLink": "https://youtu.be/Ff2mtJjEU5A",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-7-4/341816240-22050-1-2367fa8504b2.m4a",
+            "pubDate": "2023-08-04",
+            "modDate": "2023-08-04",
+            "transcribed": false
+        },
+        {
             "name": "Does God still take vengeance on His enemies?",
             "description": "In this episode, we will look to God's Word to see how His unchanging character and justice affect today's world.",
             "date": "7-14-2023",
             "tag": "Who God Is",
             "background": "/assets/images/episodes/Gavel0.jpg",
             "opengraph": "/assets/opengraph/episodes/who-god-is/does-god-still-take-vengeance-on-his-enemies.png",
-            "pageLocation": "https://thegroundedpodcast.com/who-god-is/does-god-still-take-vengeance-on-his-enemies.html",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/who-god-is/does-god-still-take-vengeance-on-his-enemies.html",
             "clickLink": "/episodes/who-god-is/does-god-still-take-vengeance-on-his-enemies.html",
             "title": "Grounded - Episode 30 - Does God still take vengeance on His enemies?",
             "fullDate": "July 14th, 2023",
