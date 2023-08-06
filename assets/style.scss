@@ -48,7 +48,7 @@ a {
     font-weight: 500;
 }
 
-p, li, h1, h2, h3, i, input, textarea, q, blockquote {
+p, li, h1, h2, h3, i, input, textarea, q, blockquote, cite {
     color: $color-main;
     font-family: $font-common;
     font-size: 1.1rem;
@@ -61,6 +61,27 @@ h1, h2, li {
     text-align: center;
     margin-block: $padding-regular-block;
     // padding: $padding-light;
+}
+
+cite {
+    ul {
+        margin: 0;
+        list-style-type: none;
+        padding: 0;
+        li {
+            line-height: $padding-medium-const;
+            font-size: 0.9rem;
+            text-align: left;
+            color: $color-tertiary;
+            font-style: normal;
+            padding-block: $padding-light-block;
+            margin: 0px;
+        }
+    }
+    border-top: 0.25px solid $color-tertiary;
+    padding-block: $padding-light-block * 2;
+    // margin-block: $padding-light-block * 2;
+    display: block;
 }
 
 .light {
@@ -403,6 +424,9 @@ header {
 }
 
 article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: $padding-heavy-const $padding-semiheavy;
     padding-top: $padding-regular-block;
     p {
@@ -412,14 +436,16 @@ article {
         padding-block: $padding-light-block;
         line-height: $padding-ultramedium-const;
         margin: 0px;
+        width: 100%;
     }
     h1 {
-        margin-block: $padding-ultramedium-const;
-        // margin-top: 0px;
+        // margin-block: $padding-ultramedium-const;
+        margin-top: 0px;
     }
     h1, h2, h3 {
         text-align: left;
         margin-bottom: 0px;
+        width: 100%;
     }
     .speaker {
         width: $icon-size;
@@ -437,6 +463,7 @@ article {
 }
 
 blockquote {
+    width: 90%;
     margin: 0px;
     text-align: center;
     margin-block: $padding-light-block;
@@ -448,6 +475,7 @@ blockquote {
         padding: 0px;
         margin: 0px;
         font-style: normal;
+        border: none;
     }
     cite::before {
         content: "- ";
@@ -644,6 +672,23 @@ footer {
 
 section#questions {
     margin: $padding-medium-const $padding-medium;
+}
+
+section#ask-promo {
+    padding-inline: 6.125%;
+    h1 {
+        text-align: center;
+        margin: 0px;
+    }
+    .button {
+        display: inline-block;
+        margin-block: $padding-light-block;
+    }
+    border-top: 0.5px solid $color-tertiary;
+    padding-block: $padding-regular-const;
+    padding-top: $padding-regular-const;
+    margin-top: $padding-regular-const * 1.5;
+    text-align: center;
 }
 
 .question-ask {

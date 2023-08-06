@@ -1,6 +1,24 @@
 {
     "episodes": [
         {
+            "name": "How can I seek the kingdom of God?",
+            "description": "In Matthew 6, Jesus tells us to seek His kingdom above all other things, and He will have His hand over us while we reside on earth. Today we will look at how we can practically do that in our fallen world.",
+            "date": "8-11-2023",
+            "tag": "Living Faithfully",
+            "background": "/assets/images/episodes/Castle0.jpg",
+            "opengraph": "/assets/opengraph/episodes/living-faithfully/how-can-i-seek-the-kingdom-of-god.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/living-faithfully/how-can-i-seek-the-kingdom-of-god.html",
+            "clickLink": "/episodes/living-faithfully/how-can-i-seek-the-kingdom-of-god.html",
+            "title": "Grounded - Episode 32 - How can I seek the kingdom of God?",
+            "fullDate": "August 11th, 2023",
+            "episodeId": "Episode 32",
+            "ytLink": "",
+            "audioLink": "",
+            "pubDate": "2023-08-11",
+            "modDate": "2023-08-11",
+            "transcribed": false
+        },
+        {
             "name": "What does it mean for a believer to fear the Lord?",
             "description": "Today we look at a common question that arises in the faith. We are told that the fear of the Lord is the beginning of wisdom, but what does that really look like?",
             "date": "8-4-2023",
@@ -16,7 +34,7 @@
             "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-7-4/341816240-22050-1-2367fa8504b2.m4a",
             "pubDate": "2023-08-04",
             "modDate": "2023-08-04",
-            "transcribed": false
+            "transcribed": true
         },
         {
             "name": "Does God still take vengeance on His enemies?",

@@ -233,3 +233,34 @@ function objToString (obj) {
     }
     return str;
 }
+
+// A Subscript used for new page additions to old pages:
+
+var askPromotion = `
+<section id="ask-promo">
+    <h1>Have a question you'd like to ask?</h1>
+    <p>Please send it to us! We answer every question we recieve, and would happily feature it on the Grounded podcast.</p>
+    <a href="mailto:groundedwithmattround@gmail.com" class="button">Email Us</a>
+</section>
+`
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.getElementsByTagName("article").length != 0) {
+        if (document.querySelector('section#ask-promo') == null) {
+            var tempFootnotes = "";
+            if (document.querySelector('article').lastElementChild.nodeName == "CITE") {
+                console.log("Last child was footnotes");
+                tempFootnotes = document.querySelector('article').querySelectorAll('cite')[document.querySelector('article').querySelectorAll('cite').length - 1].outerHTML;
+                document.querySelector('article').querySelectorAll('cite')[document.querySelector('article').querySelectorAll('cite').length - 1].remove();
+            }
+            document.querySelector('article').innerHTML += askPromotion + tempFootnotes;
+
+            console.log('Ask Promotion successfully inserted.')
+        } else {
+            console.log('Ask Promotion already exists on this page.')
+        }
+    } else {
+        console.log('Article element was not found on this page.')
+    }
+})
