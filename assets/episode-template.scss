@@ -21,19 +21,19 @@ h1 {
 
     // SQUARE SIZE
     
-    font-size: 10vmin;
+    font-size: 11vmin;
 
     // ---------------------------
 
     // STANDARD SIZE
     
-    font-size: 12vmin;
+    font-size: 12.5vmin;
 
     // ---------------------------
 
     // YOUTUBE SIZE
 
-    font-size: 12.75vmin;
+    font-size: 14vmin;
 }
 
 h2 {
@@ -69,7 +69,7 @@ h2 {
     position: absolute;
     width: 100%;
     transform: scale(1.15) translateY(0%) translateX(-1.5%);
-    filter: brightness(0.6) saturate(1.1);
+    filter: brightness(0.75) saturate(1.1);
     z-index: -99;
 }
 
