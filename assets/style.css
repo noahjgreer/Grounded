@@ -716,7 +716,7 @@ input[type=text], textarea {
   a, p, li, h1, h2, h3, i, input, textarea, q, blockquote {
     color: #fff;
   }
-  body, nav, .audioplayer {
+  html, body, nav, .audioplayer {
     background-color: #231f20;
   }
   header .speakers img {

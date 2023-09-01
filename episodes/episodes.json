@@ -1,6 +1,24 @@
 {
     "episodes": [
         {
+            "name": "Can a Christian lose their salvation?",
+            "description": "In David's Psalm 51 lament, he pleads that God would not remove His Holy Spirit from within him. Many Christians are then drawn to question the permanence of their salvation. Today, we turn to the truths and covenants in God's Word to bring closure.",
+            "date": "9-1-2023",
+            "tag": "Salvation",
+            "background": "/assets/images/episodes/Candle0.jpg",
+            "opengraph": "/assets/opengraph/episodes/salvation/can-a-christian-lose-their-salvation.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/salvation/can-a-christian-lose-their-salvation.html",
+            "clickLink": "/episodes/salvation/can-a-christian-lose-their-salvation.html",
+            "title": "Grounded - Episode 33 - Can a Christian lose their salvation?",
+            "fullDate": "September 1st, 2023",
+            "episodeId": "Episode 33",
+            "ytLink": "https://www.youtube.com/watch?v=UzF2HZbipIw",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-8-1/345281412-22050-1-977fc7d2a0687.m4a",
+            "pubDate": "2023-09-01",
+            "modDate": "2023-09-01",
+            "transcribed": false
+        },
+        {
             "name": "How can I seek the kingdom of God?",
             "description": "In Matthew 6, Jesus tells us to seek His kingdom above all other things, and He will have His hand over us while we reside on earth. Today we will look at how we can practically do that in our fallen world.",
             "date": "8-11-2023",
