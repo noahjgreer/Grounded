@@ -1,6 +1,24 @@
 {
     "episodes": [
         {
+            "name": "How can I know God's plan for my life?",
+            "description": "Today, we will answer a question common among believers of all ages and situations. Pastor Matt will take us into scripture to find an answer.",
+            "date": "9-8-2023",
+            "tag": "God's Plan",
+            "background": "/assets/images/episodes/Books1.jpg",
+            "opengraph": "/assets/opengraph/episodes/gods-plan/how-can-i-know-gods-plan-for-my-life.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/gods-plan/how-can-i-know-gods-plan-for-my-life.html",
+            "clickLink": "/episodes/gods-plan/how-can-i-know-gods-plan-for-my-life.html",
+            "title": "Grounded - Episode 34 - How can I know God's plan for my life?",
+            "fullDate": "September 8th, 2023",
+            "episodeId": "Episode 34",
+            "ytLink": "https://www.youtube.com/watch?v=MFDAsdA8yQE",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-8-7/346123354-22050-1-9f45a76e86351.m4a",
+            "pubDate": "2023-09-08",
+            "modDate": "2023-09-08",
+            "transcribed": false
+        },
+        {
             "name": "Can a Christian lose their salvation?",
             "description": "In David's Psalm 51 lament, he pleads that God would not remove His Holy Spirit from within him. Many Christians are then drawn to question the permanence of their salvation. Today, we turn to the truths and covenants in God's Word to bring closure.",
             "date": "9-1-2023",
