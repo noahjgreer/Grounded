@@ -1,6 +1,24 @@
 {
     "episodes": [
         {
+            "name": "How do we approach contradictions in the Bible?",
+            "description": "When diving into God's Word, the Christian might face two parts of scripture that seem to conflict with one another. Pastor Matt will look at some common steps to approach this problem in today's anniversary podcast episode.",
+            "date": "9-29-2023",
+            "tag": "Biblical Questions",
+            "background": "/assets/images/episodes/Anvil0.jpg",
+            "opengraph": "/assets/opengraph/episodes/biblical-questions/how-do-we-approach-contradictions-in-the-bible.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/biblical-questions/how-do-we-approach-contradictions-in-the-bible.html",
+            "clickLink": "/episodes/biblical-questions/how-do-we-approach-contradictions-in-the-bible.html",
+            "title": "Grounded - Episode 35 - How do we approach contradictions in the Bible?",
+            "fullDate": "September 29th, 2023",
+            "episodeId": "Episode 35",
+            "ytLink": "https://www.youtube.com/watch?v=rT6KW6Zeuag",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-8-29/349020058-22050-1-68caa5e464237.m4a",
+            "pubDate": "2023-09-29",
+            "modDate": "2023-09-29",
+            "transcribed": false
+        },
+        {
             "name": "How can I know God's plan for my life?",
             "description": "Today, we will answer a question common among believers of all ages and situations. Pastor Matt will take us into scripture to find an answer.",
             "date": "9-8-2023",

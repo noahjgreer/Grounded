@@ -1,11 +1,11 @@
 # Grounded
-This repository is home to the [Grounded Website's](https://groundedwithmatt.com/) source code. Grounded is a podcast that I run with my Pastor, with a focus on answering common difficult questions that Christians face in their interactions with the world.
+This repository is home to the [Grounded Website's](https://thegroundedpodcast.com/) source code. Grounded is a podcast that I run with my Pastor, with a focus on answering common difficult questions that Christians face in their interactions with the world.
 
 ## External Use
 I would prefer you not to fork this repository or copy any of my work without permission. If you want to contact me for collaborations, permissions, or anything else, please don't hesitate to [email me.](mailto:noahjgreer@gmail.com)
 
 ## Social Media
-You can listen to this podcast pretty much anywhere! All episodes are hosted on [Spotify](https://open.spotify.com/show/2AGB5qVXBus9Jwv0cMc3vZ), [Apple Podcasts](https://podcasts.apple.com/us/podcast/grounded/id1647718821), [Youtube](https://www.youtube.com/channel/UCRVmMSvZfpuXiReda8MmCrg), and the [Website](https://groundedwithmatt.com/) itself. Give them a listen and leave a review!
+You can listen to this podcast pretty much anywhere! All episodes are hosted on [Spotify](https://open.spotify.com/show/2AGB5qVXBus9Jwv0cMc3vZ), [Apple Podcasts](https://podcasts.apple.com/us/podcast/grounded/id1647718821), [Youtube](https://www.youtube.com/channel/UCRVmMSvZfpuXiReda8MmCrg), and the [Website](https://thegroundedpodcast.com/) itself. Give them a listen and leave a review!
 
 ## Copyright
 ### Episode Background Images

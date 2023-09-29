@@ -758,6 +758,18 @@ input[type="text"], textarea {
     }
     header {
         padding-inline: $padding-medium;
+        p {
+            text-align: center;
+        }
+        #episode:before {
+            content: none !important;
+        }
+        .left {
+            flex-direction: column;
+        }
+        .info {
+            flex-direction: column;
+        }
         .listening-locations {
             justify-content: center
         }
