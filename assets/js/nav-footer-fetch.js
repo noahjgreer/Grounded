@@ -12,7 +12,56 @@ var footerCol2 = "";
 var footerCol3 = "";
 var audioPlayerHeight = "";
 
+// Add theme color to the head of the document if it doesn't exist
+if (document.querySelector("meta[name='theme-color']") == null) {
+    var metaTheme = document.createElement("meta");
+    metaTheme.setAttribute("name", "theme-color");
+    document.getElementsByTagName("head")[0].appendChild(metaTheme);
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.querySelector("meta[name='theme-color']").setAttribute("content", "#231f20");
+    } else {
+        document.querySelector("meta[name='theme-color']").setAttribute("content", "#ffffff");
+    }
+} else {
+    // Check current user theme and set theme color accordingly
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.querySelector("meta[name='theme-color']").setAttribute("content", "#231f20");
+    } else {
+        document.querySelector("meta[name='theme-color']").setAttribute("content", "#ffffff");
+    }
+}
+// Detect if the user changes their theme and set the theme color accordingly
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.querySelector("meta[name='theme-color']").setAttribute("content", "#231f20");
+    } else {
+        document.querySelector("meta[name='theme-color']").setAttribute("content", "#ffffff");
+    }
+})
 
+// Detect if the footer element is completely in view, and then set the theme color to black or white accordingly
+window.addEventListener('scroll', () => {
+    var footer = document.querySelector("footer");
+    var footerRect = footer.getBoundingClientRect();
+    if (footerRect.top <= 0) {
+        // Check current user theme and set theme color accordingly
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            document.querySelector("meta[name='theme-color']").setAttribute("content", "#000");
+        } else {
+            document.querySelector("meta[name='theme-color']").setAttribute("content", "#231f20");
+        }
+    } else {
+        // Check current user theme and set theme color accordingly
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            document.querySelector("meta[name='theme-color']").setAttribute("content", "#231f20");
+        } else {
+            document.querySelector("meta[name='theme-color']").setAttribute("content", "#ffffff");
+        }
+    }
+})
+
+
+// Get the JSON file and set the nav and footer
 fetch('/assets/pages.json')
     .then(response => response.json())
     .then(result => {

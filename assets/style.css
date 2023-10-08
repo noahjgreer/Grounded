@@ -30,7 +30,7 @@ h1, h2, li {
 }
 
 cite {
-  border-top: 0.25px solid #918F8F;
+  border-top: 0.25px solid #918f8f;
   padding-block: 1.5rem;
   display: block;
 }
@@ -43,7 +43,7 @@ cite ul li {
   line-height: 1.5rem;
   font-size: 0.9rem;
   text-align: left;
-  color: #918F8F;
+  color: #918f8f;
   font-style: normal;
   padding-block: 0.75rem;
   margin: 0px;
@@ -71,6 +71,7 @@ nav {
   background-color: #fff;
   padding-inline: 7.5%;
   padding-block: 1rem;
+  margin-bottom: 5rem;
   box-shadow: 0px 0px 32.5px 0px rgba(0, 0, 0, 0.15);
   justify-content: space-between;
   display: flex;
@@ -178,13 +179,77 @@ nav #listen-nav img {
   max-height: 2.5rem;
 }
 
+#searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.25s ease;
+}
+#searchContainer #searchElements {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  transition: width 0.25s ease;
+}
+#searchContainer #search {
+  transition: width 0.25s ease;
+  -webkit-appearance: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  border-radius: 100rem;
+  box-shadow: 0px 0px 32.5px 0px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  padding-inline: 1.5rem;
+  padding-right: 3.75rem;
+  margin-block: 1rem;
+  flex: 1;
+  width: 70%;
+}
+#searchContainer #search input {
+  padding: 0.75rem 2.5%;
+  border-radius: 1rem;
+  border: 0.5px solid #918f8f;
+  width: 100%;
+  max-width: 20rem;
+  margin-block: 1rem;
+}
+#searchContainer #search .button {
+  margin-block: 1rem;
+}
+#searchContainer #search::-moz-placeholder {
+  font-style: italic;
+  color: #918f8f;
+}
+#searchContainer #search::placeholder {
+  font-style: italic;
+  color: #918f8f;
+}
+#searchContainer #searchButton {
+  margin-inline: 1.5rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+#searchContainer #searchButton img {
+  width: 1rem;
+  height: 1rem;
+  aspect-ratio: 1;
+  filter: invert(59%) sepia(14%) saturate(25%) hue-rotate(314deg) brightness(93%) contrast(98%);
+}
+
 div.gallery {
   display: flex;
   gap: 3rem;
-  padding-block: 5rem;
   justify-content: center;
   flex-wrap: wrap;
   padding-inline: 7.5%;
+  padding-block: 1rem;
   flex-direction: row;
 }
 div.gallery .episode, div.gallery .question {
@@ -236,6 +301,12 @@ div.gallery .episode .like img, div.gallery .question .like img {
 div.gallery .episode .like .like-counter, div.gallery .question .like .like-counter {
   margin: 0px;
 }
+div.gallery .alert {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+}
 div.gallery .question {
   aspect-ratio: unset;
   padding: 1.5rem;
@@ -255,7 +326,7 @@ header {
   -moz-column-gap: 1rem;
        column-gap: 1rem;
   display: flex;
-  padding: 5rem 20%;
+  padding-inline: 20%;
   background-position: center;
   background-size: cover;
   align-items: center;
@@ -402,7 +473,7 @@ blockquote cite::before {
   width: 100%;
   display: flex;
   justify-content: center;
-  border-top: solid 1px #918F8F;
+  border-top: solid 1px #918f8f;
   margin-block: 0px;
   align-items: center;
   transition: 0.3s ease;
@@ -461,7 +532,7 @@ blockquote cite::before {
 }
 .audioplayer .scrub {
   margin-block: 0.8rem;
-  background-color: #918F8F;
+  background-color: #918f8f;
   width: 100%;
   height: 1rem;
   border-radius: 100rem;
@@ -479,6 +550,7 @@ blockquote cite::before {
 footer {
   background-color: #231f20;
   padding: 5%;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
 }
@@ -572,7 +644,7 @@ section#questions {
 
 section#ask-promo {
   padding-inline: 6.125%;
-  border-top: 0.5px solid #918F8F;
+  border-top: 0.5px solid #918f8f;
   padding-block: 3rem;
   padding-top: 3rem;
   margin-top: 4.5rem;
@@ -701,7 +773,7 @@ input[type=text], textarea {
     display: none;
   }
   footer {
-    color: #918F8F;
+    color: #918f8f;
     background-color: transparent;
   }
   footer #body {
@@ -752,6 +824,7 @@ input[type=text], textarea {
   }
   nav {
     border: 0.5px solid black;
+    border-top: none;
   }
   nav #hb .hb-line {
     background-color: #fff;
