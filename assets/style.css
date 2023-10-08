@@ -184,6 +184,7 @@ nav #listen-nav img {
   justify-content: center;
   align-items: center;
   transition: width 0.25s ease;
+  margin-bottom: 1.5rem;
 }
 #searchContainer #searchElements {
   display: flex;
@@ -204,7 +205,6 @@ nav #listen-nav img {
   background-color: #fff;
   padding-inline: 1.5rem;
   padding-right: 3.75rem;
-  margin-block: 1rem;
   flex: 1;
   width: 70%;
 }
@@ -306,6 +306,7 @@ div.gallery .alert {
   flex-direction: column;
   text-align: center;
   width: 50%;
+  min-width: 15rem;
 }
 div.gallery .question {
   aspect-ratio: unset;
@@ -811,6 +812,11 @@ input[type=text], textarea {
   }
   footer {
     background-color: #000000;
+  }
+  #searchContainer #search {
+    background-color: #151313;
+    border: 0.5px solid black;
+    color: white;
   }
   div.gallery .episode, div.gallery .question {
     background-color: #151313;

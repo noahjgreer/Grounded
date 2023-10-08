@@ -228,6 +228,7 @@ nav {
     justify-content: center;
     align-items: center;
     transition: width 0.25s ease;
+    margin-bottom: $padding-medium-const;
     #searchElements {
         display: flex;
         justify-content: right;
@@ -247,7 +248,6 @@ nav {
         background-color: $color-secondary;
         padding-inline: $padding-medium-const;
         padding-right: $padding-medium-const * 2.5;
-        margin-block: $padding-regular-block;
         flex: 1;
         // margin-inline: calc($padding-regular-inline + 3rem);
         width: calc(100% - 2 * ($padding-regular-inline * 2));
@@ -366,6 +366,7 @@ div.gallery {
         flex-direction: column;
         text-align: center;
         width: 50%;
+        min-width: 15rem;
     }
     .question {
         aspect-ratio: unset;
@@ -948,6 +949,14 @@ input[type="text"], textarea {
     footer {
         background-color: #000000;
     }
+
+    #searchContainer {
+        #search {
+            background-color: #151313;
+            border: 0.5px solid black;
+            color: white;
+        }
+    }    
 
     div.gallery {
         .episode, .question {
