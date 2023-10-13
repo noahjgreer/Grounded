@@ -18,23 +18,19 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 10.5vmin;
-  font-size: 11.25vmin;
-  font-size: 12.5vmin;
+  font-size: 11.5vmin;
 }
 
 h2 {
-  font-size: 7.5vmin;
-  font-size: 9vmin;
-  font-size: 9.5vmin;
+  font-size: 8.5vmin;
   font-weight: 600;
 }
 
 .background-img {
   position: absolute;
   width: 100%;
-  transform: scale(1.05) translateY(-22.5%) translateX(0%);
-  filter: brightness(0.75) saturate(1.1);
+  transform: scale(1.05) translateY(0%) translateX(0%);
+  filter: brightness(0.65) saturate(1.1);
   z-index: -99;
 }
 

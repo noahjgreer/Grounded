@@ -1,6 +1,25 @@
 {
     "episodes": [
         {
+            "name": "How can I be not of this world?",
+            "description": "Today, we answer a question from a listener regarding Christlikeness and how we can be in the world but not of it.",
+            "date": "10-13-2023",
+            "tag": "Living Faithfully",
+            "background": "/assets/images/episodes/Chess0.jpg",
+            "opengraph": "/assets/opengraph/episodes/living-faithfully/how-can-i-be-not-of-this-world.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/living-faithfully/how-can-i-be-not-of-this-world.html",
+            "clickLink": "/episodes/living-faithfully/how-can-i-be-not-of-this-world.html",
+            "title": "Grounded - Episode 36 - How can I be not of this world?",
+            "fullDate": "October 13th, 2023",
+            "episodeId": "Episode 36",
+            "ytLink": "https://youtu.be/B9QKGwHBiIY",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-9-13/350951254-22050-1-fc98890507dc5.m4a",
+            "pubDate": "2023-10-13",
+            "modDate": "2023-10-13",
+            "transcribed": false,
+            "tags": "Grounded Podcast Not Of This World NOTW Christlikeness Sanctification Living Faithfully Sanctify Set Apart Different Holiness Unique Salvation Humilty Depression"
+        },
+        {
             "name": "How do we approach contradictions in the Bible?",
             "description": "When diving into God's Word, the Christian might face two parts of scripture that seem to conflict with one another. Pastor Matt will look at some common steps to approach this problem in today's anniversary podcast episode.",
             "date": "9-29-2023",
