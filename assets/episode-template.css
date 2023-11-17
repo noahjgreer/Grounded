@@ -18,9 +18,9 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 10.65vmin;
-  font-size: 12vmin;
-  font-size: 15vmin;
+  font-size: 10vmin;
+  font-size: 11vmin;
+  font-size: 12.5vmin;
 }
 
 h2 {
@@ -33,8 +33,8 @@ h2 {
 .background-img {
   position: absolute;
   width: 100%;
-  transform: scale(1.05) translateY(-35%) translateX(2%);
-  filter: brightness(0.65) saturate(1.1);
+  transform: scale(1.05) translateY(-20%) translateX(2%);
+  filter: brightness(0.85) saturate(1.1);
   z-index: -99;
 }
 
@@ -46,6 +46,7 @@ h2 {
   width: 100%;
   padding: 10vh;
   justify-content: space-between;
+  text-shadow: 0px 0px 35px rgba(0, 0, 0, 0.5);
 }
 
 .text {

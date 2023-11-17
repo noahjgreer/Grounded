@@ -1,6 +1,25 @@
 {
     "episodes": [
         {
+            "name": "How can we know what Old Testament laws apply to today?",
+            "description": "In this episode, we will answer a question we received from a listener and look to God's Word to understand how we can delineate the Old Testament laws and which apply to the Christian today.",
+            "date": "11-17-2023",
+            "tag": "Biblical Questions",
+            "background": "/assets/images/episodes/Book0.jpg",
+            "opengraph": "/assets/opengraph/episodes/biblical-questions/how-can-we-know-what-old-testament-laws-apply-to-today.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/biblical-questions/how-can-we-know-what-old-testament-laws-apply-to-today.html",
+            "clickLink": "/episodes/biblical-questions/how-can-we-know-what-old-testament-laws-apply-to-today.html",
+            "title": "Grounded - Episode 38 - How can we know what Old Testament laws apply to today?",
+            "fullDate": "November 17th, 2023",
+            "episodeId": "Episode 38",
+            "ytLink": "https://www.youtube.com/watch?v=0EpubiQ3tgc",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-10-17/355958159-44100-2-4a6909931515f.m4a",
+            "pubDate": "2023-11-17",
+            "modDate": "2023-11-17",
+            "transcribed": false,
+            "tags": "Old Testament laws biblical interpretation Christian guidance divine command Christian living moral law ceremonial law civil law Mosaic law biblical authority theological questions scriptural understanding covenantal relationship cultural context religious practices spiritual discernment"
+        },
+        {
             "name": "How can a Christian overcome guilt?",
             "description": "Many people and Christians will face some sort of guilt for their sin throughout their life, today we will walk through how we can overcome the guiltful emotion that we can often possess by looking at our redemption in Christ.",
             "date": "11-10-2023",
@@ -333,8 +352,8 @@
             "tag": "Biblical Questions",
             "clickLink": "/episodes/biblical-questions/why-is-rahab-the-harlot-considered-an-example-of-faith.html",
             "description": "While a listener was reading through Hebrews 11, he encountered a verse that stated that Rahab, a harlot and a liar, was an example of acting by faith. We will turn to God's Word and answer this question in this episode.",
-            "opengraph": "/assets/opengraph/episodes/bible-questions/why-is-rahab-the-harlot-considered-an-example-of-faith.png",
-            "pageLocation": "https://groundedwithmatt.com/episodes/bible-questions/why-is-rahab-the-harlot-considered-an-example-of-faith.html",
+            "opengraph": "/assets/opengraph/episodes/biblical-questions/why-is-rahab-the-harlot-considered-an-example-of-faith.png",
+            "pageLocation": "https://groundedwithmatt.com/episodes/biblical-questions/why-is-rahab-the-harlot-considered-an-example-of-faith.html",
             "title": "Grounded - Episode 20 - Why is Rahab the harlot considered an example of faith?",
             "fullDate": "March 3rd, 2023",
             "episodeId": "Episode 20",
