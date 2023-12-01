@@ -13,7 +13,8 @@
       "episodes/index.html",
       "questions/index.html",
       "episodes/template.html",
-      "episodes/article-template.html"
+      "episodes/article-template.html",
+      "generator/generator.html"
     ],
     "TagsToInclude": [
       "priority",

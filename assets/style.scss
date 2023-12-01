@@ -27,7 +27,7 @@ $padding-regular-const: 3rem;
 $shadow-common: 0px 0px 32.5px 0px rgba(0, 0, 0, 0.15);
 $font-common: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $radius: 1rem;
-$radius-button: 100rem;
+$radius-button: 1.5rem;
 $icon-size: 3rem;
 
 // Style
@@ -223,6 +223,53 @@ nav {
     }
 }
 
+#generator {
+    padding-inline: 7.5%;
+    h1, h2 {
+        text-align: left;
+        padding-block: $padding-regular-block / 2;
+    }
+}
+
+textarea, input {
+    padding: $padding-light-block $padding-light;
+    border-radius: $radius-button;
+    border: 0.5px solid $color-tertiary;
+    width: 100%;
+    margin-block: $padding-regular-block;
+    box-sizing: border-box;
+
+    transition: width 0.25s ease;
+    -webkit-appearance: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border-radius: $radius-button;
+    box-shadow: $shadow-common;
+    background-color: $color-secondary;
+    padding-inline: $padding-medium-const;
+    flex: 1;
+
+    &[type="date"] {
+        width: unset;
+    }
+
+    &[type="number"] {
+        width: unset;
+    }
+
+    &::placeholder {
+        font-style: italic;
+        color: $color-tertiary;
+    }
+}
+
+textarea {
+    resize: vertical;
+}
+
 #searchContainer {
     display: flex;
     justify-content: center;
@@ -236,36 +283,10 @@ nav {
         transition: width 0.25s ease;
     }
     #search {
-        transition: width 0.25s ease;
-        -webkit-appearance: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-self: center;
-        border-radius: $radius-button;
-        box-shadow: $shadow-common;
-        background-color: $color-secondary;
-        padding-inline: $padding-medium-const;
         padding-right: $padding-medium-const * 2.5;
-        flex: 1;
-        // margin-inline: calc($padding-regular-inline + 3rem);
-        width: calc(100% - 2 * ($padding-regular-inline * 2));
-        input {
-            padding: $padding-light-block $padding-light;
-            border-radius: $radius;
-            border: 0.5px solid $color-tertiary;
-            width: 100%;
-            max-width: 20rem;
-            margin-block: $padding-regular-block;
-        }
         .button {
             margin-block: $padding-regular-block;
         }
-    }
-    #search::placeholder {
-        font-style: italic;
-        color: $color-tertiary;
     }
     #searchButton {
         margin-inline: $padding-medium-const;
@@ -789,13 +810,13 @@ section#ask-promo {
 }
 
 
-input[type="text"], textarea {
-    border: none;
-    padding: $padding-light-block $padding-light;
-    // margin: $padding-regular-block $padding-regular;
-    font-family: $font-common;
-    resize: vertical;
-}
+// input[type="text"], textarea {
+//     border: none;
+//     padding: $padding-light-block $padding-light;
+//     // margin: $padding-regular-block $padding-regular;
+//     font-family: $font-common;
+//     resize: vertical;
+// }
 
 @media screen and (max-width: 825px) {
     .audioplayer {
@@ -950,13 +971,12 @@ input[type="text"], textarea {
         background-color: #000000;
     }
 
-    #searchContainer {
-        #search {
-            background-color: #151313;
-            border: 0.5px solid black;
-            color: white;
-        }
-    }    
+    input[type="text"], textarea, input {
+        color-scheme: dark;
+        background-color: #151313 !important;
+        border: 0.5px solid black;
+        color: white;
+    }
 
     div.gallery {
         .episode, .question {

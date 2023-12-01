@@ -1,0 +1,24 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "Generate episodes for the grounded podcast",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bimg": "^0.1.5",
+    "perf_hooks": "^0.0.1",
+    "watchify": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "babelify": "^10.0.0",
+    "globalify": "^1.1.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}

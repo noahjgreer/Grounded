@@ -1,6 +1,25 @@
 {
     "episodes": [
         {
+            "name": "Should a Christian watch \"The Chosen\"?",
+            "description": "Today, Pastor Matt will give his thoughts on the popular Christian series \"The Chosen\" and how Christians can discern whether or not they should indulge in viewing it.",
+            "date": "12-1-2023",
+            "tag": "Culture",
+            "background": "/assets/images/episodes/Clapper0.jpg",
+            "opengraph": "/assets/opengraph/episodes/culture/should-a-christian-watch-the-chosen.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/culture/should-a-christian-watch-the-chosen.html",
+            "clickLink": "/episodes/culture/should-a-christian-watch-the-chosen.html",
+            "title": "Grounded - Episode 39 - Should a Christian watch \"The Chosen\"?",
+            "fullDate": "December 1st, 2023",
+            "episodeId": "Episode 39",
+            "ytLink": "https://www.youtube.com/watch?v=UFMEXa6Q2UQ",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-11-1/357983563-44100-2-a7feeae9a8b24.m4a",
+            "pubDate": "2023-12-1",
+            "modDate": "2023-12-1",
+            "transcribed": false,
+            "tags": "The Chosen TV series mormon mormonism latter day saints controversy controversial media culture discernment Christianity entertainment discernment media consumption cultural impact Christian series faith based content biblical discussion spiritual wisdom popular culture media influence Christian viewing habits cultural engagement media entertainment"
+        },
+        {
             "name": "How can we know what Old Testament laws apply to today?",
             "description": "In this episode, we will answer a question we received from a listener and look to God's Word to understand how we can delineate the Old Testament laws and which apply to the Christian today.",
             "date": "11-17-2023",
