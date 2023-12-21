@@ -9,7 +9,7 @@ var pageData = `
         ***TITLE >>> The title of the page (e.g. Grounded - Episode 1 - Introduction (Part 1))
         ***DESCRIPTION >>> Description (e.g. Welcome to the grounded podcast today we will be interviewing pastor matt for the first time.)
         ***OG-IMAGE >>> The reference to the opengraph image locally. (e.g. /assets/images/episodes/opengraph.png)
-        ***PAGE-LOCATION >>> Location of the exact page.. THIS PAGE. Not local. (e.g. https://groundedwithmatt.com/episodes/interview/introduction.html)
+        ***PAGE-LOCATION >>> Location of the exact page.. THIS PAGE. Not local. (e.g. https://thegroundedpodcast.com/episodes/interview/introduction.html)
         ***Audio-Link >>> Audio Link URL
         ***Date >>> The Date, in Words.. (e.g. September 11th, 2001)
         ***Episode-ID >>> The Episode ID (e.g. Episode 1 - Part 2)
@@ -27,7 +27,7 @@ var pageData = `
     <!-- Search Engine Optimization -->
     <title>***TITLE</title>
     <meta name="description" content="***DESCRIPTION">
-    <link rel="home" href="https://groundedwithmatt.com/">
+    <link rel="home" href="https://thegroundedpodcast.com/">
     <link rel="canonical" href="***PAGE-LOCATION">
     <meta name="robots" content="index, follow" />
     <script type='application/ld+json'>
@@ -41,7 +41,7 @@ var pageData = `
             },
             "image": {
                 "@type": "ImageObject",
-                "url": "https://groundedwithmatt.com***OG-IMAGE",
+                "url": "https://thegroundedpodcast.com***OG-IMAGE",
                 "height": 700,
                 "width": 1000
             },
@@ -50,7 +50,7 @@ var pageData = `
                 "name": "Grounded",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://groundedwithmatt.com/assets/images/favicons/favicon-32x32.png",
+                    "url": "https://thegroundedpodcast.com/assets/images/favicons/favicon-32x32.png",
                     "height": 32,
                     "width": 32
                 }
