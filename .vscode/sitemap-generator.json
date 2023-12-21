@@ -1,7 +1,7 @@
 {
   "sitemap.xml": {
     "Protocol": "https",
-    "DomainName": "groundedwithmatt.com",
+    "DomainName": "thegroundedpodcast.com",
     "Root": "./",
     "IncludeExt": [
       ".html",
@@ -12,7 +12,7 @@
       "assets/basis.html",
       "episodes/index.html",
       "questions/index.html",
-      "episodes/template.html",
+      "episodes/og-template.html",
       "episodes/article-template.html",
       "generator/generator.html"
     ],
@@ -23,7 +23,7 @@
     "DefaultChangeFrequency": "monthly",
     "TabCharacters": "\t",
     "bIncludeWWW": true,
-    "bRemoveFileExtentions": false,
+    "bRemoveFileExtentions": true,
     "bUseTrailingSlash": false,
     "bAutomaticallyUpdateSitemap": true,
     "bMinimized": false

@@ -1,6 +1,25 @@
 {
     "episodes": [
         {
+            "name": "How can we focus on Christ during the busy holiday season?",
+            "description": "In this episode of the Grounded Podcast, Pastor Matt takes over hosting and discusses holiday traditions before addressing how we can continue to walk in obedience during the bustling season of Christmas.",
+            "date": "12-22-2023",
+            "tag": "Living Faithfully",
+            "background": "/assets/images/episodes/Christmas2.jpg",
+            "opengraph": "/assets/opengraph/episodes/living-faithfully/how-can-we-focus-on-christ-during-the-busy-holiday-season.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/living-faithfully/how-can-we-focus-on-christ-during-the-busy-holiday-season.html",
+            "clickLink": "/episodes/living-faithfully/how-can-we-focus-on-christ-during-the-busy-holiday-season.html",
+            "title": "Grounded - Episode 40 - How can we focus on Christ during the busy holiday season?",
+            "fullDate": "December 22nd, 2023",
+            "episodeId": "Episode 40",
+            "ytLink": "https://youtu.be/W0RnB79gzEQ",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-11-21/360773081-44100-2-777fcb67fa8f3.m4a",
+            "pubDate": "2023-12-22",
+            "modDate": "2023-12-22",
+            "transcribed": false,
+            "tags": "Christ Christian Christmas Christmastime bustle busy busyness celebration centered distracted distractions episode faith faithfully festive focus holiday joyful living mindful obedience overwhelmed period perspective podcast reflection season seasonal spiritual traditions"
+        },
+        {
             "name": "Should a Christian watch \"The Chosen\"?",
             "description": "Today, Pastor Matt will give his thoughts on the popular Christian series \"The Chosen\" and how Christians can discern whether or not they should indulge in viewing it.",
             "date": "12-1-2023",
