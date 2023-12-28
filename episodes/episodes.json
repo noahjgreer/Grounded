@@ -1,6 +1,25 @@
 {
     "episodes": [
         {
+            "name": "How can we support and encourage our pastors?",
+            "description": "Today, Pastor Matt will discuss ways in which we can come alongside our pastors and encourage them in their ministry.",
+            "date": "12-29-2023",
+            "tag": "Church Body",
+            "background": "/assets/images/episodes/Bible1.jpg",
+            "opengraph": "/assets/opengraph/episodes/church-body/how-can-we-encourage-and-support-our-pastors.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/church-body/how-can-we-encourage-and-support-our-pastors.html",
+            "clickLink": "/episodes/church-body/how-can-we-encourage-and-support-our-pastors.html",
+            "title": "Grounded - Episode 41 - How can we encourage and support our pastors?",
+            "fullDate": "December 29th, 2023",
+            "episodeId": "Episode 41",
+            "ytLink": "https://youtu.be/RrOkbh7WPdE",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-11-28/361473165-44100-2-4ff8064ef9eaa.m4a",
+            "pubDate": "2023-12-29",
+            "modDate": "2023-12-29",
+            "transcribed": false,
+            "tags": "Pastor Pastors Pastoral Ministry Encouraging Supporting Church Body Leadership Community Family Fellowship Accountability Unity Responsibilities Christian Commitment Service Support Involvement"
+        },
+        {
             "name": "How can we focus on Christ during the busy holiday season?",
             "description": "In this episode of the Grounded Podcast, Pastor Matt takes over hosting and discusses holiday traditions before addressing how we can continue to walk in obedience during the bustling season of Christmas.",
             "date": "12-22-2023",

@@ -21,7 +21,7 @@ h1 {
 
     // SQUARE SIZE
     
-    font-size: 10vmin;
+    font-size: 10.5vmin;
 
     // ---------------------------
 
@@ -69,7 +69,7 @@ h2 {
     position: absolute;
     align-self: center;
     width: 100%;
-    transform: scale(1.05) translateY(-22.5%) translateX(0%);
+    transform: scale(1.05) translateY(-12.5%) translateX(0%);
     filter: brightness(0.75) saturate(1);
     z-index: -99;
 }
