@@ -1,6 +1,25 @@
 {
     "episodes": [
         {
+            "name": "What does God teach us during suffering?",
+            "description": "As Christians, we will face more suffering than others. Today, we will look at how we can endure and grow within the trials we face through what God teaches us in these trials.",
+            "date": "2-02-2024",
+            "tag": "God's Plan",
+            "background": "/assets/images/episodes/Tree0.jpg",
+            "opengraph": "/assets/opengraph/episodes/gods-plan/what-does-god-teach-us-during-suffering.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/gods-plan/what-does-god-teach-us-during-suffering.html",
+            "clickLink": "/episodes/gods-plan/what-does-god-teach-us-during-suffering.html",
+            "title": "Grounded - Episode 42 - What does God teach us during suffering?",
+            "fullDate": "February 2nd, 2024",
+            "episodeId": "Episode 42",
+            "ytLink": "https://www.youtube.com/watch?v=yw1Ld_lcWCg",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2024-1-2/365928161-44100-2-3e0cd003f3027.m4a",
+            "pubDate": "2024-02-02",
+            "modDate": "2024-02-02",
+            "transcribed": false,
+            "tags": "Faith endurance depression anxiety suffering suffer guilt pain addiction loss grief trials tribulations perseverance hope endurance patience comfort strength growth Gods plan teach discipline"
+        },
+        {
             "name": "How can we support and encourage our pastors?",
             "description": "Today, Pastor Matt will discuss ways in which we can come alongside our pastors and encourage them in their ministry.",
             "date": "12-29-2023",
