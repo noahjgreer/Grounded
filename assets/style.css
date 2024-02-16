@@ -29,6 +29,15 @@ h1, h2, li {
   margin-block: 1rem;
 }
 
+.quick-cite {
+  font-size: 0.9rem;
+  color: #918f8f;
+  font-style: normal;
+  padding-block: 0px;
+  margin: 0px;
+  line-height: normal;
+}
+
 cite {
   border-top: 0.25px solid #918f8f;
   padding-block: 1.5rem;
@@ -700,6 +709,40 @@ section#ask-promo .button {
 .form #question {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+}
+
+.album {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 1rem;
+  margin-block: 0.75rem;
+}
+
+.sub {
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table cite {
+  border: none;
+  padding: 0px;
+}
+table tbody > tr {
+  border-top: 0.5px solid #918f8f;
+}
+table tbody > tr td {
+  padding-inline: 2.5%;
+}
+table .album-column {
+  min-width: 5rem;
+  width: 15%;
+  max-width: 1.5rem;
 }
 
 @media screen and (max-width: 825px) {
