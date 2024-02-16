@@ -1,6 +1,25 @@
 {
     "episodes": [
         {
+            "name": "What songs should we sing during worship?",
+            "description": "Today, Pastor Matt will share the importance of the need for theology behind the songs we sing during worship and how they affect our spiritual walk with Christ.",
+            "date": "2-16-2024",
+            "tag": "Worship",
+            "background": "/assets/images/episodes/Piano0.jpg",
+            "opengraph": "/assets/opengraph/episodes/worship/what-songs-should-we-sing-during-worship.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/worship/what-songs-should-we-sing-during-worship.html",
+            "clickLink": "/episodes/worship/what-songs-should-we-sing-during-worship.html",
+            "title": "Grounded - Episode 43 - What songs should we sing during worship?",
+            "fullDate": "February 16th, 2024",
+            "episodeId": "Episode 43",
+            "ytLink": "https://youtu.be/mCYMm2btnP0",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2024-1-16/367638041-44100-2-e30dd59e7c675.m4a",
+            "pubDate": "2024-02-16",
+            "modDate": "2024-02-16",
+            "transcribed": false,
+            "tags": "Worship Songs Hymns Contemporary Music Theology of February 16 2024 Episode 43 Christian Hillsong Bethel Kari Jobe Chris Tomlin Elevation"
+        },
+        {
             "name": "What does God teach us during suffering?",
             "description": "As Christians, we will face more suffering than others. Today, we will look at how we can endure and grow within the trials we face through what God teaches us in these trials.",
             "date": "2-2-2024",

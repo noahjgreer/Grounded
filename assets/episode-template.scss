@@ -21,7 +21,7 @@ h1 {
 
     // SQUARE SIZE
     
-    font-size: 10.75vmin;
+    font-size: 10.5vmin;
 
     // ---------------------------
 
@@ -33,7 +33,7 @@ h1 {
 
     // YOUTUBE SIZE
 
-    font-size: 14vmin;
+    font-size: 13.35vmin;
 }
 
 h2 {
@@ -69,7 +69,7 @@ h2 {
     position: absolute;
     align-self: center;
     width: 100%;
-    transform: scale(1.05) translateY(-0%) translateX(0%);
+    transform: scale(1.05) translateY(-15%) translateX(0%);
     filter: brightness(0.75) saturate(1);
     z-index: -99;
 }
