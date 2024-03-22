@@ -3,231 +3,236 @@
 	<url>
 		<loc>https://www.thegroundedpodcast.com</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-10-06</lastmod>
+		<lastmod>2023-10-03</lastmod>
 	</url>
 	<url>
 		<loc>https://www.thegroundedpodcast.com/ask</loc>
 		<priority>0.75</priority>
-		<lastmod>2023-10-07</lastmod>
+		<lastmod>2023-10-04</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/biblical-questions/how-can-we-know-what-old-testament-laws-apply-to-today</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/biblical-questions/was-jesus-a-christian</loc>
 		<priority>0.25</priority>
-		<lastmod>2023-09-26</lastmod>
+		<lastmod>2024-03-21</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/biblical-questions/how-do-we-approach-contradictions-in-the-bible</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/worship/what-songs-should-we-sing-during-worship</loc>
 		<priority>0.25</priority>
-		<lastmod>2023-09-24</lastmod>
+		<lastmod>2024-02-12</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/biblical-questions/why-is-rahab-the-harlot-considered-an-example-of-faith</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/what-does-god-teach-us-during-suffering</loc>
 		<priority>0.25</priority>
-		<lastmod>2023-09-22</lastmod>
+		<lastmod>2023-11-14</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/brokenness/can-a-christian-who-committed-suicide-still-go-to-heaven</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/church-body/how-can-we-encourage-and-support-our-pastors</loc>
 		<priority>0.25</priority>
-		<lastmod>2023-09-21</lastmod>
+		<lastmod>2023-10-08</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/brokenness/how-can-a-christian-overcome-guilt</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-23</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/church-body/how-should-sin-be-addressed-to-the-church</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-25</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/church-body/what-is-church-membership-and-why-is-it-so-important</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-28</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/culture/should-a-christian-watch-the-chosen</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-10-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/fear/should-a-christian-be-afraid-of-death</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-20</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/how-can-i-know-gods-plan-for-my-life</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-19</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/if-god-is-good-then-why-do-people-go-to-hell</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-18</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/what-is-predestination-p1</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-17</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/what-is-predestination-p2</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-16</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/what-is-predestination-p3</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/why-dont-my-prayers-get-answered</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-15</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/interview/interviewing-the-host</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-08-20</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/interview/introduction-p1</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-08-21</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/interview/introduction-p2</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-08-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-can-i-be-not-of-this-world</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-can-i-deny-myself-and-carry-my-cross</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-11</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-can-i-seek-the-kingdom-of-god</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-10</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-can-we-focus-on-christ-during-the-busy-holiday-season</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-08-17</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-should-a-christian-approach-an-unequally-yoked-wedding</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-09</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-should-we-pray</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-08</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/is-it-sinful-to-wake-up-and-start-the-day-without-spending-time-in-prayer-and-in-gods-word</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/should-a-christian-celebrate-christmas</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/what-does-it-mean-for-a-believer-to-fear-the-lord</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-27</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/what-is-the-meaning-of-life</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-04</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/when-is-not-telling-the-whole-truth-a-lie</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-03</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/outreach/how-do-you-approach-someone-about-christ</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/who-god-is/if-jealousy-is-a-sin-how-can-god-be-a-jealous-god</loc>
 		<priority>0.25</priority>
 		<lastmod>2023-09-02</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/outreach/how-do-you-prove-that-the-bible-is-true</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-08-31</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/salvation/can-a-christian-lose-their-salvation</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-08-30</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/salvation/how-do-i-know-if-im-saved</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-09-01</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/salvation/what-does-it-mean-to-follow-christ</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-08-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/salvation/what-is-the-gospel-and-salvation</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-08-28</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/sin/are-all-sins-equal</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-08-25</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/sin/how-can-a-christian-overcome-addiction</loc>
-		<priority>0.25</priority>
-		<lastmod>2023-08-24</lastmod>
-	</url>
-	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/sin/ongoing-sanctification-or-perpetual-sin</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/who-god-is/if-god-is-real-why-wont-he-reveal-himself</loc>
 		<priority>0.25</priority>
 		<lastmod>2023-08-23</lastmod>
 	</url>
 	<url>
 		<loc>https://www.thegroundedpodcast.com/episodes/who-god-is/does-god-still-take-vengeance-on-his-enemies</loc>
 		<priority>0.25</priority>
-		<lastmod>2023-08-27</lastmod>
+		<lastmod>2023-08-24</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/who-god-is/if-god-is-real-why-wont-he-reveal-himself</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/sin/ongoing-sanctification-or-perpetual-sin</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/sin/how-can-a-christian-overcome-addiction</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-21</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/sin/are-all-sins-equal</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/salvation/what-is-the-gospel-and-salvation</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/salvation/what-does-it-mean-to-follow-christ</loc>
 		<priority>0.25</priority>
 		<lastmod>2023-08-26</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/who-god-is/if-jealousy-is-a-sin-how-can-god-be-a-jealous-god</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/salvation/how-do-i-know-if-im-saved</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-29</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/salvation/can-a-christian-lose-their-salvation</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-27</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/outreach/how-do-you-prove-that-the-bible-is-true</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-28</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/outreach/how-do-you-approach-someone-about-christ</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/when-is-not-telling-the-whole-truth-a-lie</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-31</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/what-is-the-meaning-of-life</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-01</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/what-does-it-mean-for-a-believer-to-fear-the-lord</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-24</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/should-a-christian-celebrate-christmas</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-04</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/is-it-sinful-to-wake-up-and-start-the-day-without-spending-time-in-prayer-and-in-gods-word</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-03</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-should-we-pray</loc>
 		<priority>0.25</priority>
 		<lastmod>2023-09-05</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/church-body/how-can-we-encourage-and-support-our-pastors</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-should-a-christian-approach-an-unequally-yoked-wedding</loc>
 		<priority>0.25</priority>
-		<lastmod>2023-10-11</lastmod>
+		<lastmod>2023-09-06</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/what-does-god-teach-us-during-suffering</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-can-we-focus-on-christ-during-the-busy-holiday-season</loc>
 		<priority>0.25</priority>
-		<lastmod>2023-11-17</lastmod>
+		<lastmod>2023-08-14</lastmod>
 	</url>
 	<url>
-		<loc>https://www.thegroundedpodcast.com/episodes/worship/what-songs-should-we-sing-during-worship</loc>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-can-i-seek-the-kingdom-of-god</loc>
 		<priority>0.25</priority>
-		<lastmod>2024-02-15</lastmod>
+		<lastmod>2023-09-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-can-i-deny-myself-and-carry-my-cross</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-08</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/living-faithfully/how-can-i-be-not-of-this-world</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-10</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/interview/introduction-p2</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-19</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/interview/introduction-p1</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-18</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/interview/interviewing-the-host</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-08-17</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/why-dont-my-prayers-get-answered</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-12</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/what-is-predestination-p3</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/what-is-predestination-p2</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/what-is-predestination-p1</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/if-god-is-good-then-why-do-people-go-to-hell</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-15</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/gods-plan/how-can-i-know-gods-plan-for-my-life</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-16</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/fear/should-a-christian-be-afraid-of-death</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-17</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/culture/should-a-christian-watch-the-chosen</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-10-02</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/church-body/what-is-church-membership-and-why-is-it-so-important</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-25</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/church-body/how-should-sin-be-addressed-to-the-church</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/brokenness/how-can-a-christian-overcome-guilt</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/brokenness/can-a-christian-who-committed-suicide-still-go-to-heaven</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-18</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/biblical-questions/why-is-rahab-the-harlot-considered-an-example-of-faith</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-19</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/biblical-questions/how-do-we-approach-contradictions-in-the-bible</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-21</lastmod>
+	</url>
+	<url>
+		<loc>https://www.thegroundedpodcast.com/episodes/biblical-questions/how-can-we-know-what-old-testament-laws-apply-to-today</loc>
+		<priority>0.25</priority>
+		<lastmod>2023-09-23</lastmod>
 	</url>
 </urlset>

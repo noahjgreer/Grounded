@@ -1,6 +1,25 @@
 {
     "episodes": [
         {
+            "name": "Was Jesus a Christian?",
+            "description": "Today, Pastor Matt will address a listener's question about Jesus and the aspects of Him that relate to the standards of the Christian faith and religion in general.",
+            "date": "3-22-2024",
+            "tag": "Biblical Questions",
+            "background": "/assets/images/episodes/Cup1.jpg",
+            "opengraph": "/assets/opengraph/episodes/biblical-questions/was-jesus-a-christian.png",
+            "pageLocation": "https://thegroundedpodcast.com/episodes/biblical-questions/was-jesus-a-christian.html",
+            "clickLink": "/episodes/biblical-questions/was-jesus-a-christian.html",
+            "title": "Grounded - Episode 44 - Was Jesus a Christian?",
+            "fullDate": "March 22nd, 2024",
+            "episodeId": "Episode 44",
+            "ytLink": "https://youtu.be/mIkNMGz7q6k",
+            "audioLink": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2024-2-22/371799485-44100-2-78bc08b3ce9cc.m4a",
+            "pubDate": "2024-03-22",
+            "modDate": "2024-03-22",
+            "transcribed": false,
+            "tags": "Christianity Christian Christ Jesus faith belief religion religious spiritual spiritualism spiritualist spiritualistic spiritualists standards"
+        },
+        {
             "name": "What songs should we sing during worship?",
             "description": "Today, Pastor Matt will share the importance of the need for theology behind the songs we sing during worship and how they affect our spiritual walk with Christ.",
             "date": "2-16-2024",
